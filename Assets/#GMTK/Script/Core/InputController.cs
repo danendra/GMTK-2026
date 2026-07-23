@@ -8,7 +8,7 @@ namespace GMTK
     {
         [SerializeField] protected InputBinding[] arrBindings;
 
-        public Vector2 posMoveInput {get; protected set;}
+        public Vector2 directionInput {get; protected set;}
 
         protected InputSystem_Actions inputAction;
 
@@ -16,8 +16,8 @@ namespace GMTK
         {
             inputAction = new InputSystem_Actions();
 
-            inputAction.Player.Move.performed += _input => posMoveInput = _input.ReadValue<Vector2>();
-            inputAction.Player.Move.canceled += _input => posMoveInput = Vector2.zero;
+            inputAction.Player.Move.performed += _input => directionInput = _input.ReadValue<Vector2>();
+            inputAction.Player.Move.canceled += _input => directionInput = Vector2.zero;
 
             for (int i = 0; i < arrBindings.Length; i++)
             {
