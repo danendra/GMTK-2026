@@ -27,7 +27,7 @@ namespace GMTK
 
         }
 
-        void FixedUpdate()
+        protected void FixedUpdate()
         {
             if (direction != input.directionInput)
             {
