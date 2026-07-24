@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1279850733807367915}
   - component: {fileID: 8046699801972420031}
   - component: {fileID: 1261317733459999881}
+  - component: {fileID: 9149354493507767674}
   - component: {fileID: 623423129641628918}
   - component: {fileID: 1358727120096457019}
   - component: {fileID: -3644064030217641614}
@@ -72,7 +73,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 0.3
 --- !u!114 &1261317733459999881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87,6 +88,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.MoveController
   input: {fileID: 623423129641628918}
   fltSpeed: 20
+--- !u!114 &9149354493507767674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839207611969935884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b916f88245b24db59221f30f4b9e4fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RotateToDirectionController
+  input: {fileID: 623423129641628918}
 --- !u!114 &623423129641628918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,7 +234,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.9137255, g: 0.43580624, b: 0.32549024, a: 1}
   m_FlipX: 0
