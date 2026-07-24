@@ -12,7 +12,7 @@ namespace GMTK
 
         protected InputSystem_Actions inputAction;
 
-        void Awake()
+        protected virtual void Awake()
         {
             inputAction = new InputSystem_Actions();
 
@@ -25,7 +25,7 @@ namespace GMTK
             }                    
         }
 
-        void OnDestroy()
+        protected virtual void OnDestroy()
         {
             for (int i = 0; i < arrBindings.Length; i++)
             {
@@ -33,9 +33,9 @@ namespace GMTK
             } 
         }
 
-        void OnEnable()
+        protected virtual void OnEnable()
         {
-            inputAction.Enable();
+            inputAction?.Enable();
 
             for (int i = 0; i < arrBindings.Length; i++)
             {
@@ -43,26 +43,14 @@ namespace GMTK
             } 
         }
 
-        void OnDisable()
+        protected virtual void OnDisable()
         {
-            inputAction.Disable();
+            inputAction?.Disable();
 
             for (int i = 0; i < arrBindings.Length; i++)
             {
                 arrBindings[i].DisableBinding();
             } 
-        }
-
-        // Start is called once before the first execution of Update after the MonoBehaviour is created
-        void Start()
-        {
-
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
         }
     }
 
