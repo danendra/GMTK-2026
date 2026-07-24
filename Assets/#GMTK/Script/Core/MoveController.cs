@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace GMTK
@@ -15,6 +16,11 @@ namespace GMTK
             rb = GetComponent<Rigidbody2D>();
         }
 
+        public void ChangeSpeed(float _fltSpeed)
+        {
+            fltSpeed = _fltSpeed;
+        }
+
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
@@ -24,14 +30,25 @@ namespace GMTK
         // Update is called once per frame
         void Update()
         {
+            if (!rb)
+            {
+                if (direction != input.directionInput)
+                {
+                    direction = input.directionInput;
+                }
 
+                transform.Translate(direction * fltSpeed * Time.deltaTime, Space.World);
+            }
         }
 
         protected void FixedUpdate()
         {
-            if (direction != input.directionInput)
+            if (rb)
             {
-                direction = input.directionInput;
+                if (direction != input.directionInput)
+                {
+                    direction = input.directionInput;
+                }
 
                 rb.linearVelocity = direction * fltSpeed;
             }
