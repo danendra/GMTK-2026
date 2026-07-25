@@ -715,6 +715,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 570257206}
+  - component: {fileID: 570257215}
   - component: {fileID: 570257211}
   - component: {fileID: 570257209}
   - component: {fileID: 570257208}
@@ -1270,10 +1271,53 @@ MonoBehaviour:
   onTriggerEnter:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 570257215}
+        m_TargetAssemblyTypeName: GMTK.Player.PlayerLiveController, Assembly-CSharp
+        m_MethodName: OnDeath
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &570257215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570257204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc89f88ecf0e64e70b8264c45fddfdc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerLiveController
+  intMaxHealth: 3
+  onRespawn:
+    m_PersistentCalls:
+      m_Calls:
       - m_Target: {fileID: 570257213}
         m_TargetAssemblyTypeName: DG.Tweening.DOTweenAnimation, Assembly-CSharp-firstpass
         m_MethodName: RecreateTweenAndPlay
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onGameOver:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 570257204}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1894,7 +1938,6 @@ GameObject:
   m_Component:
   - component: {fileID: 911807837}
   - component: {fileID: 911807838}
-  - component: {fileID: 911807839}
   m_Layer: 0
   m_Name: Level Manager
   m_TagString: Untagged
@@ -1936,21 +1979,6 @@ MonoBehaviour:
   onPassiveModeStart:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &911807839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 911807836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c214f230204d74f82817eec40d50c765, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerSpawnerController
-  transPlayer: {fileID: 0}
-  posSpawn: {x: 0, y: 0}
-  posStart: {x: 0, y: 0}
 --- !u!1 &1031248123
 GameObject:
   m_ObjectHideFlags: 0
