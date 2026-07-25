@@ -1228,7 +1228,7 @@ GameObject:
   - component: {fileID: 6957470869837799450}
   - component: {fileID: 8556986657931332578}
   m_Layer: 0
-  m_Name: EnemyLevel2Basic
+  m_Name: EnemyLevel1Basic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1327,7 +1327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8378e0006d0ae44e1a87edb8dc381f5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletType
-  enemyBulletTypeEnum: 101
+  enemyBulletTypeEnum: 100
   fltDelay: 1
   bulletSpawnerControllerT: {fileID: 8796981126949592910}
   bulletSpawnerControllerR: {fileID: 8981852674134540707}
@@ -1365,8 +1365,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cc3fd6d78ec1422a97b1cdb4f96bbeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyLevel2Basic
-  initialVelocity: {x: -5, y: -5}
-  pullUpAcceleration: 3
+  initialVelocity: {x: 5, y: 0}
+  pullUpAcceleration: 0
   targetYVelocity: 0
   lookForward: 0
   rotationOffset: 0

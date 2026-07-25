@@ -99,5 +99,31 @@ namespace GMTK.Enemy
                 }
             }
         }
+
+        private void OnDrawGizmosSelected()
+        {
+            if (waveTimeline == null) return;
+
+            foreach (WaveEvent waveEvent in waveTimeline)
+            {
+                // Gunakan koordinat spesifik jika dicentang, jika tidak gunakan posisi spawner ini.
+                Vector3 spawnPos = waveEvent.useSpecificSpawnPosition ? (Vector3)waveEvent.spawnPosition : transform.position;
+
+                // 1. Gambar bola hijau untuk titik spawn
+                Gizmos.color = Color.green;
+                Gizmos.DrawWireSphere(spawnPos, 0.3f);
+
+                if (waveEvent.useTargetPoint)
+                {
+                    // 2. Gambar bola merah untuk titik target
+                    Gizmos.color = Color.red;
+                    Gizmos.DrawWireSphere(waveEvent.targetPosition, 0.3f);
+
+                    // 3. Gambar garis kuning yang menghubungkan spawn ke target
+                    Gizmos.color = Color.yellow;
+                    Gizmos.DrawLine(spawnPos, waveEvent.targetPosition);
+                }
+            }
+        }
     }
 }
