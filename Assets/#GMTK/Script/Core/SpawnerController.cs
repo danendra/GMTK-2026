@@ -19,6 +19,7 @@ namespace GMTK
         {
             GameObject _obj = pooler.Pop();
             _obj.transform.position = transform.position;
+            _obj.transform.parent = null;
 
             return _obj;
         }
