@@ -31,8 +31,8 @@ namespace GMTK.Player
         {
             FixedDirectionController _objBullet = base.Spawn().GetComponent<FixedDirectionController>();
 
-            _objBullet.SetDirection(direction);            
-
+            _objBullet.SetDirection(direction);   
+            
             return _objBullet.gameObject;
         }
     }

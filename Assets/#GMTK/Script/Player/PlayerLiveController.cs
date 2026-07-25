@@ -22,7 +22,7 @@ namespace GMTK.Player
         {
             intCurrentHealth--;
 
-            if (intCurrentHealth < 0)
+            if (intCurrentHealth < 1)
             {
                 onGameOver.Invoke();
             }
