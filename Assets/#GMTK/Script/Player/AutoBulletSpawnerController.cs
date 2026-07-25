@@ -7,6 +7,7 @@ namespace GMTK.Player
     public class AutoBulletSpawnerController : SpawnerController
     {
         [SerializeField] protected float fltDelay = 0.1f;
+        [SerializeField] protected Vector2 direction = Vector2.up;
 
         protected CooldownModule cooldown;
 
@@ -28,11 +29,12 @@ namespace GMTK.Player
 
         public override GameObject Spawn()
         {
-            GameObject _objBullet = base.Spawn();
+            FixedDirectionController _objBullet = base.Spawn().GetComponent<FixedDirectionController>();
 
+            _objBullet.SetDirection(direction);
             _objBullet.transform.parent = null;
 
-            return _objBullet;
+            return _objBullet.gameObject;
         }
     }
 }
