@@ -75,8 +75,8 @@ namespace GMTK.Enemy
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
-            bulletCooldown = new CooldownModule(bulletFltDelay, true);
-            laserCooldown = new CooldownModule(laserFltDelay, false);
+            bulletCooldown = new CooldownModule(bulletFltDelay, false);
+            if (laserFltDelay > 0) laserCooldown = new CooldownModule(laserFltDelay, false);
         }
 
         // Update is called once per frame
@@ -84,7 +84,7 @@ namespace GMTK.Enemy
         {
             if (isBulletTargetToPlayer) UpdateFacingBullet();
             if (isLaserTargetToPlayer) UpdateFacingLaser();
-            if (laserCooldown.IsReady)
+            if (laserFltDelay > 0 && laserCooldown.IsReady)
             {
                 if (isLaserFiring) return;
                 isLaserFiring = true;
