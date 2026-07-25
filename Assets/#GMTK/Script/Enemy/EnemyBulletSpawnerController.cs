@@ -12,7 +12,7 @@ namespace GMTK.Enemy
         {
             FixedDirectionController _objBullet = base.Spawn().GetComponent<FixedDirectionController>();
 
-            _objBullet.SetDirection(direction);
+            _objBullet.SetDirection(transform.TransformDirection(direction));
             _objBullet.transform.parent = null;
 
             return _objBullet.gameObject;

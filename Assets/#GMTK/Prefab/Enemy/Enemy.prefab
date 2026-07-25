@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: 0.5, y: 0.5}
 --- !u!1 &1597447760718600460
 GameObject:
@@ -215,7 +215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: 0.5, y: -0.5}
 --- !u!1 &1884663424504094483
 GameObject:
@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: 0.1, y: 0.9}
 --- !u!1 &1912570326960793587
 GameObject:
@@ -309,7 +309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: -0.5, y: -0.5}
 --- !u!1 &2116725227579111802
 GameObject:
@@ -356,7 +356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: -1, y: 0}
 --- !u!1 &2526228062728210020
 GameObject:
@@ -403,7 +403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: 0.1, y: -0.9}
 --- !u!1 &2974704336229835436
 GameObject:
@@ -450,7 +450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: -0.9, y: -0.1}
 --- !u!1 &3022755491212333811
 GameObject:
@@ -497,7 +497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: 0.9, y: 0.1}
 --- !u!1 &3372314446167858778
 GameObject:
@@ -544,7 +544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: 0.4, y: 0.6}
 --- !u!1 &5646449240195541971
 GameObject:
@@ -591,7 +591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: 1, y: 0}
 --- !u!1 &5764830650780407154
 GameObject:
@@ -638,7 +638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: 0, y: 1}
 --- !u!1 &6090327811970289125
 GameObject:
@@ -685,7 +685,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: -0.6, y: 0.4}
 --- !u!1 &6233842389960905227
 GameObject:
@@ -732,7 +732,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: -0.5, y: 0.5}
 --- !u!1 &6672492830259024228
 GameObject:
@@ -779,7 +779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: 0.9, y: -0.1}
 --- !u!1 &6674874046562430733
 GameObject:
@@ -826,7 +826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: -0.1, y: -0.9}
 --- !u!1 &6949139431906445787
 GameObject:
@@ -873,7 +873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: 0, y: -1}
 --- !u!1 &7026506989229594440
 GameObject:
@@ -920,7 +920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: -0.9, y: 0.1}
 --- !u!1 &7284839087220684904
 GameObject:
@@ -934,6 +934,7 @@ GameObject:
   - component: {fileID: 5474426698179083914}
   - component: {fileID: 3425377450435070413}
   - component: {fileID: 8038695920555591505}
+  - component: {fileID: 340348268997674909}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -955,6 +956,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8818459224371994387}
+  - {fileID: 7356675678108791014}
   - {fileID: 3428443926494084360}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1033,8 +1035,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8378e0006d0ae44e1a87edb8dc381f5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletType
+  isTargetToPlayer: 0
+  playerObject: {fileID: 0}
   enemyBulletTypeEnum: 100
   fltDelay: 1
+  spreadBulletObject: {fileID: 8880060720897575727}
   bulletSpawnerControllerT: {fileID: 5356254122166114243}
   bulletSpawnerControllerR: {fileID: 1750990868297157507}
   bulletSpawnerControllerB: {fileID: 5519825416252828897}
@@ -1059,6 +1064,53 @@ MonoBehaviour:
   bulletSpawnerControllerBL_R: {fileID: 6003810932995081610}
   bulletSpawnerControllerLT_L: {fileID: 7434155202934932350}
   bulletSpawnerControllerLT_R: {fileID: 5991225000088674305}
+--- !u!114 &340348268997674909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7284839087220684904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 673d4175e778f4774b529be3849f9a97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyHealthController
+  maxHealth: 100
+  onHealthChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  animator: {fileID: 0}
+  isDestroyBoolName: IsDestroy
+  playerTag: Player
+  bulletDamage: 10
 --- !u!1 &7546837595092374675
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,7 +1156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: -0.4, y: 0.6}
 --- !u!1 &7575684967590670163
 GameObject:
@@ -1151,7 +1203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: 0.4, y: -0.6}
 --- !u!1 &7718698561368605990
 GameObject:
@@ -1198,7 +1250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: -0.4, y: -0.6}
 --- !u!1 &7818241589491908385
 GameObject:
@@ -1245,7 +1297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: 0.6, y: -0.4}
 --- !u!1 &8010414280410870853
 GameObject:
@@ -1292,7 +1344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: 0.6, y: 0.4}
 --- !u!1 &8880060720897575727
 GameObject:
@@ -1394,7 +1446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: -0.1, y: 0.9}
 --- !u!1 &9136049325231411188
 GameObject:
@@ -1441,5 +1493,78 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 0}
+  pooler: {fileID: 6220734125121713083}
   direction: {x: -0.6, y: -0.4}
+--- !u!1001 &123482436303982348
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5278179170721787291}
+    m_Modifications:
+    - target: {fileID: 4164480108091687305, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
+      propertyPath: m_Name
+      value: EnemyBulletPool
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471079334917717994, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471079334917717994, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471079334917717994, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471079334917717994, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471079334917717994, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471079334917717994, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471079334917717994, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471079334917717994, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471079334917717994, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471079334917717994, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
+--- !u!114 &6220734125121713083 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6332850685517872311, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
+  m_PrefabInstance: {fileID: 123482436303982348}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61616d6fe0f0b4aca96fd2fed07fc3e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Anoa.Module.PoolerContainer
+--- !u!4 &7356675678108791014 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7471079334917717994, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
+  m_PrefabInstance: {fileID: 123482436303982348}
+  m_PrefabAsset: {fileID: 0}
