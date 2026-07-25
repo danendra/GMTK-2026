@@ -1035,8 +1035,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8378e0006d0ae44e1a87edb8dc381f5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletType
+  isTargetToPlayer: 0
+  playerObject: {fileID: 0}
   enemyBulletTypeEnum: 100
   fltDelay: 1
+  spreadBulletObject: {fileID: 8880060720897575727}
   bulletSpawnerControllerT: {fileID: 5356254122166114243}
   bulletSpawnerControllerR: {fileID: 1750990868297157507}
   bulletSpawnerControllerB: {fileID: 5519825416252828897}

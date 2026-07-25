@@ -1542,17 +1542,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
---- !u!114 &692989215 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6332850685517872311, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
-  m_PrefabInstance: {fileID: 692989214}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61616d6fe0f0b4aca96fd2fed07fc3e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Anoa.Module.PoolerContainer
 --- !u!1 &701833294
 GameObject:
   m_ObjectHideFlags: 0
@@ -1677,49 +1666,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 27975559633196746, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 338414148788278680, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 1351844266164849120, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 1750990868297157507, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 2215399913170553812, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 2549002026939823726, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 3033924447396571360, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 3122216634874072724, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 3286893746395582400, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 4081625083648507003, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
     - target: {fileID: 5278179170721787291, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 5278179170721787291, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1757,66 +1706,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5356254122166114243, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 5374778503619545657, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 5426578857735101058, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 5519825416252828897, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 5771473014817173959, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 5991225000088674305, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 6003810932995081610, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 6061107371241974524, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 6556967207578589669, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 7140002187462591006, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
     - target: {fileID: 7284839087220684904, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
-    - target: {fileID: 7294099501093338401, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
+    - target: {fileID: 8038695920555591505, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: playerObject
       value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 7434155202934932350, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 7794080779103997141, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
-    - target: {fileID: 8638123711191370263, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      propertyPath: pooler
-      value: 
-      objectReference: {fileID: 692989215}
+      objectReference: {fileID: 570257204}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
