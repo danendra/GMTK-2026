@@ -15,6 +15,7 @@ namespace GMTK.Mode
 
         public UnityEvent GetActiveMode => onActiveModeStart;
         public UnityEvent GetPassiveMode => onPassiveModeStart;
+        public float GetMaxCountdown => fltMaxCountdown;
 
         void Awake()
         {

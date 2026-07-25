@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Enemy
+  - Missile
+  - Target
   layers:
   - Default
   - TransparentFX
@@ -39,6 +41,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: WorldBG
+    uniqueID: 2398234551
+    locked: 0
   - name: Background
     uniqueID: 308858273
     locked: 0
