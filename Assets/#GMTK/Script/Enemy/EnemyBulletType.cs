@@ -14,8 +14,11 @@ namespace GMTK.Enemy
     }
     public class EnemyBulletType : MonoBehaviour
     {
+        [SerializeField] protected bool isTargetToPlayer = false;
+        [SerializeField] protected GameObject playerObject;
         [SerializeField] protected EnemyBulletTypeEnum enemyBulletTypeEnum;
         [SerializeField] protected float fltDelay = 0.1f;
+        [SerializeField] protected GameObject spreadBulletObject;
         [SerializeField] protected EnemyBulletSpawnerController bulletSpawnerControllerT;
         [SerializeField] protected EnemyBulletSpawnerController bulletSpawnerControllerR;
         [SerializeField] protected EnemyBulletSpawnerController bulletSpawnerControllerB;
@@ -52,6 +55,7 @@ namespace GMTK.Enemy
         // Update is called once per frame
         void Update()
         {
+            if (isTargetToPlayer) UpdateFacing();
             if (cooldown.IsReady)
             {
                 switch (enemyBulletTypeEnum)
@@ -123,6 +127,17 @@ namespace GMTK.Enemy
                 }
                 cooldown.Use();
             }
+        }
+
+        private void UpdateFacing()
+        {
+            if (playerObject == null || spreadBulletObject == null) return;
+
+            Vector2 direction = playerObject.transform.position - spreadBulletObject.transform.position;
+            if (direction.sqrMagnitude < 0.0001f) return;
+
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg + 90f;
+            spreadBulletObject.transform.rotation = Quaternion.Euler(0f, 0f, angle);
         }
     }
 }
