@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8818459224371994387}
   - component: {fileID: 2922486521262828158}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3428443926494084360}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Active
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7066495268449885387}
   - component: {fileID: 7794080779103997141}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerTR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -180,7 +180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7597119568704179491}
   - component: {fileID: 6061107371241974524}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerRB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6420552285796641365}
   - component: {fileID: 8638123711191370263}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerT-R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -274,7 +274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9032333570674702363}
   - component: {fileID: 4081625083648507003}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerBL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -321,7 +321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3651894314662988567}
   - component: {fileID: 5426578857735101058}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -368,7 +368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9143269750014886188}
   - component: {fileID: 3122216634874072724}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerB-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -415,7 +415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5708162583668707119}
   - component: {fileID: 338414148788278680}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerL-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -462,7 +462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5854226937500347427}
   - component: {fileID: 5374778503619545657}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerR-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -509,7 +509,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3536507457727786365}
   - component: {fileID: 7140002187462591006}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerTR-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -556,7 +556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1689493236550358215}
   - component: {fileID: 1750990868297157507}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -603,7 +603,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8587784995703411296}
   - component: {fileID: 5356254122166114243}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -650,7 +650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4204915817002445934}
   - component: {fileID: 5991225000088674305}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerLT-R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -697,7 +697,7 @@ GameObject:
   m_Component:
   - component: {fileID: 692981790786556072}
   - component: {fileID: 3286893746395582400}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerLT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -744,7 +744,7 @@ GameObject:
   m_Component:
   - component: {fileID: 283568823957083601}
   - component: {fileID: 6556967207578589669}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerR-R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -791,7 +791,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1780511730550702288}
   - component: {fileID: 1351844266164849120}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerB-R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -838,7 +838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4279666540210813175}
   - component: {fileID: 5519825416252828897}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -885,7 +885,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7403915569542804897}
   - component: {fileID: 7294099501093338401}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerL-R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -934,9 +934,10 @@ GameObject:
   - component: {fileID: 5474426698179083914}
   - component: {fileID: 3425377450435070413}
   - component: {fileID: 8038695920555591505}
-  m_Layer: 9
+  - component: {fileID: 340348268997674909}
+  m_Layer: 0
   m_Name: Enemy
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1060,6 +1061,53 @@ MonoBehaviour:
   bulletSpawnerControllerBL_R: {fileID: 6003810932995081610}
   bulletSpawnerControllerLT_L: {fileID: 7434155202934932350}
   bulletSpawnerControllerLT_R: {fileID: 5991225000088674305}
+--- !u!114 &340348268997674909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7284839087220684904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 673d4175e778f4774b529be3849f9a97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyHealthController
+  maxHealth: 100
+  onHealthChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  animator: {fileID: 0}
+  isDestroyBoolName: IsDestroy
+  playerTag: Player
+  bulletDamage: 10
 --- !u!1 &7546837595092374675
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,7 +1118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 907058074506783630}
   - component: {fileID: 7434155202934932350}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerLT-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1117,7 +1165,7 @@ GameObject:
   m_Component:
   - component: {fileID: 317161446190890215}
   - component: {fileID: 5771473014817173959}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerRB-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1164,7 +1212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5297793124960280127}
   - component: {fileID: 2549002026939823726}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerBL-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1211,7 +1259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1653932524432034254}
   - component: {fileID: 3033924447396571360}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerRB-R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1258,7 +1306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 561836958731043305}
   - component: {fileID: 27975559633196746}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerTR-R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1304,7 +1352,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6474662038158464735}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Spread
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1360,7 +1408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8613942752860990709}
   - component: {fileID: 2215399913170553812}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerT-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1407,7 +1455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 405704768515428426}
   - component: {fileID: 6003810932995081610}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SpawnerBL-R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1452,17 +1500,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5278179170721787291}
     m_Modifications:
-    - target: {fileID: 3929300892223361287, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 4164480108091687305, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
       propertyPath: m_Name
       value: EnemyBulletPool
-      objectReference: {fileID: 0}
-    - target: {fileID: 4164480108091687305, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
-      propertyPath: m_Layer
-      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7471079334917717994, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
       propertyPath: m_LocalPosition.x
