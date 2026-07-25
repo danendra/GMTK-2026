@@ -17,12 +17,15 @@ namespace GMTK
             if(!playerLive)
                 Awake();
 
-            playerLive.AddRespawnListener(Disable);
+            playerLive?.AddRespawnListener(Disable);
         }
 
         void OnDisable()
         {
-            playerLive.RemoveRespawnListener(Disable);
+            if(!playerLive)
+                Awake();
+
+            playerLive?.RemoveRespawnListener(Disable);
         }
 
         public void Disable()
