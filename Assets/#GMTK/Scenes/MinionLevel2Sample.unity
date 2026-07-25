@@ -700,7 +700,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.99, y: -1.29, z: -10}
+  m_LocalPosition: {x: -5.99, y: -0.2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -732,7 +732,7 @@ Transform:
   m_GameObject: {fileID: 542342256}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.01672, z: 0}
+  m_LocalPosition: {x: -1.61, y: 5.01672, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -757,23 +757,53 @@ MonoBehaviour:
     spawnPosition: {x: -13, y: 6}
     useTargetPoint: 1
     targetPosition: {x: 5, y: 8}
+    straightMovement: 0
     count: 5
     spawnInterval: 0.5
-  - delay: 1
+  - delay: 2
     enemyPool: {fileID: 1607779045}
     useSpecificSpawnPosition: 1
     spawnPosition: {x: 1, y: 6}
     useTargetPoint: 1
     targetPosition: {x: -5, y: 8}
+    straightMovement: 0
     count: 5
     spawnInterval: 0.5
   - delay: 3
     enemyPool: {fileID: 1607779045}
     useSpecificSpawnPosition: 1
-    spawnPosition: {x: -8, y: 8}
+    spawnPosition: {x: -10, y: 9}
     useTargetPoint: 1
-    targetPosition: {x: 8, y: 8}
-    count: 5
+    targetPosition: {x: -10, y: -13}
+    straightMovement: 1
+    count: 8
+    spawnInterval: 0.5
+  - delay: 0
+    enemyPool: {fileID: 1607779045}
+    useSpecificSpawnPosition: 1
+    spawnPosition: {x: -2, y: -8}
+    useTargetPoint: 1
+    targetPosition: {x: -2, y: 9}
+    straightMovement: 1
+    count: 8
+    spawnInterval: 0.5
+  - delay: 3
+    enemyPool: {fileID: 874041460}
+    useSpecificSpawnPosition: 1
+    spawnPosition: {x: -10, y: 8}
+    useTargetPoint: 1
+    targetPosition: {x: -10, y: 8}
+    straightMovement: 1
+    count: 1
+    spawnInterval: 0.5
+  - delay: 0
+    enemyPool: {fileID: 874041460}
+    useSpecificSpawnPosition: 1
+    spawnPosition: {x: -1.6, y: 8}
+    useTargetPoint: 1
+    targetPosition: {x: -1.6, y: 8}
+    straightMovement: 1
+    count: 1
     spawnInterval: 0.5
 --- !u!1 &570257204
 GameObject:
@@ -1669,6 +1699,54 @@ Transform:
   - {fileID: 257988018}
   - {fileID: 2025943768}
   m_Father: {fileID: 639501871}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &874041459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 874041461}
+  - component: {fileID: 874041460}
+  m_Layer: 0
+  m_Name: EliteEnemyPooler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &874041460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874041459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61616d6fe0f0b4aca96fd2fed07fc3e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Anoa.Module.PoolerContainer
+  poolPrefabs:
+  - {fileID: 2689779548590464405, guid: 36a245d7ace9c4c83aeedc2bd77d4b4c, type: 3}
+  parent: {fileID: 0}
+  poolSize: 5
+--- !u!4 &874041461
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874041459}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.54685, y: 6.41445, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &911807836
 GameObject:
@@ -2631,3 +2709,4 @@ SceneRoots:
   - {fileID: 911807837}
   - {fileID: 542342258}
   - {fileID: 1607779046}
+  - {fileID: 874041461}

@@ -26,6 +26,9 @@ namespace GMTK.Enemy
         [Tooltip("Titik arah tujuan musuh (X, Y). Musuh akan terbang lurus ke arah ini.")]
         public Vector2 targetPosition;
 
+        [Tooltip("Jika True, musuh akan terbang lurus (flat). Jika False, musuh akan melengkung (swoop) mengikuti gaya bawaannya saat menuju target.")]
+        public bool straightMovement = true;
+
         [Tooltip("Jumlah musuh yang akan muncul secara beruntun dari event ini.")]
         public int count = 1;
 
@@ -54,16 +57,22 @@ namespace GMTK.Enemy
                     yield return new WaitForSeconds(waveEvent.delay);
                 }
 
-                // Munculkan musuh sebanyak 'count' kali
-                for (int i = 0; i < waveEvent.count; i++)
-                {
-                    SpawnEnemy(waveEvent);
+                // Jalankan proses spawn secara paralel (tidak memblokir index berikutnya)
+                StartCoroutine(SpawnGroupRoutine(waveEvent));
+            }
+        }
 
-                    // Jeda antar musuh dalam satu event (jika ada lebih dari 1)
-                    if (i < waveEvent.count - 1 && waveEvent.spawnInterval > 0)
-                    {
-                        yield return new WaitForSeconds(waveEvent.spawnInterval);
-                    }
+        private IEnumerator SpawnGroupRoutine(WaveEvent waveEvent)
+        {
+            // Munculkan musuh sebanyak 'count' kali
+            for (int i = 0; i < waveEvent.count; i++)
+            {
+                SpawnEnemy(waveEvent);
+
+                // Jeda antar musuh dalam satu event (jika ada lebih dari 1)
+                if (i < waveEvent.count - 1 && waveEvent.spawnInterval > 0)
+                {
+                    yield return new WaitForSeconds(waveEvent.spawnInterval);
                 }
             }
         }
@@ -94,7 +103,7 @@ namespace GMTK.Enemy
                     EnemyLevel2Basic enemyScript = enemyObj.GetComponent<EnemyLevel2Basic>();
                     if (enemyScript != null)
                     {
-                        enemyScript.SetTargetPoint(waveEvent.targetPosition);
+                        enemyScript.SetTargetPoint(waveEvent.targetPosition, waveEvent.straightMovement);
                     }
                 }
             }
