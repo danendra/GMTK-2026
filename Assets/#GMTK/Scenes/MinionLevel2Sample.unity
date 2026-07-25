@@ -324,7 +324,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &85093563
 Transform:
   m_ObjectHideFlags: 0
@@ -847,105 +847,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &542342256
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 542342258}
-  - component: {fileID: 542342259}
-  m_Layer: 0
-  m_Name: EnemyLevel2BasicSpawner
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &542342258
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542342256}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.61, y: 5.01672, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &542342259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542342256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f86d09ba909d8499e98d871b1a741cd2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyWaveSpawnerLevel2
-  waveTimeline:
-  - delay: 0
-    enemyPool: {fileID: 1607779045}
-    useSpecificSpawnPosition: 1
-    spawnPosition: {x: -13, y: 6}
-    useTargetPoint: 1
-    targetPosition: {x: 5, y: 8}
-    straightMovement: 0
-    count: 5
-    spawnInterval: 0.5
-  - delay: 2
-    enemyPool: {fileID: 1607779045}
-    useSpecificSpawnPosition: 1
-    spawnPosition: {x: 1, y: 6}
-    useTargetPoint: 1
-    targetPosition: {x: -5, y: 8}
-    straightMovement: 0
-    count: 5
-    spawnInterval: 0.5
-  - delay: 3
-    enemyPool: {fileID: 1607779045}
-    useSpecificSpawnPosition: 1
-    spawnPosition: {x: -10, y: 9}
-    useTargetPoint: 1
-    targetPosition: {x: -10, y: -13}
-    straightMovement: 1
-    count: 8
-    spawnInterval: 0.5
-  - delay: 0
-    enemyPool: {fileID: 1607779045}
-    useSpecificSpawnPosition: 1
-    spawnPosition: {x: -2, y: -8}
-    useTargetPoint: 1
-    targetPosition: {x: -2, y: 9}
-    straightMovement: 1
-    count: 8
-    spawnInterval: 0.5
-  - delay: 5
-    enemyPool: {fileID: 874041460}
-    useSpecificSpawnPosition: 1
-    spawnPosition: {x: -10, y: 8}
-    useTargetPoint: 1
-    targetPosition: {x: -10, y: 8}
-    straightMovement: 1
-    count: 1
-    spawnInterval: 0.5
-  - delay: 0
-    enemyPool: {fileID: 874041460}
-    useSpecificSpawnPosition: 1
-    spawnPosition: {x: -1.6, y: 8}
-    useTargetPoint: 1
-    targetPosition: {x: -1.6, y: 8}
-    straightMovement: 1
-    count: 1
-    spawnInterval: 0.5
 --- !u!1 &567994633
 GameObject:
   m_ObjectHideFlags: 0
@@ -2571,7 +2472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Anoa.Module.PoolerContainer
   poolPrefabs:
-  - {fileID: -711767908203276290, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+  - {fileID: -1263116128564393721, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
   parent: {fileID: 0}
   poolSize: 5
 --- !u!4 &874041461
@@ -3949,7 +3850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Anoa.Module.PoolerContainer
   poolPrefabs:
-  - {fileID: -711767908203276290, guid: bed5240c398de4d3bae012780ddb5709, type: 3}
+  - {fileID: -711767908203276290, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
   parent: {fileID: 0}
   poolSize: 5
 --- !u!4 &1607779046
@@ -4925,7 +4826,6 @@ SceneRoots:
   - {fileID: 701833295}
   - {fileID: 1449486757}
   - {fileID: 911807837}
-  - {fileID: 542342258}
   - {fileID: 1607779046}
   - {fileID: 874041461}
   - {fileID: 73112484}
