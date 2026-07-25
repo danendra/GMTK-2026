@@ -1,24 +1,23 @@
 using UnityEngine;
 
-using GMTK.Player;
-
 namespace GMTK.Enemy
 {
     public enum LASER_STATE { Idle, Telegraph, Firing }
 
     public class EnemyLaserSpawnerController : MonoBehaviour
     {
-        [SerializeField] private LineRenderer lineRenderer;
+        [SerializeField] protected EnemyBulletLaserType enemyBulletLaserType;
+        [SerializeField] protected LineRenderer lineRenderer;
         [SerializeField] protected Vector2 direction = Vector2.up;
-        [SerializeField] private float laserLength = 20f;
-        [SerializeField] private float telegraphDuration = 1f;
-        [SerializeField] private float fireDuration = 2f;
-        [SerializeField] private float telegraphWidth = 0.05f;
-        [SerializeField] private float fireWidth = 0.3f;
-        [SerializeField] private Color telegraphColor = Color.red;
-        [SerializeField] private Color fireColor = Color.white;
-        [SerializeField] private LayerMask hitLayers;
-        public LASER_STATE CurrentState { get; private set; } = LASER_STATE.Idle;
+        [SerializeField] protected float laserLength = 20f;
+        [SerializeField] protected float telegraphDuration = 1f;
+        [SerializeField] protected float fireDuration = 2f;
+        [SerializeField] protected float telegraphWidth = 0.05f;
+        [SerializeField] protected float fireWidth = 0.3f;
+        [SerializeField] protected Color telegraphColor = Color.red;
+        [SerializeField] protected Color fireColor = Color.white;
+        [SerializeField] protected LayerMask hitLayers;
+        public LASER_STATE CurrentState { get; protected set; } = LASER_STATE.Idle;
 
         private float stateTimer;
 
@@ -59,6 +58,11 @@ namespace GMTK.Enemy
 
             lineRenderer.SetPosition(0, origin);
             lineRenderer.SetPosition(1, origin + worldDirection * actualLength);
+
+            if (CurrentState == LASER_STATE.Firing && hit.collider != null)
+            {
+                enemyBulletLaserType.HitLaser(hit.collider.gameObject);
+            }
         }
 
         private void SetLineVisual(float width, Color color)
@@ -77,6 +81,12 @@ namespace GMTK.Enemy
             SetLineVisual(telegraphWidth, telegraphColor);
             lineRenderer.enabled = true;
             UpdateBeam();
+        }
+
+        public void Reset()
+        {
+            CurrentState = LASER_STATE.Idle;
+            lineRenderer.enabled = false;
         }
     }
 }
