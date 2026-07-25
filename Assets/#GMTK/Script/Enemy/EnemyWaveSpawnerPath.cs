@@ -9,8 +9,8 @@ namespace GMTK.Enemy
     [System.Serializable]
     public class PathWaveEvent
     {
-        [Tooltip("Waktu tunggu (dalam detik) SEBELUM musuh ini muncul. (Dihitung setelah musuh sebelumnya muncul)")]
-        public float delay = 1f;
+        [Tooltip("Delay antar wave")]
+        public float fltDelay = 1f;
 
         [Tooltip("Gudang (PoolerContainer) musuh yang akan di-spawn (misal: Pool Musuh Biasa, Pool Musuh Elite).")]
         public PoolerContainer enemyPool;
@@ -44,21 +44,26 @@ namespace GMTK.Enemy
             foreach (PathWaveEvent waveEvent in waveTimeline)
             {
                 // Tunggu sesuai jeda waktu sebelum memunculkan musuh ini
-                if (waveEvent.delay > 0)
+                if (waveEvent.fltDelay > 0)
                 {
-                    yield return new WaitForSeconds(waveEvent.delay);
+                    yield return new WaitForSeconds(waveEvent.fltDelay);
                 }
 
-                // Munculkan musuh sebanyak 'count' kali
-                for (int i = 0; i < waveEvent.count; i++)
-                {
-                    SpawnEnemy(waveEvent);
+                StartCoroutine(IESpawnEnemy(waveEvent));
+            }
+        }
 
-                    // Jeda antar musuh dalam satu event (jika ada lebih dari 1)
-                    if (i < waveEvent.count - 1 && waveEvent.spawnInterval > 0)
-                    {
-                        yield return new WaitForSeconds(waveEvent.spawnInterval);
-                    }
+        protected IEnumerator IESpawnEnemy(PathWaveEvent waveEvent)
+        {
+            // Munculkan musuh sebanyak 'count' kali
+            for (int i = 0; i < waveEvent.count; i++)
+            {
+                SpawnEnemy(waveEvent);
+
+                // Jeda antar musuh dalam satu event (jika ada lebih dari 1)
+                if (i < waveEvent.count - 1 && waveEvent.spawnInterval > 0)
+                {
+                    yield return new WaitForSeconds(waveEvent.spawnInterval);
                 }
             }
         }
@@ -92,7 +97,7 @@ namespace GMTK.Enemy
 
             // Mengambil musuh dari pooler
             GameObject enemyObj = waveEvent.enemyPool.Pop();
-            
+
             if (enemyObj != null)
             {
                 // Atur posisi agar muncul di titik spawn (waypoint pertama)
