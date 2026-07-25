@@ -106,4 +106,6 @@ InitTestScene*.unity*
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 GMTK 2026.slnx
-GMTK 2026.slnx
+
+# AI Agent Customizations
+.agents/
