@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7958894389030406203
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3073704231615500693, guid: 53c47f2acb41f4d788ab68f934f37c74, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073704231615500693, guid: 53c47f2acb41f4d788ab68f934f37c74, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073704231615500693, guid: 53c47f2acb41f4d788ab68f934f37c74, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073704231615500693, guid: 53c47f2acb41f4d788ab68f934f37c74, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073704231615500693, guid: 53c47f2acb41f4d788ab68f934f37c74, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073704231615500693, guid: 53c47f2acb41f4d788ab68f934f37c74, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073704231615500693, guid: 53c47f2acb41f4d788ab68f934f37c74, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073704231615500693, guid: 53c47f2acb41f4d788ab68f934f37c74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073704231615500693, guid: 53c47f2acb41f4d788ab68f934f37c74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073704231615500693, guid: 53c47f2acb41f4d788ab68f934f37c74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4601623507732381984, guid: 53c47f2acb41f4d788ab68f934f37c74, type: 3}
+      propertyPath: m_Name
+      value: Streaming Circular Dense shot Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4601623507732381984, guid: 53c47f2acb41f4d788ab68f934f37c74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4601623507732381984, guid: 53c47f2acb41f4d788ab68f934f37c74, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3025462002873052756}
+  m_SourcePrefab: {fileID: 100100000, guid: 53c47f2acb41f4d788ab68f934f37c74, type: 3}
+--- !u!1 &5886183222961244443 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4601623507732381984, guid: 53c47f2acb41f4d788ab68f934f37c74, type: 3}
+  m_PrefabInstance: {fileID: 7958894389030406203}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3025462002873052756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5886183222961244443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e991f05f377d249df99ef302dfe4c808, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.LookAtPlayerController

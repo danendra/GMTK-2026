@@ -47,7 +47,7 @@ MonoBehaviour:
   poolPrefabs:
   - {fileID: 1358727120096457019, guid: c4ce40362a131428e881c475a1cc4d73, type: 3}
   parent: {fileID: 0}
-  poolSize: 2000
+  poolSize: 100
 --- !u!1 &4164480108091687305
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,29 +2,54 @@ using UnityEngine;
 
 namespace GMTK.Enemy
 {
+    using Player;
     public enum LASER_STATE { Idle, Telegraph, Firing }
 
     public class EnemyLaserSpawnerController : MonoBehaviour
-    {
-        [SerializeField] protected EnemyBulletLaserType enemyBulletLaserType;
+    {        
         [SerializeField] protected LineRenderer lineRenderer;
         [SerializeField] protected Vector2 direction = Vector2.up;
-        [SerializeField] protected float laserLength = 20f;
-        [SerializeField] protected float telegraphDuration = 1f;
-        [SerializeField] protected float fireDuration = 2f;
+        [SerializeField] protected float laserLength = 20f;        
         [SerializeField] protected float telegraphWidth = 0.05f;
         [SerializeField] protected float fireWidth = 0.3f;
         [SerializeField] protected Color telegraphColor = Color.red;
         [SerializeField] protected Color fireColor = Color.white;
         [SerializeField] protected LayerMask hitLayers;
+
         public LASER_STATE CurrentState { get; protected set; } = LASER_STATE.Idle;
 
-        private float stateTimer;
+        protected float telegraphDuration = 1f;
+        protected float fireDuration = 2f;
+        protected float stateTimer;
+        protected PlayerLiveController playerLive;
+
+        void Awake()
+        {
+            playerLive = FindAnyObjectByType<PlayerLiveController>();
+        }
+
+        void OnEnable()
+        {
+            if(!playerLive)
+                Awake();
+
+            playerLive?.AddRespawnListener(Reset);
+        }
+
+        void OnDisable()
+        {
+            if(!playerLive)
+                Awake();
+
+            playerLive?.RemoveRespawnListener(Reset);
+        }
 
         private void Update()
         {
             if (CurrentState == LASER_STATE.Idle) return;
+            
             stateTimer += Time.deltaTime;
+
             switch (CurrentState)
             {
                 case LASER_STATE.Telegraph:
@@ -36,9 +61,10 @@ namespace GMTK.Enemy
                         SetLineVisual(fireWidth, fireColor);
                     }
                     break;
+
                 case LASER_STATE.Firing:
                     UpdateBeam();
-                    if (stateTimer >= fireDuration)
+                    if (stateTimer >= fireDuration + telegraphDuration)
                     {
                         CurrentState = LASER_STATE.Idle;
                         lineRenderer.enabled = false;
@@ -61,7 +87,12 @@ namespace GMTK.Enemy
 
             if (CurrentState == LASER_STATE.Firing && hit.collider != null)
             {
-                enemyBulletLaserType.HitLaser(hit.collider.gameObject);
+                PlayerLiveController _playerLife = hit.collider.gameObject.GetComponent<PlayerLiveController>();
+
+                if (_playerLife)
+                {
+                    _playerLife.OnDeath();
+                }
             }
         }
 
@@ -73,11 +104,15 @@ namespace GMTK.Enemy
             lineRenderer.endColor = color;
         }
 
-        public void Spawn()
+        public void Spawn(float _fltDurationFire = 2.0f, float _fltDurationTelegraph = 1.0f)
         {
             if (CurrentState != LASER_STATE.Idle) return;
             CurrentState = LASER_STATE.Telegraph;
+            
             stateTimer = 0f;
+            fireDuration = _fltDurationFire;
+            telegraphDuration = _fltDurationTelegraph;
+            
             SetLineVisual(telegraphWidth, telegraphColor);
             lineRenderer.enabled = true;
             UpdateBeam();
