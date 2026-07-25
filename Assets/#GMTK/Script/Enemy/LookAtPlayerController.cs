@@ -2,15 +2,26 @@ using UnityEngine;
 
 namespace GMTK.Enemy
 {
+    using System.Collections;
     using Player;
     public class LookAtPlayerController : MonoBehaviour
     {
         protected GameObject objPlayer;
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
-        void Start()
+        IEnumerator Start()
         {
-            objPlayer = FindAnyObjectByType<PlayerLiveController>().gameObject;
+            PlayerLiveController _player;
+
+            do
+            {
+                _player = FindAnyObjectByType<PlayerLiveController>();
+
+                yield return null;
+            }
+            while (_player == null);
+
+            objPlayer = _player.gameObject;
         }
 
         // Update is called once per frame
