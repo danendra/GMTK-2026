@@ -18,6 +18,8 @@ namespace GMTK.Enemy
         [Tooltip("Mode pergerakan path 2D.")]
         [SerializeField] private PathMode pathMode = PathMode.Sidescroller2D;
 
+        private bool dontDeactivateAtEnd = false;
+
         [Header("Rotation Settings")]
         [Tooltip("Aktifkan agar pesawat otomatis berputar menghadap arah geraknya.")]
         [SerializeField] private bool lookForward = true;
@@ -40,6 +42,11 @@ namespace GMTK.Enemy
             this.easeType = easeType;
             this.pathType = pathType;
             this.pathMode = pathMode;
+        }
+
+        public void SetDontDeactivate(bool value)
+        {
+            this.dontDeactivateAtEnd = value;
         }
 
         public void SetTargetPoint(Vector2 targetPos)
@@ -71,9 +78,15 @@ namespace GMTK.Enemy
             lastPosition = transform.position;
 
             // Jalankan pergerakan sepanjang path
-            pathTween = transform.DOPath(waypoints, duration, pathType, pathMode)
-                .SetEase(easeType)
-                .OnComplete(() => gameObject.SetActive(false));
+            var pathTweenCore = transform.DOPath(waypoints, duration, pathType, pathMode)
+                .SetEase(easeType);
+
+            if (!dontDeactivateAtEnd)
+            {
+                pathTweenCore.OnComplete(() => gameObject.SetActive(false));
+            }
+
+            pathTween = pathTweenCore;
         }
 
         void Update()

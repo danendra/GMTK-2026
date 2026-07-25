@@ -23,6 +23,9 @@ namespace GMTK.Enemy
 
         [Tooltip("Jeda waktu antar musuh jika jumlahnya (count) lebih dari 1.")]
         public float spawnInterval = 0.5f;
+
+        [Tooltip("Jika dicentang, musuh tidak akan dinonaktifkan saat mencapai titik akhir path.")]
+        public bool dontDeactivateAtEnd;
     }
 
     public class EnemyWaveSpawnerPath : MonoBehaviour
@@ -107,6 +110,8 @@ namespace GMTK.Enemy
                         waveEvent.dotweenPathReference.pathType,
                         waveEvent.dotweenPathReference.pathMode
                     );
+
+                    pathCtrl.SetDontDeactivate(waveEvent.dontDeactivateAtEnd);
 
                     // Konversi sisa waypoints (dari index 1 dst) ke array Vector2
                     if (wps.Count > 1)
