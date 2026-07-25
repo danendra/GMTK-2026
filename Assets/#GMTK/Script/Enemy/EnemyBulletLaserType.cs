@@ -12,12 +12,21 @@ namespace GMTK.Enemy
         SuperExplosiveOne = 300,
         SuperExplosiveThree = 301,
     }
-    public class EnemyBulletType : MonoBehaviour
+
+    public enum EnemyLaserTypeEnum
     {
-        [SerializeField] protected bool isTargetToPlayer = false;
+        One = 100,
+        Two = 200,
+        TwoVShape = 300,
+    }
+
+    public class EnemyBulletLaserType : MonoBehaviour
+    {
         [SerializeField] protected GameObject playerObject;
+        [Header("Bullet")]
+        [SerializeField] protected bool isBulletTargetToPlayer = false;
         [SerializeField] protected EnemyBulletTypeEnum enemyBulletTypeEnum;
-        [SerializeField] protected float fltDelay = 0.1f;
+        [SerializeField] protected float bulletFltDelay = 0.1f;
         [SerializeField] protected GameObject spreadBulletObject;
         [SerializeField] protected EnemyBulletSpawnerController bulletSpawnerControllerT;
         [SerializeField] protected EnemyBulletSpawnerController bulletSpawnerControllerR;
@@ -43,20 +52,35 @@ namespace GMTK.Enemy
         [SerializeField] protected EnemyBulletSpawnerController bulletSpawnerControllerBL_R;
         [SerializeField] protected EnemyBulletSpawnerController bulletSpawnerControllerLT_L;
         [SerializeField] protected EnemyBulletSpawnerController bulletSpawnerControllerLT_R;
+        [Header("Laser")]
+        [SerializeField] protected bool isLaserTargetToPlayer = false;
+        [SerializeField] protected EnemyLaserTypeEnum enemyLaserTypeEnum;
+        [SerializeField] protected float laserFacingSmoothTime = 0.3f;
+        [SerializeField] protected float laserFltDelay = 5f;
+        [SerializeField] protected GameObject spreadLaserObject;
+        [SerializeField] protected EnemyLaserSpawnerController laserSpawnerControllerB;
+        [SerializeField] protected EnemyLaserSpawnerController laserSpawnerControllerB_L;
+        [SerializeField] protected EnemyLaserSpawnerController laserSpawnerControllerB_R;
+        [SerializeField] protected EnemyLaserSpawnerController laserSpawnerControllerB_LD;
+        [SerializeField] protected EnemyLaserSpawnerController laserSpawnerControllerB_RD;
 
-        protected CooldownModule cooldown;
+        protected CooldownModule bulletCooldown;
+        protected CooldownModule laserCooldown;
+        protected float currentLaserAngleVelocity; 
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
-            cooldown = new CooldownModule(fltDelay, true);
+            bulletCooldown = new CooldownModule(bulletFltDelay, true);
+            laserCooldown = new CooldownModule(laserFltDelay, true);
         }
 
         // Update is called once per frame
         void Update()
         {
-            if (isTargetToPlayer) UpdateFacing();
-            if (cooldown.IsReady)
+            if (isBulletTargetToPlayer) UpdateFacingBullet();
+            if (isLaserTargetToPlayer) UpdateFacingLaser();
+            if (bulletCooldown.IsReady)
             {
                 switch (enemyBulletTypeEnum)
                 {
@@ -125,11 +149,29 @@ namespace GMTK.Enemy
                         bulletSpawnerControllerLT_R.Spawn();
                         break;
                 }
-                cooldown.Use();
+                bulletCooldown.Use();
+            }
+            if (laserCooldown.IsReady)
+            {
+                switch (enemyLaserTypeEnum)
+                {
+                    case EnemyLaserTypeEnum.One:
+                        laserSpawnerControllerB.Spawn();
+                        break;
+                    case EnemyLaserTypeEnum.Two:
+                        laserSpawnerControllerB_L.Spawn();
+                        laserSpawnerControllerB_R.Spawn();
+                        break;
+                    case EnemyLaserTypeEnum.TwoVShape:
+                        laserSpawnerControllerB_LD.Spawn();
+                        laserSpawnerControllerB_RD.Spawn();
+                        break;
+                }
+                laserCooldown.Use();
             }
         }
 
-        private void UpdateFacing()
+        private void UpdateFacingBullet()
         {
             if (playerObject == null || spreadBulletObject == null) return;
 
@@ -138,6 +180,21 @@ namespace GMTK.Enemy
 
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg + 90f;
             spreadBulletObject.transform.rotation = Quaternion.Euler(0f, 0f, angle);
+        }
+
+        private void UpdateFacingLaser()
+        {
+            if (playerObject == null || spreadLaserObject == null) return;
+
+            Vector2 direction = playerObject.transform.position - spreadLaserObject.transform.position;
+            if (direction.sqrMagnitude < 0.0001f) return;
+
+            float targetAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg + 90f;
+            float currentAngle = spreadLaserObject.transform.eulerAngles.z;
+
+            float smoothedAngle = Mathf.SmoothDampAngle(currentAngle, targetAngle, ref currentLaserAngleVelocity, laserFacingSmoothTime);
+
+            spreadLaserObject.transform.rotation = Quaternion.Euler(0f, 0f, smoothedAngle);
         }
     }
 }
