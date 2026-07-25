@@ -958,7 +958,6 @@ GameObject:
   m_Component:
   - component: {fileID: 911807837}
   - component: {fileID: 911807838}
-  - component: {fileID: 911807839}
   m_Layer: 0
   m_Name: Level Manager
   m_TagString: Untagged
@@ -1000,18 +999,6 @@ MonoBehaviour:
   onPassiveModeStart:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &911807839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 911807836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d890f5104600d45a4848d6564a5b3445, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BulletManager
 --- !u!1 &1031248123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1534,7 +1521,7 @@ PrefabInstance:
     - target: {fileID: 7063087289431749525, guid: ea333d64a5b0149e78e387b5a351a84b, type: 3}
       propertyPath: onRespawn.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 911807839}
+      objectReference: {fileID: 0}
     - target: {fileID: 7063087289431749525, guid: ea333d64a5b0149e78e387b5a351a84b, type: 3}
       propertyPath: onRespawn.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2

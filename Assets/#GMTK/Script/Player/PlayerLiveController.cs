@@ -31,6 +31,15 @@ namespace GMTK.Player
                 onRespawn.Invoke();
             }
         }
+        public void AddRespawnListener(UnityAction _onRespawn)
+        {
+            onRespawn.AddListener(_onRespawn);
+        }
+
+        public void RemoveRespawnListener(UnityAction _onRespawn)
+        {
+            onRespawn.RemoveListener(_onRespawn);
+        }
 
         // Update is called once per frame
         void Update()
