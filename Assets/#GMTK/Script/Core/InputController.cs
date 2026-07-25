@@ -33,7 +33,7 @@ namespace GMTK
             } 
         }
 
-        protected virtual void OnEnable()
+        public virtual void OnEnable()
         {
             inputAction?.Enable();
 
@@ -43,7 +43,7 @@ namespace GMTK
             } 
         }
 
-        protected virtual void OnDisable()
+        public virtual void OnDisable()
         {
             inputAction?.Disable();
 
