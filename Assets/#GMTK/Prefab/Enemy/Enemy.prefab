@@ -280,13 +280,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1599272100587691489}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.1564345, w: 0.98768836}
   m_LocalPosition: {x: 0, y: -0.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9092437506522812554}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 18}
 --- !u!120 &2634479805999881161
 LineRenderer:
   serializedVersion: 3
@@ -409,8 +409,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52a94ce9de2db492a868d42cffa9ecf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyLaserSpawnerController
+  enemyBulletLaserType: {fileID: 8038695920555591505}
   lineRenderer: {fileID: 2634479805999881161}
-  direction: {x: 0.2, y: -1}
+  direction: {x: 0, y: -1}
   laserLength: 20
   telegraphDuration: 1
   fireDuration: 2
@@ -420,7 +421,7 @@ MonoBehaviour:
   fireColor: {r: 1, g: 0, b: 0, a: 1}
   hitLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
 --- !u!1 &1884663424504094483
 GameObject:
   m_ObjectHideFlags: 0
@@ -905,6 +906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52a94ce9de2db492a868d42cffa9ecf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyLaserSpawnerController
+  enemyBulletLaserType: {fileID: 8038695920555591505}
   lineRenderer: {fileID: 3528260126000665991}
   direction: {x: 0, y: -1}
   laserLength: 20
@@ -916,7 +918,7 @@ MonoBehaviour:
   fireColor: {r: 1, g: 0, b: 0, a: 1}
   hitLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
 --- !u!1 &3978252149744968140
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,6 +1074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52a94ce9de2db492a868d42cffa9ecf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyLaserSpawnerController
+  enemyBulletLaserType: {fileID: 8038695920555591505}
   lineRenderer: {fileID: 265859321642623455}
   direction: {x: 0, y: -1}
   laserLength: 20
@@ -1083,7 +1086,7 @@ MonoBehaviour:
   fireColor: {r: 1, g: 0, b: 0, a: 1}
   hitLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
 --- !u!1 &5646449240195541971
 GameObject:
   m_ObjectHideFlags: 0
@@ -1427,6 +1430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52a94ce9de2db492a868d42cffa9ecf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyLaserSpawnerController
+  enemyBulletLaserType: {fileID: 8038695920555591505}
   lineRenderer: {fileID: 3844549351669939153}
   direction: {x: 0, y: -1}
   laserLength: 20
@@ -1438,7 +1442,7 @@ MonoBehaviour:
   fireColor: {r: 1, g: 0, b: 0, a: 1}
   hitLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
 --- !u!1 &6672492830259024228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1743,7 +1747,7 @@ MonoBehaviour:
   playerObject: {fileID: 0}
   isBulletTargetToPlayer: 0
   enemyBulletTypeEnum: 100
-  bulletFltDelay: 0.1
+  bulletFltDelay: 1
   spreadBulletObject: {fileID: 8880060720897575727}
   bulletSpawnerControllerT: {fileID: 5356254122166114243}
   bulletSpawnerControllerR: {fileID: 1750990868297157507}
@@ -1779,6 +1783,21 @@ MonoBehaviour:
   laserSpawnerControllerB_R: {fileID: 5272756812385837190}
   laserSpawnerControllerB_LD: {fileID: 3235209793116933554}
   laserSpawnerControllerB_RD: {fileID: 1473312662359271839}
+  onHitWithLaser:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GMTK.Player.PlayerLiveController, Assembly-CSharp
+        m_MethodName: OnDeath
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &340348268997674909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2087,13 +2106,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8276866451809514354}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.1564345, w: 0.98768836}
   m_LocalPosition: {x: 0, y: -0.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9092437506522812554}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -18}
 --- !u!120 &1319275004066029368
 LineRenderer:
   serializedVersion: 3
@@ -2216,8 +2235,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52a94ce9de2db492a868d42cffa9ecf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyLaserSpawnerController
+  enemyBulletLaserType: {fileID: 8038695920555591505}
   lineRenderer: {fileID: 1319275004066029368}
-  direction: {x: -0.2, y: -1}
+  direction: {x: 0, y: -1}
   laserLength: 20
   telegraphDuration: 1
   fireDuration: 2
@@ -2227,7 +2247,7 @@ MonoBehaviour:
   fireColor: {r: 1, g: 0, b: 0, a: 1}
   hitLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
 --- !u!1 &8880060720897575727
 GameObject:
   m_ObjectHideFlags: 0

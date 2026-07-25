@@ -1,5 +1,7 @@
+using System.Collections;
 using Anoa.Module;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace GMTK.Enemy
 {
@@ -63,16 +65,18 @@ namespace GMTK.Enemy
         [SerializeField] protected EnemyLaserSpawnerController laserSpawnerControllerB_R;
         [SerializeField] protected EnemyLaserSpawnerController laserSpawnerControllerB_LD;
         [SerializeField] protected EnemyLaserSpawnerController laserSpawnerControllerB_RD;
+        [SerializeField] protected UnityEvent<GameObject> onHitWithLaser;
 
         protected CooldownModule bulletCooldown;
         protected CooldownModule laserCooldown;
         protected float currentLaserAngleVelocity; 
+        protected bool isLaserFiring = false;
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
-            bulletCooldown = new CooldownModule(bulletFltDelay, true);
-            laserCooldown = new CooldownModule(laserFltDelay, true);
+            bulletCooldown = new CooldownModule(bulletFltDelay, false);
+            if (laserFltDelay > 0) laserCooldown = new CooldownModule(laserFltDelay, false);
         }
 
         // Update is called once per frame
@@ -80,7 +84,32 @@ namespace GMTK.Enemy
         {
             if (isBulletTargetToPlayer) UpdateFacingBullet();
             if (isLaserTargetToPlayer) UpdateFacingLaser();
-            if (bulletCooldown.IsReady)
+            if (laserFltDelay > 0 && laserCooldown.IsReady)
+            {
+                if (isLaserFiring) return;
+                isLaserFiring = true;
+                switch (enemyLaserTypeEnum)
+                {
+                    case EnemyLaserTypeEnum.One:
+                        laserSpawnerControllerB.Spawn();
+                        break;
+                    case EnemyLaserTypeEnum.Two:
+                        laserSpawnerControllerB_L.Spawn();
+                        laserSpawnerControllerB_R.Spawn();
+                        break;
+                    case EnemyLaserTypeEnum.TwoVShape:
+                        laserSpawnerControllerB_LD.Spawn();
+                        laserSpawnerControllerB_RD.Spawn();
+                        break;
+                }
+                IEnumerator FireLaserCoroutine()
+                {
+                    yield return new WaitForSeconds(3f);
+                    isLaserFiring = false;
+                    laserCooldown.Use();
+                }
+                StartCoroutine(FireLaserCoroutine());
+            } else if (bulletCooldown.IsReady)
             {
                 switch (enemyBulletTypeEnum)
                 {
@@ -151,24 +180,6 @@ namespace GMTK.Enemy
                 }
                 bulletCooldown.Use();
             }
-            if (laserCooldown.IsReady)
-            {
-                switch (enemyLaserTypeEnum)
-                {
-                    case EnemyLaserTypeEnum.One:
-                        laserSpawnerControllerB.Spawn();
-                        break;
-                    case EnemyLaserTypeEnum.Two:
-                        laserSpawnerControllerB_L.Spawn();
-                        laserSpawnerControllerB_R.Spawn();
-                        break;
-                    case EnemyLaserTypeEnum.TwoVShape:
-                        laserSpawnerControllerB_LD.Spawn();
-                        laserSpawnerControllerB_RD.Spawn();
-                        break;
-                }
-                laserCooldown.Use();
-            }
         }
 
         private void UpdateFacingBullet()
@@ -195,6 +206,20 @@ namespace GMTK.Enemy
             float smoothedAngle = Mathf.SmoothDampAngle(currentAngle, targetAngle, ref currentLaserAngleVelocity, laserFacingSmoothTime);
 
             spreadLaserObject.transform.rotation = Quaternion.Euler(0f, 0f, smoothedAngle);
+        }
+
+        public void HitLaser(GameObject hitObject)
+        {
+            if (hitObject != null && hitObject == playerObject)
+            {
+                laserCooldown.Refresh();
+                laserSpawnerControllerB.Reset();
+                laserSpawnerControllerB_L.Reset();
+                laserSpawnerControllerB_R.Reset();
+                laserSpawnerControllerB_LD.Reset();
+                laserSpawnerControllerB_RD.Reset();
+                onHitWithLaser?.Invoke(hitObject);
+            }
         }
     }
 }
