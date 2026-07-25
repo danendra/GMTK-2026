@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &222377591619648242
+--- !u!1 &492774262533921790
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,46 +8,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8202152092870219248}
-  - component: {fileID: 1314273763040820441}
+  - component: {fileID: 1945986084854988113}
+  - component: {fileID: 2214589586964099260}
   m_Layer: 8
-  m_Name: SpawnerR-R
+  m_Name: SpawnerRB-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8202152092870219248
+--- !u!4 &1945986084854988113
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 222377591619648242}
+  m_GameObject: {fileID: 492774262533921790}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: -0.05, z: 0}
+  m_LocalPosition: {x: 0.4, y: -0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5828311018636708935}
+  m_Father: {fileID: 6178479497657341052}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1314273763040820441
+--- !u!114 &2214589586964099260
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 222377591619648242}
+  m_GameObject: {fileID: 492774262533921790}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: 0.9, y: -0.1}
---- !u!1 &338255451223969275
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: 0.4, y: -0.6}
+--- !u!1 &1218461838553203524
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55,46 +55,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3123237489638359734}
-  - component: {fileID: 8567897317761627781}
+  - component: {fileID: 1469448724256787220}
+  - component: {fileID: 2197834638775707906}
   m_Layer: 8
-  m_Name: SpawnerL-L
+  m_Name: SpawnerTR-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3123237489638359734
+--- !u!4 &1469448724256787220
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 338255451223969275}
+  m_GameObject: {fileID: 1218461838553203524}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: -0.05, z: 0}
+  m_LocalPosition: {x: 0.3, y: 0.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5828311018636708935}
+  m_Father: {fileID: 6178479497657341052}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8567897317761627781
+--- !u!114 &2197834638775707906
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 338255451223969275}
+  m_GameObject: {fileID: 1218461838553203524}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: -0.9, y: -0.1}
---- !u!1 &488268210444456604
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: 0.4, y: 0.6}
+--- !u!1 &1235879855580945457
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -102,46 +102,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2468213043334793409}
-  - component: {fileID: 4533735333218720176}
+  - component: {fileID: 8471110440748474106}
+  - component: {fileID: 5024169056251049137}
   m_Layer: 8
-  m_Name: SpawnerBL-L
+  m_Name: SpawnerR-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2468213043334793409
+--- !u!4 &8471110440748474106
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 488268210444456604}
+  m_GameObject: {fileID: 1235879855580945457}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3, y: -0.4, z: 0}
+  m_LocalPosition: {x: 0.5, y: 0.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2058547210289903486}
+  m_Father: {fileID: 6178479497657341052}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4533735333218720176
+--- !u!114 &5024169056251049137
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 488268210444456604}
+  m_GameObject: {fileID: 1235879855580945457}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: -0.4, y: -0.6}
---- !u!1 &1155899563775258284
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: 0.9, y: 0.1}
+--- !u!1 &1333544575463296596
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,46 +149,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8973069450925808621}
-  - component: {fileID: 845973232399888633}
+  - component: {fileID: 90056580949661656}
+  - component: {fileID: 3076986300812123280}
   m_Layer: 8
-  m_Name: SpawnerTR-R
+  m_Name: SpawnerL-R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8973069450925808621
+--- !u!4 &90056580949661656
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1155899563775258284}
+  m_GameObject: {fileID: 1333544575463296596}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.4, y: 0.3, z: 0}
+  m_LocalPosition: {x: -0.5, y: 0.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2058547210289903486}
+  m_Father: {fileID: 6178479497657341052}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &845973232399888633
+--- !u!114 &3076986300812123280
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1155899563775258284}
+  m_GameObject: {fileID: 1333544575463296596}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: 0.6, y: 0.4}
---- !u!1 &1233272404636559492
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: -0.9, y: 0.1}
+--- !u!1 &2113189124659143047
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -196,455 +196,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1019046848136955758}
-  - component: {fileID: 7673345424134014337}
-  m_Layer: 8
-  m_Name: SpawnerBL-R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1019046848136955758
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1233272404636559492}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.4, y: -0.3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7673345424134014337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1233272404636559492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: -0.6, y: -0.4}
---- !u!1 &1420855452376023284
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6541783038866995832}
-  - component: {fileID: 4136793476761238278}
-  m_Layer: 8
-  m_Name: SpawnerLT-L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6541783038866995832
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420855452376023284}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.4, y: 0.3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058547210289903486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4136793476761238278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420855452376023284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: -0.4, y: 0.6}
---- !u!1 &1640110003845700464
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8203560325750653635}
-  - component: {fileID: 7323813058649160947}
-  m_Layer: 8
-  m_Name: SpawnerRB
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8203560325750653635
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640110003845700464}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.35, y: -0.35, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058547210289903486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7323813058649160947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640110003845700464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: 0.5, y: -0.5}
---- !u!1 &1717636491218633519
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5603074132096715210}
-  - component: {fileID: 4077986610248227761}
-  m_Layer: 8
-  m_Name: SpawnerRB-R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5603074132096715210
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1717636491218633519}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3, y: -0.4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4077986610248227761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1717636491218633519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: 0.6, y: -0.4}
---- !u!1 &1739678257101423466
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5436001934122226528}
-  - component: {fileID: 398645167190138210}
-  - component: {fileID: 1334023199277993003}
-  - component: {fileID: 7240373092367567191}
-  - component: {fileID: 7705404988322179425}
-  - component: {fileID: 4105477155916428481}
-  - component: {fileID: 2689779548590464405}
-  m_Layer: 0
-  m_Name: EnemyLevel2Elite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5436001934122226528
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739678257101423466}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.76363, y: 6.91259, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6517178298518364428}
-  - {fileID: 7382208854136122592}
-  - {fileID: 2514711190077827575}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &398645167190138210
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739678257101423466}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!58 &1334023199277993003
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739678257101423466}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
---- !u!114 &7240373092367567191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739678257101423466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8378e0006d0ae44e1a87edb8dc381f5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletType
-  enemyBulletTypeEnum: 301
-  fltDelay: 2
-  bulletSpawnerControllerT: {fileID: 5964104139001523944}
-  bulletSpawnerControllerR: {fileID: 8552020407876650283}
-  bulletSpawnerControllerB: {fileID: 6639116668005845625}
-  bulletSpawnerControllerL: {fileID: 6924594156443510264}
-  bulletSpawnerControllerTR: {fileID: 7382034065339803805}
-  bulletSpawnerControllerRB: {fileID: 1514508058323439342}
-  bulletSpawnerControllerBL: {fileID: 4376829395578344166}
-  bulletSpawnerControllerLT: {fileID: 1082826429744842488}
-  bulletSpawnerControllerT_L: {fileID: 1011236216591372093}
-  bulletSpawnerControllerT_R: {fileID: 5302858124626586521}
-  bulletSpawnerControllerR_L: {fileID: 3715752210418885689}
-  bulletSpawnerControllerR_R: {fileID: 1314273763040820441}
-  bulletSpawnerControllerB_L: {fileID: 7394018711433640610}
-  bulletSpawnerControllerB_R: {fileID: 6211032427374100510}
-  bulletSpawnerControllerL_L: {fileID: 8567897317761627781}
-  bulletSpawnerControllerL_R: {fileID: 611456801935918955}
-  bulletSpawnerControllerTR_L: {fileID: 1544990744255759086}
-  bulletSpawnerControllerTR_R: {fileID: 6035720913510318119}
-  bulletSpawnerControllerRB_L: {fileID: 1936808785704956444}
-  bulletSpawnerControllerRB_R: {fileID: 4077986610248227761}
-  bulletSpawnerControllerBL_L: {fileID: 6485809481149074109}
-  bulletSpawnerControllerBL_R: {fileID: 7673345424134014337}
-  bulletSpawnerControllerLT_L: {fileID: 6513872880191833844}
-  bulletSpawnerControllerLT_R: {fileID: 6467560660472631658}
---- !u!114 &7705404988322179425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739678257101423466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8378e0006d0ae44e1a87edb8dc381f5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletType
-  enemyBulletTypeEnum: 100
-  fltDelay: 5
-  bulletSpawnerControllerT: {fileID: 5964104139001523944}
-  bulletSpawnerControllerR: {fileID: 8552020407876650283}
-  bulletSpawnerControllerB: {fileID: 6639116668005845625}
-  bulletSpawnerControllerL: {fileID: 6924594156443510264}
-  bulletSpawnerControllerTR: {fileID: 7382034065339803805}
-  bulletSpawnerControllerRB: {fileID: 1514508058323439342}
-  bulletSpawnerControllerBL: {fileID: 4376829395578344166}
-  bulletSpawnerControllerLT: {fileID: 1082826429744842488}
-  bulletSpawnerControllerT_L: {fileID: 1011236216591372093}
-  bulletSpawnerControllerT_R: {fileID: 5302858124626586521}
-  bulletSpawnerControllerR_L: {fileID: 3715752210418885689}
-  bulletSpawnerControllerR_R: {fileID: 1314273763040820441}
-  bulletSpawnerControllerB_L: {fileID: 7394018711433640610}
-  bulletSpawnerControllerB_R: {fileID: 6211032427374100510}
-  bulletSpawnerControllerL_L: {fileID: 8567897317761627781}
-  bulletSpawnerControllerL_R: {fileID: 611456801935918955}
-  bulletSpawnerControllerTR_L: {fileID: 1544990744255759086}
-  bulletSpawnerControllerTR_R: {fileID: 6035720913510318119}
-  bulletSpawnerControllerRB_L: {fileID: 1936808785704956444}
-  bulletSpawnerControllerRB_R: {fileID: 4077986610248227761}
-  bulletSpawnerControllerBL_L: {fileID: 6485809481149074109}
-  bulletSpawnerControllerBL_R: {fileID: 7673345424134014337}
-  bulletSpawnerControllerLT_L: {fileID: 6513872880191833844}
-  bulletSpawnerControllerLT_R: {fileID: 6467560660472631658}
---- !u!114 &4105477155916428481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739678257101423466}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7cc3fd6d78ec1422a97b1cdb4f96bbeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyLevel2Basic
-  initialVelocity: {x: -5, y: -5}
-  pullUpAcceleration: 3
-  targetYVelocity: 0
-  lookForward: 0
-  rotationOffset: 0
-  spriteTransform: {fileID: 6517178298518364428}
-  rightLocalRotation: {x: 0, y: 0, z: 0}
-  leftLocalRotation: {x: 180, y: 0, z: 0}
-  flipDuration: 0.4
-  disableXBoundary: 7
---- !u!114 &2689779548590464405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739678257101423466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fb1acc78ed0740a989cbef26898f9f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Anoa.Module.PoolerObject
---- !u!1 &1966910473100465245
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8173901372072751858}
-  - component: {fileID: 6485809481149074109}
-  m_Layer: 8
-  m_Name: SpawnerBL-L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8173901372072751858
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1966910473100465245}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3, y: -0.4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6485809481149074109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1966910473100465245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: -0.4, y: -0.6}
---- !u!1 &2046264689769564280
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2058547210289903486}
+  - component: {fileID: 6178479497657341052}
   m_Layer: 0
   m_Name: Spread (1)
   m_TagString: Untagged
@@ -652,46 +204,46 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2058547210289903486
+--- !u!4 &6178479497657341052
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2046264689769564280}
+  m_GameObject: {fileID: 2113189124659143047}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3536, y: 1.3536, z: 1.3536}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 282435204403881686}
-  - {fileID: 110114484962883228}
-  - {fileID: 2902918708359826073}
-  - {fileID: 5351067959146330400}
-  - {fileID: 6499102236529217659}
-  - {fileID: 8203560325750653635}
-  - {fileID: 511574747664437105}
-  - {fileID: 8153505868026981179}
-  - {fileID: 5826422961841661824}
-  - {fileID: 8081122690612795430}
-  - {fileID: 5194976950052706589}
-  - {fileID: 8884430696783255033}
-  - {fileID: 4429049725032056713}
-  - {fileID: 2290383624221591340}
-  - {fileID: 8779616335296409975}
-  - {fileID: 4188812966272356188}
-  - {fileID: 3633624673702229628}
-  - {fileID: 8973069450925808621}
-  - {fileID: 7725967876961594303}
-  - {fileID: 9171740021719552428}
-  - {fileID: 2468213043334793409}
-  - {fileID: 2523319539206996489}
-  - {fileID: 6541783038866995832}
-  - {fileID: 2194605416908528828}
-  m_Father: {fileID: 2514711190077827575}
+  - {fileID: 2458624574469980045}
+  - {fileID: 4354524186411692149}
+  - {fileID: 7913002756090101067}
+  - {fileID: 4614096080758323148}
+  - {fileID: 1591575883447591072}
+  - {fileID: 3010444149060773560}
+  - {fileID: 7326090865049137148}
+  - {fileID: 202135563641003481}
+  - {fileID: 7104600231817942144}
+  - {fileID: 1630192910390084878}
+  - {fileID: 8471110440748474106}
+  - {fileID: 201326219962503733}
+  - {fileID: 4101485484412007078}
+  - {fileID: 4687364861631109032}
+  - {fileID: 622223594328922106}
+  - {fileID: 90056580949661656}
+  - {fileID: 1469448724256787220}
+  - {fileID: 2539262430200407718}
+  - {fileID: 1945986084854988113}
+  - {fileID: 2267246362254045199}
+  - {fileID: 5959638238938291519}
+  - {fileID: 7632370249956853136}
+  - {fileID: 872818176883530452}
+  - {fileID: 5457371788934399630}
+  m_Father: {fileID: 1838123807037527654}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2492178511955321518
+--- !u!1 &2392072355475582442
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -699,8 +251,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5351067959146330400}
-  - component: {fileID: 2631676668116689360}
+  - component: {fileID: 4614096080758323148}
+  - component: {fileID: 7987008613683426825}
   m_Layer: 8
   m_Name: SpawnerL
   m_TagString: Untagged
@@ -708,37 +260,37 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5351067959146330400
+--- !u!4 &4614096080758323148
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2492178511955321518}
+  m_GameObject: {fileID: 2392072355475582442}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2058547210289903486}
+  m_Father: {fileID: 6178479497657341052}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2631676668116689360
+--- !u!114 &7987008613683426825
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2492178511955321518}
+  m_GameObject: {fileID: 2392072355475582442}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
+  pooler: {fileID: 2141993009653742619}
   direction: {x: -1, y: 0}
---- !u!1 &2742513603316173050
+--- !u!1 &2727725615194149931
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -746,182 +298,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9171740021719552428}
-  - component: {fileID: 8245178341279290667}
-  m_Layer: 8
-  m_Name: SpawnerRB-R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9171740021719552428
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2742513603316173050}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3, y: -0.4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058547210289903486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8245178341279290667
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2742513603316173050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: 0.6, y: -0.4}
---- !u!1 &3224920612337052748
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1418551177391446959}
-  - component: {fileID: 1514508058323439342}
-  m_Layer: 8
-  m_Name: SpawnerRB
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1418551177391446959
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3224920612337052748}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.35, y: -0.35, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1514508058323439342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3224920612337052748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: 0.5, y: -0.5}
---- !u!1 &3449557002414147367
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7382208854136122592}
-  m_Layer: 0
-  m_Name: EnemyBulletPool
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7382208854136122592
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3449557002414147367}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6248555888705622947}
-  - {fileID: 5112259540035679432}
-  m_Father: {fileID: 5436001934122226528}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3578443507968707818
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8153505868026981179}
-  - component: {fileID: 3559276421689929110}
-  m_Layer: 8
-  m_Name: SpawnerLT
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8153505868026981179
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3578443507968707818}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.35, y: 0.35, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058547210289903486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3559276421689929110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3578443507968707818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: -0.5, y: 0.5}
---- !u!1 &3894612437136824393
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5112259540035679432}
-  - component: {fileID: 7980173705017639354}
+  - component: {fileID: 1083023510027081799}
+  - component: {fileID: 2141993009653742619}
   m_Layer: 0
   m_Name: BulletPool (1)
   m_TagString: Untagged
@@ -929,38 +307,38 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5112259540035679432
+--- !u!4 &1083023510027081799
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3894612437136824393}
+  m_GameObject: {fileID: 2727725615194149931}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7382208854136122592}
+  m_Father: {fileID: 5768616095229500296}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7980173705017639354
+--- !u!114 &2141993009653742619
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3894612437136824393}
+  m_GameObject: {fileID: 2727725615194149931}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 61616d6fe0f0b4aca96fd2fed07fc3e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Anoa.Module.PoolerContainer
   poolPrefabs:
-  - {fileID: 7056219527120979781, guid: c95fca9b9aa4d4f55b1042b0704f11c3, type: 3}
+  - {fileID: 3130527674628001897, guid: 010ee637477ca47d6953da9a8424859b, type: 3}
   parent: {fileID: 0}
   poolSize: 2000
---- !u!1 &4171572891283542804
+--- !u!1 &2858666571131652947
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -968,1026 +346,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5799544806730421317}
-  - component: {fileID: 6513872880191833844}
-  m_Layer: 8
-  m_Name: SpawnerLT-L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5799544806730421317
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4171572891283542804}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.4, y: 0.3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6513872880191833844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4171572891283542804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: -0.4, y: 0.6}
---- !u!1 &4500130012868661564
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4926939662108449941}
-  - component: {fileID: 7382034065339803805}
-  m_Layer: 8
-  m_Name: SpawnerTR
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4926939662108449941
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4500130012868661564}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.35, y: 0.35, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7382034065339803805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4500130012868661564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: 0.5, y: 0.5}
---- !u!1 &4700097672935762476
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1717911846531913391}
-  - component: {fileID: 7394018711433640610}
-  m_Layer: 8
-  m_Name: SpawnerB-L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1717911846531913391
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4700097672935762476}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: -0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7394018711433640610
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4700097672935762476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: 0.1, y: -0.9}
---- !u!1 &4950495742268784960
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 282435204403881686}
-  - component: {fileID: 4028843839114091100}
-  m_Layer: 8
-  m_Name: SpawnerT
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &282435204403881686
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4950495742268784960}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058547210289903486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4028843839114091100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4950495742268784960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: 0, y: 1}
---- !u!1 &4971210684765148801
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 511574747664437105}
-  - component: {fileID: 7531308392102018843}
-  m_Layer: 8
-  m_Name: SpawnerBL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &511574747664437105
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4971210684765148801}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.35, y: -0.35, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058547210289903486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7531308392102018843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4971210684765148801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: -0.5, y: -0.5}
---- !u!1 &5003137141718843851
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9192510654253711672}
-  - component: {fileID: 6639116668005845625}
-  m_Layer: 8
-  m_Name: SpawnerB
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9192510654253711672
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5003137141718843851}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6639116668005845625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5003137141718843851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: 0, y: -1}
---- !u!1 &5074258345361317843
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2902918708359826073}
-  - component: {fileID: 5400151017638859319}
-  m_Layer: 8
-  m_Name: SpawnerB
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2902918708359826073
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5074258345361317843}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058547210289903486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5400151017638859319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5074258345361317843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: 0, y: -1}
---- !u!1 &5235359059887995296
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8081122690612795430}
-  - component: {fileID: 8492476476019217278}
-  m_Layer: 8
-  m_Name: SpawnerT-R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8081122690612795430
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5235359059887995296}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058547210289903486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8492476476019217278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5235359059887995296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: 0.1, y: 0.9}
---- !u!1 &5292517329523850068
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2194605416908528828}
-  - component: {fileID: 1672270150610552318}
-  m_Layer: 8
-  m_Name: SpawnerLT-R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2194605416908528828
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5292517329523850068}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3, y: 0.4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058547210289903486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1672270150610552318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5292517329523850068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: -0.6, y: 0.4}
---- !u!1 &5431656481088918922
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8884430696783255033}
-  - component: {fileID: 7098614570464324872}
-  m_Layer: 8
-  m_Name: SpawnerR-R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8884430696783255033
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5431656481088918922}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: -0.05, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058547210289903486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7098614570464324872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5431656481088918922}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: 0.9, y: -0.1}
---- !u!1 &5567223060975299344
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6248555888705622947}
-  - component: {fileID: 2421914963623076571}
-  m_Layer: 0
-  m_Name: BulletPool
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6248555888705622947
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5567223060975299344}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7382208854136122592}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2421914963623076571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5567223060975299344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61616d6fe0f0b4aca96fd2fed07fc3e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Anoa.Module.PoolerContainer
-  poolPrefabs:
-  - {fileID: 2525434983110936603, guid: 28d5ddcf1893a46dc9b69302ac1a13c8, type: 3}
-  parent: {fileID: 0}
-  poolSize: 2000
---- !u!1 &6181385334936293195
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8668749890134542218}
-  - component: {fileID: 611456801935918955}
-  m_Layer: 8
-  m_Name: SpawnerL-R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8668749890134542218
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6181385334936293195}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0.05, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &611456801935918955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6181385334936293195}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: -0.9, y: 0.1}
---- !u!1 &6199966269465946213
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5501324604382785323}
-  - component: {fileID: 1544990744255759086}
-  m_Layer: 8
-  m_Name: SpawnerTR-L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5501324604382785323
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6199966269465946213}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3, y: 0.4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1544990744255759086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6199966269465946213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: 0.4, y: 0.6}
---- !u!1 &6353210101809974348
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4429049725032056713}
-  - component: {fileID: 4624837330454442409}
-  m_Layer: 8
-  m_Name: SpawnerB-L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4429049725032056713
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6353210101809974348}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: -0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058547210289903486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4624837330454442409
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6353210101809974348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: 0.1, y: -0.9}
---- !u!1 &6495927454329418951
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6499102236529217659}
-  - component: {fileID: 888561469115495859}
-  m_Layer: 8
-  m_Name: SpawnerTR
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6499102236529217659
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6495927454329418951}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.35, y: 0.35, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058547210289903486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &888561469115495859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6495927454329418951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: 0.5, y: 0.5}
---- !u!1 &6802169558251164051
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3633624673702229628}
-  - component: {fileID: 8997561461071872443}
-  m_Layer: 8
-  m_Name: SpawnerTR-L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3633624673702229628
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6802169558251164051}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3, y: 0.4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058547210289903486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8997561461071872443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6802169558251164051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: 0.4, y: 0.6}
---- !u!1 &6952799430993014029
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2514711190077827575}
-  m_Layer: 0
-  m_Name: Active
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2514711190077827575
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6952799430993014029}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5828311018636708935}
-  - {fileID: 2058547210289903486}
-  m_Father: {fileID: 5436001934122226528}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7023450222059665681
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6517178298518364428}
-  - component: {fileID: 3368472874366063948}
-  m_Layer: 0
-  m_Name: Sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6517178298518364428
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7023450222059665681}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5436001934122226528}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &3368472874366063948
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7023450222059665681}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 1
-  m_Sprite: {fileID: -6306027101984350793, guid: 74f2954ad41f84e74a17229352435565, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
---- !u!1 &7053164422309106885
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5440620098289313901}
-  - component: {fileID: 3715752210418885689}
-  m_Layer: 8
-  m_Name: SpawnerR-L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5440620098289313901
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7053164422309106885}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0.05, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3715752210418885689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7053164422309106885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: 0.9, y: 0.1}
---- !u!1 &7283381946098526056
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 110114484962883228}
-  - component: {fileID: 1374960565628185396}
-  m_Layer: 8
-  m_Name: SpawnerR
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &110114484962883228
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7283381946098526056}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058547210289903486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1374960565628185396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7283381946098526056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: 1, y: 0}
---- !u!1 &7307633420386559050
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 755774078461810510}
-  - component: {fileID: 1082826429744842488}
-  m_Layer: 8
-  m_Name: SpawnerLT
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &755774078461810510
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7307633420386559050}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.35, y: 0.35, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1082826429744842488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7307633420386559050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: -0.5, y: 0.5}
---- !u!1 &7312960617694401052
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3512088054568006513}
-  - component: {fileID: 6035720913510318119}
+  - component: {fileID: 2539262430200407718}
+  - component: {fileID: 4633206223981716298}
   m_Layer: 8
   m_Name: SpawnerTR-R
   m_TagString: Untagged
@@ -1995,37 +355,37 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3512088054568006513
+--- !u!4 &2539262430200407718
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7312960617694401052}
+  m_GameObject: {fileID: 2858666571131652947}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.4, y: 0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5828311018636708935}
+  m_Father: {fileID: 6178479497657341052}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6035720913510318119
+--- !u!114 &4633206223981716298
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7312960617694401052}
+  m_GameObject: {fileID: 2858666571131652947}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
+  pooler: {fileID: 2141993009653742619}
   direction: {x: 0.6, y: 0.4}
---- !u!1 &7472116782278826405
+--- !u!1 &3376680003392962397
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2033,674 +393,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7974682763614671421}
-  - component: {fileID: 4376829395578344166}
-  m_Layer: 8
-  m_Name: SpawnerBL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7974682763614671421
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7472116782278826405}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.35, y: -0.35, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4376829395578344166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7472116782278826405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: -0.5, y: -0.5}
---- !u!1 &7751600234176399780
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6796218544559859520}
-  - component: {fileID: 6211032427374100510}
-  m_Layer: 8
-  m_Name: SpawnerB-R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6796218544559859520
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7751600234176399780}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.05, y: -0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6211032427374100510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7751600234176399780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: -0.1, y: -0.9}
---- !u!1 &7967632974152456234
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2523319539206996489}
-  - component: {fileID: 1038675823713541447}
-  m_Layer: 8
-  m_Name: SpawnerBL-R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2523319539206996489
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7967632974152456234}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.4, y: -0.3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058547210289903486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1038675823713541447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7967632974152456234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: -0.6, y: -0.4}
---- !u!1 &7980467986273732427
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3256631558727409756}
-  - component: {fileID: 1936808785704956444}
-  m_Layer: 8
-  m_Name: SpawnerRB-L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3256631558727409756
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7980467986273732427}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.4, y: -0.3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1936808785704956444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7980467986273732427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: 0.4, y: -0.6}
---- !u!1 &7984501901081307238
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1646365963308418307}
-  - component: {fileID: 8552020407876650283}
-  m_Layer: 8
-  m_Name: SpawnerR
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1646365963308418307
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7984501901081307238}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8552020407876650283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7984501901081307238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: 1, y: 0}
---- !u!1 &8048721329478509697
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8755815371545835763}
-  - component: {fileID: 5964104139001523944}
-  m_Layer: 8
-  m_Name: SpawnerT
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8755815371545835763
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8048721329478509697}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5964104139001523944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8048721329478509697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: 0, y: 1}
---- !u!1 &8058105635139503906
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6694114634707287429}
-  - component: {fileID: 6467560660472631658}
-  m_Layer: 8
-  m_Name: SpawnerLT-R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6694114634707287429
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8058105635139503906}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3, y: 0.4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6467560660472631658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8058105635139503906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: -0.6, y: 0.4}
---- !u!1 &8080289515945486202
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4188812966272356188}
-  - component: {fileID: 8239264663817753353}
-  m_Layer: 8
-  m_Name: SpawnerL-R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4188812966272356188
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8080289515945486202}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0.05, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058547210289903486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8239264663817753353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8080289515945486202}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: -0.9, y: 0.1}
---- !u!1 &8496770672529914195
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2290383624221591340}
-  - component: {fileID: 5795300597016457423}
-  m_Layer: 8
-  m_Name: SpawnerB-R
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2290383624221591340
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8496770672529914195}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.05, y: -0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058547210289903486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5795300597016457423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8496770672529914195}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: -0.1, y: -0.9}
---- !u!1 &8597165935061817151
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5828311018636708935}
-  m_Layer: 0
-  m_Name: Spread
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5828311018636708935
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8597165935061817151}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3536, y: 1.3536, z: 1.3536}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8755815371545835763}
-  - {fileID: 1646365963308418307}
-  - {fileID: 9192510654253711672}
-  - {fileID: 1944157243671271250}
-  - {fileID: 4926939662108449941}
-  - {fileID: 1418551177391446959}
-  - {fileID: 7974682763614671421}
-  - {fileID: 755774078461810510}
-  - {fileID: 3872911689239132064}
-  - {fileID: 3252191473744486868}
-  - {fileID: 5440620098289313901}
-  - {fileID: 8202152092870219248}
-  - {fileID: 1717911846531913391}
-  - {fileID: 6796218544559859520}
-  - {fileID: 3123237489638359734}
-  - {fileID: 8668749890134542218}
-  - {fileID: 5501324604382785323}
-  - {fileID: 3512088054568006513}
-  - {fileID: 3256631558727409756}
-  - {fileID: 5603074132096715210}
-  - {fileID: 8173901372072751858}
-  - {fileID: 1019046848136955758}
-  - {fileID: 5799544806730421317}
-  - {fileID: 6694114634707287429}
-  m_Father: {fileID: 2514711190077827575}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8610879351427801715
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1944157243671271250}
-  - component: {fileID: 6924594156443510264}
-  m_Layer: 8
-  m_Name: SpawnerL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1944157243671271250
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8610879351427801715}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6924594156443510264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8610879351427801715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: -1, y: 0}
---- !u!1 &8692976501240778799
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3872911689239132064}
-  - component: {fileID: 1011236216591372093}
-  m_Layer: 8
-  m_Name: SpawnerT-L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3872911689239132064
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8692976501240778799}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.05, y: 0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5828311018636708935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1011236216591372093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8692976501240778799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
-  direction: {x: -0.1, y: 0.9}
---- !u!1 &8954872711501037834
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8779616335296409975}
-  - component: {fileID: 3301103747064903548}
-  m_Layer: 8
-  m_Name: SpawnerL-L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8779616335296409975
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8954872711501037834}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: -0.05, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058547210289903486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3301103747064903548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8954872711501037834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: -0.9, y: -0.1}
---- !u!1 &9060632733643915144
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5826422961841661824}
-  - component: {fileID: 8378120696027845149}
-  m_Layer: 8
-  m_Name: SpawnerT-L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5826422961841661824
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9060632733643915144}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.05, y: 0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058547210289903486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8378120696027845149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9060632733643915144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
-  offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: -0.1, y: 0.9}
---- !u!1 &9098717907808843941
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3252191473744486868}
-  - component: {fileID: 5302858124626586521}
+  - component: {fileID: 1630192910390084878}
+  - component: {fileID: 6213980167196245892}
   m_Layer: 8
   m_Name: SpawnerT-R
   m_TagString: Untagged
@@ -2708,37 +402,37 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3252191473744486868
+--- !u!4 &1630192910390084878
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9098717907808843941}
+  m_GameObject: {fileID: 3376680003392962397}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.05, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5828311018636708935}
+  m_Father: {fileID: 6178479497657341052}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5302858124626586521
+--- !u!114 &6213980167196245892
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9098717907808843941}
+  m_GameObject: {fileID: 3376680003392962397}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 2421914963623076571}
+  pooler: {fileID: 2141993009653742619}
   direction: {x: 0.1, y: 0.9}
---- !u!1 &9158086835512241033
+--- !u!1 &3751600189906162450
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2746,46 +440,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7725967876961594303}
-  - component: {fileID: 1946456565748579365}
+  - component: {fileID: 5457371788934399630}
+  - component: {fileID: 8136053482635309317}
   m_Layer: 8
-  m_Name: SpawnerRB-L
+  m_Name: SpawnerLT-R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7725967876961594303
+--- !u!4 &5457371788934399630
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9158086835512241033}
+  m_GameObject: {fileID: 3751600189906162450}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.4, y: -0.3, z: 0}
+  m_LocalPosition: {x: -0.3, y: 0.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2058547210289903486}
+  m_Father: {fileID: 6178479497657341052}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1946456565748579365
+--- !u!114 &8136053482635309317
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9158086835512241033}
+  m_GameObject: {fileID: 3751600189906162450}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: 0.4, y: -0.6}
---- !u!1 &9174996782560483090
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: -0.6, y: 0.4}
+--- !u!1 &4343295910939539528
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2793,42 +487,1294 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5194976950052706589}
-  - component: {fileID: 5955458544866390719}
+  - component: {fileID: 2458624574469980045}
+  - component: {fileID: 2484038889726168906}
   m_Layer: 8
-  m_Name: SpawnerR-L
+  m_Name: SpawnerT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5194976950052706589
+--- !u!4 &2458624574469980045
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9174996782560483090}
+  m_GameObject: {fileID: 4343295910939539528}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0.05, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2058547210289903486}
+  m_Father: {fileID: 6178479497657341052}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5955458544866390719
+--- !u!114 &2484038889726168906
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9174996782560483090}
+  m_GameObject: {fileID: 4343295910939539528}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 7980173705017639354}
-  direction: {x: 0.9, y: 0.1}
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: 0, y: 1}
+--- !u!1 &4551841131885094901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 201326219962503733}
+  - component: {fileID: 288842839152609330}
+  m_Layer: 8
+  m_Name: SpawnerR-R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &201326219962503733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4551841131885094901}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.5, y: -0.05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6178479497657341052}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &288842839152609330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4551841131885094901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: 0.9, y: -0.1}
+--- !u!1 &4560992745543933994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 622223594328922106}
+  - component: {fileID: 1642109183116924313}
+  m_Layer: 8
+  m_Name: SpawnerL-L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &622223594328922106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4560992745543933994}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.5, y: -0.05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6178479497657341052}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1642109183116924313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4560992745543933994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: -0.9, y: -0.1}
+--- !u!1 &4825583113033805547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 202135563641003481}
+  - component: {fileID: 2167337721391332531}
+  m_Layer: 8
+  m_Name: SpawnerLT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &202135563641003481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4825583113033805547}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.35, y: 0.35, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6178479497657341052}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2167337721391332531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4825583113033805547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: -0.5, y: 0.5}
+--- !u!1 &4928430404215501942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7913002756090101067}
+  - component: {fileID: 76026849420546583}
+  m_Layer: 8
+  m_Name: SpawnerB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7913002756090101067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4928430404215501942}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6178479497657341052}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &76026849420546583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4928430404215501942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: 0, y: -1}
+--- !u!1 &5524984214444456657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7632370249956853136}
+  - component: {fileID: 5731838568843010909}
+  m_Layer: 8
+  m_Name: SpawnerBL-R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7632370249956853136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5524984214444456657}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.4, y: -0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6178479497657341052}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5731838568843010909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5524984214444456657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: -0.6, y: -0.4}
+--- !u!1 &6414686157971033046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4687364861631109032}
+  - component: {fileID: 3712031949629214969}
+  m_Layer: 8
+  m_Name: SpawnerB-R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4687364861631109032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6414686157971033046}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.05, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6178479497657341052}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3712031949629214969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6414686157971033046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: -0.1, y: -0.9}
+--- !u!1 &6492092390477871164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7326090865049137148}
+  - component: {fileID: 983820677069099233}
+  m_Layer: 8
+  m_Name: SpawnerBL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7326090865049137148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6492092390477871164}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.35, y: -0.35, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6178479497657341052}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &983820677069099233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6492092390477871164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: -0.5, y: -0.5}
+--- !u!1 &6555247070949416703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4354524186411692149}
+  - component: {fileID: 4457689693496098698}
+  m_Layer: 8
+  m_Name: SpawnerR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4354524186411692149
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6555247070949416703}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6178479497657341052}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4457689693496098698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6555247070949416703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: 1, y: 0}
+--- !u!1 &6656750819254955161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7104600231817942144}
+  - component: {fileID: 3469911650608392058}
+  m_Layer: 8
+  m_Name: SpawnerT-L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7104600231817942144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6656750819254955161}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.05, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6178479497657341052}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3469911650608392058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6656750819254955161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: -0.1, y: 0.9}
+--- !u!1 &6946382842421274867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1591575883447591072}
+  - component: {fileID: 673636525566786033}
+  m_Layer: 8
+  m_Name: SpawnerTR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1591575883447591072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6946382842421274867}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.35, y: 0.35, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6178479497657341052}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &673636525566786033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6946382842421274867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: 0.5, y: 0.5}
+--- !u!1 &7030303413609305634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2267246362254045199}
+  - component: {fileID: 4340134902201816849}
+  m_Layer: 8
+  m_Name: SpawnerRB-R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2267246362254045199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7030303413609305634}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.3, y: -0.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6178479497657341052}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4340134902201816849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7030303413609305634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: 0.6, y: -0.4}
+--- !u!1 &8313497721067043082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3010444149060773560}
+  - component: {fileID: 6948288923235222232}
+  m_Layer: 8
+  m_Name: SpawnerRB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3010444149060773560
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8313497721067043082}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.35, y: -0.35, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6178479497657341052}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6948288923235222232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8313497721067043082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: 0.5, y: -0.5}
+--- !u!1 &8761835953408052550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 872818176883530452}
+  - component: {fileID: 5862859518607253755}
+  m_Layer: 8
+  m_Name: SpawnerLT-L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &872818176883530452
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8761835953408052550}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.4, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6178479497657341052}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5862859518607253755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8761835953408052550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: -0.4, y: 0.6}
+--- !u!1 &8924295477590229640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5959638238938291519}
+  - component: {fileID: 3247916824250469452}
+  m_Layer: 8
+  m_Name: SpawnerBL-L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5959638238938291519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8924295477590229640}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.3, y: -0.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6178479497657341052}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3247916824250469452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8924295477590229640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: -0.4, y: -0.6}
+--- !u!1 &9187844244232234390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4101485484412007078}
+  - component: {fileID: 3783385672106619626}
+  m_Layer: 8
+  m_Name: SpawnerB-L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4101485484412007078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9187844244232234390}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.05, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6178479497657341052}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3783385672106619626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9187844244232234390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 2141993009653742619}
+  direction: {x: 0.1, y: -0.9}
+--- !u!1001 &3897324840841866094
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2922486521262828158, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 74f2954ad41f84e74a17229352435565, type: 3}
+    - target: {fileID: 2922486521262828158, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922486521262828158, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278179170721787291, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.84169
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278179170721787291, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.02546
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278179170721787291, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278179170721787291, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278179170721787291, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278179170721787291, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278179170721787291, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278179170721787291, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278179170721787291, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278179170721787291, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220734125121713083, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: 'poolPrefabs.Array.data[0]'
+      value: 
+      objectReference: {fileID: 3130527674628001897, guid: cfbb082f60f654372a1e7c1f41d60ac1, type: 3}
+    - target: {fileID: 7284839087220684904, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: m_Name
+      value: EnemyLevel2Elite
+      objectReference: {fileID: 0}
+    - target: {fileID: 8038695920555591505, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: laserFltDelay
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8038695920555591505, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: bulletFltDelay
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8038695920555591505, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: enemyBulletTypeEnum
+      value: 201
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818459224371994387, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818459224371994387, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818459224371994387, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7356675678108791014, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1083023510027081799}
+    - targetCorrespondingSourceObject: {fileID: 3428443926494084360, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 6178479497657341052}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7284839087220684904, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      insertIndex: 4
+      addedObject: {fileID: -8252498579584452199}
+    - targetCorrespondingSourceObject: {fileID: 7284839087220684904, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 897644766940095770}
+    - targetCorrespondingSourceObject: {fileID: 7284839087220684904, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -711767908203276290}
+  m_SourcePrefab: {fileID: 100100000, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+--- !u!114 &1059133336059778837 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4081625083648507003, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &1533981026015042816 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2549002026939823726, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!4 &1838123807037527654 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3428443926494084360, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1903201630078432770 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3206443670700793196, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52a94ce9de2db492a868d42cffa9ecf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyLaserSpawnerController
+--- !u!114 &1942127179524925148 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3235209793116933554, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52a94ce9de2db492a868d42cffa9ecf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyLaserSpawnerController
+--- !u!114 &1984803453602620590 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3286893746395582400, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &2021199784829600654 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3033924447396571360, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &2108321481243190778 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3122216634874072724, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &2478200546153792241 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1473312662359271839, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52a94ce9de2db492a868d42cffa9ecf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyLaserSpawnerController
+--- !u!114 &2653925823279063694 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1351844266164849120, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &2929796275129360570 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2215399913170553812, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &3340211467271102701 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1750990868297157507, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &3649144587866521334 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 338414148788278680, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &3924174405809946020 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 27975559633196746, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!1 &4160398543034128849 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1128890739954381503, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4753219504276742521 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8638123711191370263, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!4 &5768616095229500296 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7356675678108791014, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5853967649794451472 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7434155202934932350, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!1 &5984974695836160774 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7284839087220684904, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-8252498579584452199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5984974695836160774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8378e0006d0ae44e1a87edb8dc381f5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletType
+  playerObject: {fileID: 0}
+  isBulletTargetToPlayer: 0
+  enemyBulletTypeEnum: 100
+  bulletFltDelay: 1
+  spreadBulletObject: {fileID: 2113189124659143047}
+  bulletSpawnerControllerT: {fileID: 8954045520880450733}
+  bulletSpawnerControllerR: {fileID: 3340211467271102701}
+  bulletSpawnerControllerB: {fileID: 8830520602759743375}
+  bulletSpawnerControllerL: {fileID: 9032251573230465516}
+  bulletSpawnerControllerTR: {fileID: 6502132878705354683}
+  bulletSpawnerControllerRB: {fileID: 7064869365594603922}
+  bulletSpawnerControllerBL: {fileID: 1059133336059778837}
+  bulletSpawnerControllerLT: {fileID: 1984803453602620590}
+  bulletSpawnerControllerT_L: {fileID: 2929796275129360570}
+  bulletSpawnerControllerT_R: {fileID: 4753219504276742521}
+  bulletSpawnerControllerR_L: {fileID: 8971479254160728407}
+  bulletSpawnerControllerR_R: {fileID: 7847824322918101643}
+  bulletSpawnerControllerB_L: {fileID: 2108321481243190778}
+  bulletSpawnerControllerB_R: {fileID: 2653925823279063694}
+  bulletSpawnerControllerL_L: {fileID: 3649144587866521334}
+  bulletSpawnerControllerL_R: {fileID: 5994234558901048911}
+  bulletSpawnerControllerTR_L: {fileID: 6125025664146286960}
+  bulletSpawnerControllerTR_R: {fileID: 3924174405809946020}
+  bulletSpawnerControllerRB_L: {fileID: 7353938850269452969}
+  bulletSpawnerControllerRB_R: {fileID: 2021199784829600654}
+  bulletSpawnerControllerBL_L: {fileID: 1533981026015042816}
+  bulletSpawnerControllerBL_R: {fileID: 7298019909263961828}
+  bulletSpawnerControllerLT_L: {fileID: 5853967649794451472}
+  bulletSpawnerControllerLT_R: {fileID: 7292188912743009135}
+  isLaserTargetToPlayer: 0
+  enemyLaserTypeEnum: 100
+  laserFacingSmoothTime: 0.3
+  laserFltDelay: 0
+  spreadLaserObject: {fileID: 4160398543034128849}
+  laserSpawnerControllerB: {fileID: 6271659284396631470}
+  laserSpawnerControllerB_L: {fileID: 1903201630078432770}
+  laserSpawnerControllerB_R: {fileID: 9167794100494666728}
+  laserSpawnerControllerB_LD: {fileID: 1942127179524925148}
+  laserSpawnerControllerB_RD: {fileID: 2478200546153792241}
+  onHitWithLaser:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GMTK.Player.PlayerLiveController, Assembly-CSharp
+        m_MethodName: OnDeath
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &897644766940095770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5984974695836160774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40761c259e3d747328017606feb51122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyPathController
+  duration: 5
+  easeType: 1
+  pathType: 1
+  pathMode: 3
+  lookForward: 1
+  rotationOffset: 0
+--- !u!114 &-711767908203276290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5984974695836160774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb1acc78ed0740a989cbef26898f9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Anoa.Module.PoolerObject
+--- !u!114 &5994234558901048911 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7294099501093338401, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &6125025664146286960 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7140002187462591006, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &6271659284396631470 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6998449410410712768, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52a94ce9de2db492a868d42cffa9ecf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyLaserSpawnerController
+--- !u!114 &6502132878705354683 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7794080779103997141, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &7064869365594603922 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6061107371241974524, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &7292188912743009135 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5991225000088674305, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &7298019909263961828 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6003810932995081610, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &7353938850269452969 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5771473014817173959, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &7847824322918101643 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6556967207578589669, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &8830520602759743375 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5519825416252828897, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &8954045520880450733 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5356254122166114243, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &8971479254160728407 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5374778503619545657, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &9032251573230465516 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5426578857735101058, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+--- !u!114 &9167794100494666728 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5272756812385837190, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 3897324840841866094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52a94ce9de2db492a868d42cffa9ecf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyLaserSpawnerController
