@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 using MoreMountains.Feedbacks;
+using System.Collections;
 
 namespace GMTK.Player
 {
@@ -21,7 +22,7 @@ namespace GMTK.Player
 
         public void OnDeath()
         {
-            deathFeedbacks?.PlayFeedbacks();
+            PlayDeathFeedback();
 
             intCurrentHealth--;
 
@@ -42,6 +43,34 @@ namespace GMTK.Player
         public void RemoveRespawnListener(UnityAction _onRespawn)
         {
             onRespawn.RemoveListener(_onRespawn);
+        }
+
+        void PlayDeathFeedback()
+        {
+            if (deathFeedbacks == null)
+            {
+                return;
+            }
+
+            MMFeedbacks feedbackInstance = Instantiate(deathFeedbacks, transform.position, transform.rotation);
+            feedbackInstance.transform.SetParent(null);
+            feedbackInstance.PlayFeedbacks();
+            StartCoroutine(IECleanupDeathFeedback(feedbackInstance));
+        }
+
+        IEnumerator IECleanupDeathFeedback(MMFeedbacks feedbackInstance)
+        {
+            if (feedbackInstance == null)
+            {
+                yield break;
+            }
+
+            yield return new WaitForSeconds(2f);
+
+            if (feedbackInstance != null)
+            {
+                Destroy(feedbackInstance.gameObject);
+            }
         }
 
         // Update is called once per frame

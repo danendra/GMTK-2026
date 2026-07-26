@@ -24,6 +24,11 @@ namespace GMTK
             currentHealth = maxHealth;
         }
 
+        public void RefillHealth()
+        {
+            currentHealth = maxHealth;
+        }
+
         public virtual void TakeDamage(float damage)
         {
             if (currentHealth <= 0) return;
