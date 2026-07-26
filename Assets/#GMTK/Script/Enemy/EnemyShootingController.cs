@@ -8,6 +8,9 @@ namespace GMTK.Enemy
     {
         [SerializeField] protected float fltDelay = 0.2f;
 
+        [SerializeField] protected bool isRandomize = false;
+        [SerializeField] protected Vector2 minMaxDelay;
+
         protected EnemyBulletSpawnerController[] arrBulletSpawners;
         protected CooldownModule cooldown;
 
@@ -34,6 +37,11 @@ namespace GMTK.Enemy
             for (int i = 0; i < arrBulletSpawners.Length; i++)
             {
                 arrBulletSpawners[i].Spawn();
+            }
+
+            if (isRandomize)
+            {
+                cooldown.Update(Random.Range(minMaxDelay.x, minMaxDelay.y));
             }
         }
     }

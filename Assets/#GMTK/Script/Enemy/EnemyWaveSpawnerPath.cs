@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using AudioSystem;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 namespace GMTK.Enemy
@@ -31,6 +32,8 @@ namespace GMTK.Enemy
 
         [Tooltip("Jika dicentang, event wave ini akan dianggap sebagai awal boss dan memicu pergantian BGM ke boss.")]
         public bool triggerBossBgm;
+
+        public UnityEvent onStart;        
     }
 
     public class EnemyWaveSpawnerPath : MonoBehaviour
@@ -128,7 +131,7 @@ namespace GMTK.Enemy
         }
 
         private IEnumerator SpawnTimelineRoutine()
-        {
+        {        
             foreach (PathWaveEvent waveEvent in waveTimeline)
             {
                 // Tunggu sesuai jeda waktu sebelum memunculkan musuh ini
@@ -136,6 +139,8 @@ namespace GMTK.Enemy
                 {
                     yield return new WaitForSeconds(waveEvent.fltDelay);
                 }
+
+                waveEvent.onStart.Invoke();
 
                 StartCoroutine(IESpawnEnemy(waveEvent));
             }
