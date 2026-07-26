@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 using Anoa.Module;
 
@@ -10,6 +11,10 @@ namespace GMTK.Enemy
         [SerializeField] protected float fltDurationFire = 2.0f;
         [SerializeField] protected float fltDurationTelegraph = 1.0f;
         [SerializeField] protected bool isDrop = false;
+        [SerializeField] protected bool canShootStart = false;
+
+        [SerializeField] protected UnityEvent onLaserStart;
+        [SerializeField] protected UnityEvent onLaserStop;
 
         protected EnemyLaserSpawnerController[] arrLaserSpawners;
         protected CooldownModule cooldown;
@@ -20,7 +25,7 @@ namespace GMTK.Enemy
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
-            cooldown = new CooldownModule(fltDelay, false);
+            cooldown = new CooldownModule(fltDelay, canShootStart);
             cooldownDuration = new CooldownModule(fltDurationFire + fltDurationTelegraph, false);
             arrLaserSpawners = GetComponentsInChildren<EnemyLaserSpawnerController>();
 
@@ -36,6 +41,7 @@ namespace GMTK.Enemy
                 {
                     isShooting = false;
                     
+                    onLaserStop.Invoke();
                     cooldown.Use();
                 }
             }
@@ -54,6 +60,8 @@ namespace GMTK.Enemy
 
         public void SpawnLaser()
         {
+            onLaserStart.Invoke();
+
             if (isDrop)
             {
                 transform.position = transParent.position;
