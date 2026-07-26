@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2156803093253998799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3215780792188763842}
+  - component: {fileID: 6372559814235148945}
+  - component: {fileID: 7826976516281756563}
+  m_Layer: 0
+  m_Name: Level Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3215780792188763842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2156803093253998799}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6372559814235148945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2156803093253998799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef0c82d850d3465b94c3b80789ec4d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ModeManager
+  fltMaxCountdown: 10
+  onActiveModeStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onPassiveModeStart:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &7826976516281756563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2156803093253998799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3216fa84a37774ce2b568431e902443b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  minionSoundData:
+    _clip: {fileID: 8300000, guid: baafa128392614320ae6f05f03cf9902, type: 3}
+    _mixerGroup: {fileID: -2273146209696275378, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
+    _loop: 1
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 1
+    mute: 0
+    bypassEffects: 1
+    bypassListenerEffects: 1
+    bypassReverbZones: 1
+    priority: 32
+    volume: 0.5
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+  bossSoundData:
+    _clip: {fileID: 8300000, guid: a4a0b28066b54432894037a5d107ab0a, type: 3}
+    _mixerGroup: {fileID: -2273146209696275378, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
+    _loop: 1
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 1
+    mute: 0
+    bypassEffects: 1
+    bypassListenerEffects: 1
+    bypassReverbZones: 1
+    priority: 32
+    volume: 0.5
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+  fadeDuration: 1
