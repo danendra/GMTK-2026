@@ -1806,7 +1806,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.0782353, y: 0.0665, z: 1.33}
-  m_ConstrainProportionsScale: 1
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1420178266}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1957,6 +1957,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7663192595666709002, guid: 5fa429450f22b4ae2b367c7de78ffd27, type: 3}
+      propertyPath: sandSoundData.volume
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8990074043895406731, guid: 5fa429450f22b4ae2b367c7de78ffd27, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -2015,6 +2019,79 @@ MonoBehaviour:
   - {fileID: 1935807683}
   parent: {fileID: 0}
   poolSize: 10
+--- !u!1001 &886983458
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2980352824307540405, guid: f709e66f7e111479bb85345f9b776acb, type: 3}
+      propertyPath: m_Name
+      value: WorldBackground
+      objectReference: {fileID: 0}
+    - target: {fileID: 5666172163465427623, guid: f709e66f7e111479bb85345f9b776acb, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5666172163465427623, guid: f709e66f7e111479bb85345f9b776acb, type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709332518093531811, guid: f709e66f7e111479bb85345f9b776acb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709332518093531811, guid: f709e66f7e111479bb85345f9b776acb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709332518093531811, guid: f709e66f7e111479bb85345f9b776acb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709332518093531811, guid: f709e66f7e111479bb85345f9b776acb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709332518093531811, guid: f709e66f7e111479bb85345f9b776acb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709332518093531811, guid: f709e66f7e111479bb85345f9b776acb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709332518093531811, guid: f709e66f7e111479bb85345f9b776acb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709332518093531811, guid: f709e66f7e111479bb85345f9b776acb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709332518093531811, guid: f709e66f7e111479bb85345f9b776acb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709332518093531811, guid: f709e66f7e111479bb85345f9b776acb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709332518093531811, guid: f709e66f7e111479bb85345f9b776acb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709332518093531811, guid: f709e66f7e111479bb85345f9b776acb, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f709e66f7e111479bb85345f9b776acb, type: 3}
 --- !u!1 &911807836
 GameObject:
   m_ObjectHideFlags: 0
@@ -3091,17 +3168,6 @@ MonoBehaviour:
   m_Script: {fileID: -333801856, guid: aa0b1eebb5db27a419fa4564bbe5c9c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: DOTweenPro.dll::DG.Tweening.DOTweenPath
---- !u!114 &1522740787 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8509330416459758550, guid: ea333d64a5b0149e78e387b5a351a84b, type: 3}
-  m_PrefabInstance: {fileID: 1691370976779198529}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6da43522623d4704e979466dc7650b65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: MoreMountains.Tools::MoreMountains.Feedbacks.MMF_Player
 --- !u!1001 &1744762509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3790,10 +3856,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 7063087289431749525, guid: ea333d64a5b0149e78e387b5a351a84b, type: 3}
-      propertyPath: deathFeedbacks
-      value: 
-      objectReference: {fileID: 1522740787}
     - target: {fileID: 7348847950403434704, guid: ea333d64a5b0149e78e387b5a351a84b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4076,3 +4138,4 @@ SceneRoots:
   - {fileID: 2079056680}
   - {fileID: 1256258509}
   - {fileID: 413697343}
+  - {fileID: 886983458}
