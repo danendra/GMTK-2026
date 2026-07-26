@@ -24,6 +24,12 @@ namespace GMTK.Enemy
             Debug.Log($"[BossHealthController] Enabled on '{gameObject.name}'. Max Lives: {intMaxLives}, Current Lives reset to: {IntCurrentLives}");
         }
 
+        public override void TakeDamage(float damage)
+        {
+            base.TakeDamage(damage);
+            Debug.Log($"[BossHealthController] Hit! Damage: {damage}, HP: {currentHealth}/{maxHealth}, Lives: {IntCurrentLives}");
+        }
+
         protected override void Die()
         {
             IntCurrentLives--;
@@ -36,6 +42,17 @@ namespace GMTK.Enemy
             }
             else
             {
+                // Auto-trigger success panel on final death (avoids prefab reference issue)
+                UI.UISuccessController successController = FindObjectOfType<UI.UISuccessController>();
+                if (successController != null)
+                {
+                    successController.Show();
+                }
+                else
+                {
+                    Debug.LogWarning("[BossHealthController] No UISuccessController found in the scene to show success panel.");
+                }
+
                 base.Die();
             }
         }

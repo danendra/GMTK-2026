@@ -83,6 +83,14 @@ namespace GMTK.UI
         {
             if (bossHealthController == null || imgHealthFill == null) return;
 
+            // Force image settings in code to prevent Simple type bug in Inspector
+            if (imgHealthFill.type != Image.Type.Filled)
+            {
+                imgHealthFill.type = Image.Type.Filled;
+                imgHealthFill.fillMethod = Image.FillMethod.Horizontal;
+                imgHealthFill.fillOrigin = (int)Image.OriginHorizontal.Left;
+            }
+
             float ratio = bossHealthController.MaxHealth > 0
                 ? bossHealthController.CurrentHealth / bossHealthController.MaxHealth
                 : 0f;
