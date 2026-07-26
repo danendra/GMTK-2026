@@ -895,6 +895,25 @@ MonoBehaviour:
     onCancel:
       m_PersistentCalls:
         m_Calls: []
+  - input: {fileID: 9216435259678649897, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    onPerformed:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6226004028140945382}
+          m_TargetAssemblyTypeName: GMTK.Player.PlayerBombController, Assembly-CSharp
+          m_MethodName: TriggerBomb
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 3
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    onCancel:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!50 &1944676324740834037
 Rigidbody2D:
   serializedVersion: 5
@@ -15744,6 +15763,7 @@ MonoBehaviour:
     ignoreListenerVolume: 0
     ignoreListenerPause: 0
     rolloffMode: 0
+  shootSoundCooldown: 0.04
 --- !u!1 &3094409067327029040
 GameObject:
   m_ObjectHideFlags: 0
@@ -20722,6 +20742,7 @@ MonoBehaviour:
     ignoreListenerVolume: 0
     ignoreListenerPause: 0
     rolloffMode: 0
+  shootSoundCooldown: 0.04
 --- !u!1 &3442041303689799822
 GameObject:
   m_ObjectHideFlags: 0
@@ -20851,22 +20872,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Player.AutoBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 4461483810114543362}
+  pooler: {fileID: 7434294141234133784}
   fltDelay: 0.05
   direction: {x: 0, y: 1}
   soundData:
-    _clip: {fileID: 0}
-    _mixerGroup: {fileID: 0}
+    _clip: {fileID: 8300000, guid: 02cf5fdd81a3f4d628a1698b5706aeda, type: 3}
+    _mixerGroup: {fileID: -3165942800488051908, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
     _loop: 0
     _playOnAwake: 0
-    _frequentSound: 0
+    _frequentSound: 1
     _useDedicatedSource: 0
     mute: 0
     bypassEffects: 0
     bypassListenerEffects: 0
     bypassReverbZones: 0
     priority: 128
-    volume: 1
+    volume: 0.1
     pitch: 1
     panStereo: 0
     spatialBlend: 0
@@ -20878,6 +20899,7 @@ MonoBehaviour:
     ignoreListenerVolume: 0
     ignoreListenerPause: 0
     rolloffMode: 0
+  shootSoundCooldown: 0.04
 --- !u!1 &3502170630505683946
 GameObject:
   m_ObjectHideFlags: 0
@@ -20912,6 +20934,50 @@ Transform:
   - {fileID: 4593654016513867107}
   m_Father: {fileID: 7348847950403434704}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4275481124595967154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9001535440474391369}
+  - component: {fileID: 6226004028140945382}
+  m_Layer: 8
+  m_Name: Bomb
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9001535440474391369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4275481124595967154}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1744141772353906792}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6226004028140945382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4275481124595967154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828827d2e923744d7a4413b49fb8e40b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Player.PlayerBombController
 --- !u!1 &4352608391501670775
 GameObject:
   m_ObjectHideFlags: 0
@@ -21317,6 +21383,7 @@ MonoBehaviour:
     ignoreListenerVolume: 0
     ignoreListenerPause: 0
     rolloffMode: 0
+  shootSoundCooldown: 0.04
 --- !u!1 &4888588826677267519
 GameObject:
   m_ObjectHideFlags: 0
@@ -21659,22 +21726,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Player.AutoBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 4461483810114543362}
+  pooler: {fileID: 7434294141234133784}
   fltDelay: 0.05
   direction: {x: 0, y: 1}
   soundData:
-    _clip: {fileID: 0}
-    _mixerGroup: {fileID: 0}
+    _clip: {fileID: 8300000, guid: 02cf5fdd81a3f4d628a1698b5706aeda, type: 3}
+    _mixerGroup: {fileID: -3165942800488051908, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
     _loop: 0
     _playOnAwake: 0
-    _frequentSound: 0
+    _frequentSound: 1
     _useDedicatedSource: 0
     mute: 0
     bypassEffects: 0
     bypassListenerEffects: 0
     bypassReverbZones: 0
     priority: 128
-    volume: 1
+    volume: 0.1
     pitch: 1
     panStereo: 0
     spatialBlend: 0
@@ -21686,6 +21753,7 @@ MonoBehaviour:
     ignoreListenerVolume: 0
     ignoreListenerPause: 0
     rolloffMode: 0
+  shootSoundCooldown: 0.04
 --- !u!1 &6594902041401954220
 GameObject:
   m_ObjectHideFlags: 0
@@ -26529,22 +26597,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Player.AutoBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 4461483810114543362}
+  pooler: {fileID: 7434294141234133784}
   fltDelay: 0.05
   direction: {x: 0, y: 1}
   soundData:
-    _clip: {fileID: 0}
-    _mixerGroup: {fileID: 0}
+    _clip: {fileID: 8300000, guid: 02cf5fdd81a3f4d628a1698b5706aeda, type: 3}
+    _mixerGroup: {fileID: -3165942800488051908, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
     _loop: 0
     _playOnAwake: 0
-    _frequentSound: 0
+    _frequentSound: 1
     _useDedicatedSource: 0
     mute: 0
     bypassEffects: 0
     bypassListenerEffects: 0
     bypassReverbZones: 0
     priority: 128
-    volume: 1
+    volume: 0.1
     pitch: 1
     panStereo: 0
     spatialBlend: 0
@@ -26556,6 +26624,7 @@ MonoBehaviour:
     ignoreListenerVolume: 0
     ignoreListenerPause: 0
     rolloffMode: 0
+  shootSoundCooldown: 0.04
 --- !u!1 &7012150968633648092
 GameObject:
   m_ObjectHideFlags: 0
@@ -31612,6 +31681,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3303838036915427592}
   - component: {fileID: 3754500611623705882}
+  - component: {fileID: 978859296212312312}
   m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
@@ -31696,6 +31766,121 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &978859296212312312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7867258308792219245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39cb364c2dfacad469e5df86d6ec5e92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MoreMountains.Tools::MoreMountains.Feedbacks.MMBlink
+  Method: 1
+  TargetGameObject: {fileID: 7867258308792219245}
+  TargetRenderer: {fileID: 3754500611623705882}
+  MaterialIndex: 0
+  ShaderPropertyName: _Color
+  OffValue: 0
+  OnValue: 1
+  LerpValue: 1
+  Curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.5
+      inSlope: 0
+      outSlope: Infinity
+      tangentMode: 97
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.054845512
+      value: 0.9987259
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.16194308
+      value: 0.5
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.25265884
+      value: 0.9316503
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.32116795
+      value: 0.5
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.37545943
+      value: 0.6659024
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.4280367
+      value: 0.5
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.50074923
+      value: 1
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  UseMaterialPropertyBlocks: 0
+  ExtraRenderers: []
+  ExtraGameObjects: []
+  Blinking: 1
+  ForceStateOnExit: 0
+  StateOnExit: 0
+  TimescaleMode: 0
+  RepeatCount: 5
+  Phases:
+  - PhaseDuration: 0.1
+    OffDuration: 0.05
+    OnDuration: 0.05
+    OffLerpDuration: 0
+    OnLerpDuration: 0
+  DebugToolbar: 0
+  Active: 0
+  CurrentPhaseIndex: 0
 --- !u!1 &8176948738891038375
 GameObject:
   m_ObjectHideFlags: 0
@@ -36620,6 +36805,7 @@ MonoBehaviour:
   - rid: 1
   - rid: 3
   - rid: 2116705608623980651
+  - rid: 2116705608623980675
   KeepPlayModeChanges: 0
   PerformanceMode: 0
   RestoreInitialValuesOnDisable: 0
@@ -37011,6 +37197,86 @@ MonoBehaviour:
           AmplitudeX: 0
           AmplitudeY: 0
           AmplitudeZ: 0
+    - rid: 2116705608623980675
+      type: {class: MMF_Blink, ns: MoreMountains.Feedbacks, asm: MoreMountains.Tools}
+      data:
+        Active: 1
+        UniqueID: 541635265
+        Label: MMBlink
+        OriginalLabel: MMBlink
+        ChannelMode: 0
+        Channel: 0
+        MMChannelDefinition: {fileID: 0}
+        Chance: 100
+        Timing:
+          TimescaleMode: 0
+          ExcludeFromHoldingPauses: 0
+          ContributeToTotalDuration: 1
+          InitialDelay: 0
+          CooldownDuration: 0
+          InterruptsOnStop: 1
+          NumberOfRepeats: 0
+          RepeatForever: 0
+          DelayBetweenRepeats: 1
+          PlayCount: 0
+          LimitPlayCount: 0
+          MaxPlayCount: 3
+          SetPlayCountToZeroOnReset: 0
+          MMFeedbacksDirectionCondition: 0
+          PlayDirection: 0
+          ConstantIntensity: 0
+          UseIntensityInterval: 0
+          IntensityIntervalMin: 0
+          IntensityIntervalMax: 0
+          Sequence: {fileID: 0}
+          TrackID: 0
+          Quantized: 0
+          TargetBPM: 120
+        AutomatedTargetAcquisition:
+          Mode: 0
+          ChildIndex: 0
+        RandomizeOutput: 0
+        RandomMultiplier: {x: 0.8, y: 1}
+        RandomizeDuration: 0
+        RandomDurationMultiplier: {x: 0.5, y: 2}
+        UseRange: 0
+        RangeDistance: 5
+        UseRangeFalloff: 0
+        RangeFalloff:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        RemapRangeFalloff: {x: 0, y: 1}
+        AutomaticShakerSetupButton:
+          ButtonText: 
+        Owner: {fileID: 6196419161774482325}
+        DebugActive: 0
+        TargetBlink: {fileID: 978859296212312312}
+        ExtraTargetBlinks: []
+        BlinkMode: 0
+        Duration: 1
+        GrabDurationFromBlinkButton:
+          ButtonText: Grab Duration From Blink Component
 --- !u!1 &8481281538124209723
 GameObject:
   m_ObjectHideFlags: 0
@@ -37041,6 +37307,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7563727048137893043}
+  - {fileID: 9001535440474391369}
   m_Father: {fileID: 7348847950403434704}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8756063574637075824
@@ -42021,6 +42288,7 @@ MonoBehaviour:
     ignoreListenerVolume: 0
     ignoreListenerPause: 0
     rolloffMode: 0
+  shootSoundCooldown: 0.04
 --- !u!1 &9173758939112700596
 GameObject:
   m_ObjectHideFlags: 0
@@ -42066,22 +42334,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Player.AutoBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 4461483810114543362}
+  pooler: {fileID: 7434294141234133784}
   fltDelay: 0.05
   direction: {x: 0, y: 1}
   soundData:
-    _clip: {fileID: 0}
-    _mixerGroup: {fileID: 0}
+    _clip: {fileID: 8300000, guid: 02cf5fdd81a3f4d628a1698b5706aeda, type: 3}
+    _mixerGroup: {fileID: -3165942800488051908, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
     _loop: 0
     _playOnAwake: 0
-    _frequentSound: 0
+    _frequentSound: 1
     _useDedicatedSource: 0
     mute: 0
     bypassEffects: 0
     bypassListenerEffects: 0
     bypassReverbZones: 0
     priority: 128
-    volume: 1
+    volume: 0.1
     pitch: 1
     panStereo: 0
     spatialBlend: 0
@@ -42093,6 +42361,7 @@ MonoBehaviour:
     ignoreListenerVolume: 0
     ignoreListenerPause: 0
     rolloffMode: 0
+  shootSoundCooldown: 0.04
 --- !u!1001 &5976064920963486036
 PrefabInstance:
   m_ObjectHideFlags: 0
