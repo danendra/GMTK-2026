@@ -1,5 +1,6 @@
 using UnityEngine;
 using AudioSystem;
+using MoreMountains.Feedbacks;
 
 namespace GMTK.Enemy
 {
@@ -7,8 +8,12 @@ namespace GMTK.Enemy
     {
         [SerializeField] protected Animator animator;
         [SerializeField] protected string isDestroyBoolName = "IsDestroy";
-        [SerializeField] protected string playerTag = "Player";        
+        [SerializeField] protected string playerTag = "Player";
         [SerializeField] protected SoundData hitSoundData;
+
+        [Header("Feedbacks")]
+        [SerializeField] private MMF_Player enemyDamagedEffect;
+        [SerializeField] private MMF_Player enemyDeadEffect;
 
         protected float bulletDamage = 1f;
 
@@ -34,6 +39,7 @@ namespace GMTK.Enemy
                         .Play();
                 }
 
+                enemyDamagedEffect.PlayFeedbacks();
                 TakeDamage(bulletDamage);
             }
         }
@@ -42,6 +48,7 @@ namespace GMTK.Enemy
         {
             base.Die();
 
+            enemyDeadEffect.PlayFeedbacks();
             if (animator)
             {
                 animator.SetBool(isDestroyBoolName, true);
