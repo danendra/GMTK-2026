@@ -6299,6 +6299,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 835664442285537140, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: playerLiveController
+      value: 
+      objectReference: {fileID: 1155351770}
+    - target: {fileID: 2643439993611053445, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2872385711325818264, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028821839889880320, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_Color.a
+      value: 0.88235295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028821839889880320, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028821839889880320, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3028821839889880320, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8801093928423488929, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -8845,6 +8873,17 @@ MonoBehaviour:
     ignoreListenerVolume: 0
     ignoreListenerPause: 0
     rolloffMode: 0
+--- !u!114 &1155351770 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7063087289431749525, guid: ea333d64a5b0149e78e387b5a351a84b, type: 3}
+  m_PrefabInstance: {fileID: 1691370976779198529}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc89f88ecf0e64e70b8264c45fddfdc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerLiveController
 --- !u!1001 &1160526204
 PrefabInstance:
   m_ObjectHideFlags: 0
