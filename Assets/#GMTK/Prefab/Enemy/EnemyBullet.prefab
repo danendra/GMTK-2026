@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.MoveController
   input: {fileID: 623423129641628918}
-  fltSpeed: 5
+  fltSpeed: 15
 --- !u!114 &9149354493507767674
 MonoBehaviour:
   m_ObjectHideFlags: 0
