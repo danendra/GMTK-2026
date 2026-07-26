@@ -44,8 +44,8 @@ PlayerSettings:
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
   defaultScreenHeight: 1080
-  defaultScreenWidthWeb: 960
-  defaultScreenHeightWeb: 600
+  defaultScreenWidthWeb: 1600
+  defaultScreenHeightWeb: 1200
   m_StereoRenderingPath: 0
   m_ActiveColorSpace: 1
   unsupportedMSAAFallback: 0
@@ -555,7 +555,10 @@ PlayerSettings:
   m_BuildTargetGroupLightmapSettings: []
   m_BuildTargetGroupLoadStoreDebugModeSettings: []
   m_BuildTargetNormalMapEncoding: []
-  m_BuildTargetDefaultTextureCompressionFormat: []
+  m_BuildTargetDefaultTextureCompressionFormat:
+  - serializedVersion: 3
+    m_BuildTarget: WebGL
+    m_Formats: 05000000
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
@@ -835,7 +838,7 @@ PlayerSettings:
     QNX: DOTWEEN;DOTWEEN_TEXTMESHPRO;UNITY_POST_PROCESSING_STACK_V2
     Standalone: DOTWEEN;DOTWEEN_TEXTMESHPRO;MOREMOUNTAINS_NICEVIBRATIONS_INSTALLED;UNITY_POST_PROCESSING_STACK_V2
     VisionOS: DOTWEEN;DOTWEEN_TEXTMESHPRO;UNITY_POST_PROCESSING_STACK_V2
-    WebGL: DOTWEEN;DOTWEEN_TEXTMESHPRO;UNITY_POST_PROCESSING_STACK_V2
+    WebGL: DOTWEEN;DOTWEEN_TEXTMESHPRO;UNITY_POST_PROCESSING_STACK_V2;MOREMOUNTAINS_NICEVIBRATIONS_INSTALLED
     Windows Store Apps: DOTWEEN;DOTWEEN_TEXTMESHPRO
     XboxOne: DOTWEEN;DOTWEEN_TEXTMESHPRO;UNITY_POST_PROCESSING_STACK_V2
     iPhone: DOTWEEN;DOTWEEN_TEXTMESHPRO
