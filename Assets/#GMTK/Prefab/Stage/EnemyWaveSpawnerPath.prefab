@@ -51,176 +51,120 @@ MonoBehaviour:
     count: 10
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
+    onStart:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+          m_MethodName: PlayMinionBgm
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - fltDelay: 5
     enemyPool: {fileID: 0}
     dotweenPathReference: {fileID: 0}
     count: 10
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
   - fltDelay: 5
     enemyPool: {fileID: 0}
     dotweenPathReference: {fileID: 0}
     count: 1
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
   - fltDelay: 0
     enemyPool: {fileID: 0}
     dotweenPathReference: {fileID: 0}
     count: 1
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
   - fltDelay: 0
     enemyPool: {fileID: 0}
     dotweenPathReference: {fileID: 0}
     count: 1
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
   - fltDelay: 5
     enemyPool: {fileID: 0}
     dotweenPathReference: {fileID: 0}
     count: 1
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
   - fltDelay: 0
     enemyPool: {fileID: 0}
     dotweenPathReference: {fileID: 0}
     count: 1
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
   - fltDelay: 0
     enemyPool: {fileID: 0}
     dotweenPathReference: {fileID: 0}
     count: 1
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
   - fltDelay: 5
     enemyPool: {fileID: 0}
     dotweenPathReference: {fileID: 0}
     count: 8
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
   - fltDelay: 0
     enemyPool: {fileID: 0}
     dotweenPathReference: {fileID: 0}
     count: 8
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
   - fltDelay: 5
     enemyPool: {fileID: 0}
     dotweenPathReference: {fileID: 0}
     count: 1
     spawnInterval: 0.5
     dontDeactivateAtEnd: 1
-    triggerBossBgm: 0
-  minionBgmSound:
-    _clip: {fileID: 8300000, guid: 88f6f1fcf6c3b4fed8950e065363bfc0, type: 3}
-    _mixerGroup: {fileID: -2273146209696275378, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
-    _loop: 1
-    _playOnAwake: 0
-    _frequentSound: 0
-    _useDedicatedSource: 1
-    mute: 0
-    bypassEffects: 1
-    bypassListenerEffects: 1
-    bypassReverbZones: 1
-    priority: 32
-    volume: 0.2
-    pitch: 1
-    panStereo: 0
-    spatialBlend: 0
-    reverbZoneMix: 1
-    dopplerLevel: 1
-    spread: 0
-    minDistance: 1
-    maxDistance: 500
-    ignoreListenerVolume: 0
-    ignoreListenerPause: 0
-    rolloffMode: 0
-  bossBgmSound:
-    _clip: {fileID: 8300000, guid: 827241a4524d24832ae09c934f2ec046, type: 3}
-    _mixerGroup: {fileID: -2273146209696275378, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
-    _loop: 1
-    _playOnAwake: 0
-    _frequentSound: 0
-    _useDedicatedSource: 1
-    mute: 0
-    bypassEffects: 1
-    bypassListenerEffects: 1
-    bypassReverbZones: 1
-    priority: 32
-    volume: 0.2
-    pitch: 1
-    panStereo: 0
-    spatialBlend: 0
-    reverbZoneMix: 1
-    dopplerLevel: 1
-    spread: 0
-    minDistance: 1
-    maxDistance: 500
-    ignoreListenerVolume: 0
-    ignoreListenerPause: 0
-    rolloffMode: 0
-  finalMinionBgmSound:
-    _clip: {fileID: 8300000, guid: 71e8a9aa4dc254af8844c292d1d4c21e, type: 3}
-    _mixerGroup: {fileID: -2273146209696275378, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
-    _loop: 1
-    _playOnAwake: 0
-    _frequentSound: 0
-    _useDedicatedSource: 1
-    mute: 0
-    bypassEffects: 1
-    bypassListenerEffects: 1
-    bypassReverbZones: 1
-    priority: 32
-    volume: 1
-    pitch: 1
-    panStereo: 0
-    spatialBlend: 0
-    reverbZoneMix: 1
-    dopplerLevel: 1
-    spread: 0
-    minDistance: 1
-    maxDistance: 500
-    ignoreListenerVolume: 0
-    ignoreListenerPause: 0
-    rolloffMode: 0
-  finalBossBgmSound:
-    _clip: {fileID: 8300000, guid: 9df14ff8e76f34ae6baa8058deb6366a, type: 3}
-    _mixerGroup: {fileID: -2273146209696275378, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
-    _loop: 1
-    _playOnAwake: 0
-    _frequentSound: 0
-    _useDedicatedSource: 1
-    mute: 0
-    bypassEffects: 1
-    bypassListenerEffects: 1
-    bypassReverbZones: 1
-    priority: 32
-    volume: 1
-    pitch: 1
-    panStereo: 0
-    spatialBlend: 0
-    reverbZoneMix: 1
-    dopplerLevel: 1
-    spread: 0
-    minDistance: 1
-    maxDistance: 500
-    ignoreListenerVolume: 0
-    ignoreListenerPause: 0
-    rolloffMode: 0
-  isLevel3: 0
-  playMinionBgmOnStart: 1
-  bgmFadeDuration: 1
-  enableDebugKeys: 1
-  skipToBossKey: 289
-  simulateBossDefeatedKey: 290
+    onStart:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+          m_MethodName: PlayBossBgm
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
