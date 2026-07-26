@@ -43,7 +43,10 @@ namespace GMTK.Enemy
                             .Play();
                     }
                 }
-                damagedEffect.PlayFeedbacks();
+                if (damagedEffect != null)
+                {
+                    damagedEffect.PlayFeedbacks();
+                }
                 TakeDamage(bulletDamage);
             }
         }

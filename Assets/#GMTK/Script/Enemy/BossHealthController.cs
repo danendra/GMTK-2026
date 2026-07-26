@@ -42,7 +42,6 @@ namespace GMTK.Enemy
             }
             else
             {
-                // Auto-trigger success panel on final death (avoids prefab reference issue)
                 UI.UISuccessController successController = FindObjectOfType<UI.UISuccessController>();
                 if (successController != null)
                 {

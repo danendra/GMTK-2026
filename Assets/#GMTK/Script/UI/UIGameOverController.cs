@@ -30,6 +30,12 @@ namespace GMTK.UI
         {
             if (goGameOverPanel != null)
                 goGameOverPanel.SetActive(true);
+
+            // Auto-select retry button for keyboard navigation
+            if (btnRetry != null && UnityEngine.EventSystems.EventSystem.current != null)
+            {
+                UnityEngine.EventSystems.EventSystem.current.SetSelectedGameObject(btnRetry.gameObject);
+            }
         }
 
         public void Hide()
