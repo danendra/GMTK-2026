@@ -2479,7 +2479,6 @@ MonoBehaviour:
     count: 10
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
     onStart:
       m_PersistentCalls:
         m_Calls: []
@@ -2489,7 +2488,6 @@ MonoBehaviour:
     count: 10
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
     onStart:
       m_PersistentCalls:
         m_Calls: []
@@ -2499,7 +2497,6 @@ MonoBehaviour:
     count: 1
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
     onStart:
       m_PersistentCalls:
         m_Calls: []
@@ -2509,7 +2506,6 @@ MonoBehaviour:
     count: 1
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
     onStart:
       m_PersistentCalls:
         m_Calls: []
@@ -2519,7 +2515,6 @@ MonoBehaviour:
     count: 1
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
     onStart:
       m_PersistentCalls:
         m_Calls: []
@@ -2529,7 +2524,6 @@ MonoBehaviour:
     count: 1
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
     onStart:
       m_PersistentCalls:
         m_Calls: []
@@ -2539,7 +2533,6 @@ MonoBehaviour:
     count: 1
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
     onStart:
       m_PersistentCalls:
         m_Calls: []
@@ -2549,7 +2542,6 @@ MonoBehaviour:
     count: 1
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
     onStart:
       m_PersistentCalls:
         m_Calls: []
@@ -2559,7 +2551,6 @@ MonoBehaviour:
     count: 8
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
     onStart:
       m_PersistentCalls:
         m_Calls: []
@@ -2569,7 +2560,6 @@ MonoBehaviour:
     count: 8
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
     onStart:
       m_PersistentCalls:
         m_Calls: []
@@ -2579,7 +2569,6 @@ MonoBehaviour:
     count: 1
     spawnInterval: 0.5
     dontDeactivateAtEnd: 1
-    triggerBossBgm: 0
     onStart:
       m_PersistentCalls:
         m_Calls:
@@ -2601,7 +2590,6 @@ MonoBehaviour:
     count: 0
     spawnInterval: 0
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 1
     onStart:
       m_PersistentCalls:
         m_Calls:
@@ -2629,108 +2617,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
-  minionBgmSound:
-    _clip: {fileID: 0}
-    _mixerGroup: {fileID: 0}
-    _loop: 0
-    _playOnAwake: 0
-    _frequentSound: 0
-    _useDedicatedSource: 0
-    mute: 0
-    bypassEffects: 0
-    bypassListenerEffects: 0
-    bypassReverbZones: 0
-    priority: 128
-    volume: 1
-    pitch: 1
-    panStereo: 0
-    spatialBlend: 0
-    reverbZoneMix: 1
-    dopplerLevel: 1
-    spread: 0
-    minDistance: 1
-    maxDistance: 500
-    ignoreListenerVolume: 0
-    ignoreListenerPause: 0
-    rolloffMode: 0
-  bossBgmSound:
-    _clip: {fileID: 0}
-    _mixerGroup: {fileID: 0}
-    _loop: 0
-    _playOnAwake: 0
-    _frequentSound: 0
-    _useDedicatedSource: 0
-    mute: 0
-    bypassEffects: 0
-    bypassListenerEffects: 0
-    bypassReverbZones: 0
-    priority: 128
-    volume: 1
-    pitch: 1
-    panStereo: 0
-    spatialBlend: 0
-    reverbZoneMix: 1
-    dopplerLevel: 1
-    spread: 0
-    minDistance: 1
-    maxDistance: 500
-    ignoreListenerVolume: 0
-    ignoreListenerPause: 0
-    rolloffMode: 0
-  finalMinionBgmSound:
-    _clip: {fileID: 0}
-    _mixerGroup: {fileID: 0}
-    _loop: 0
-    _playOnAwake: 0
-    _frequentSound: 0
-    _useDedicatedSource: 0
-    mute: 0
-    bypassEffects: 0
-    bypassListenerEffects: 0
-    bypassReverbZones: 0
-    priority: 128
-    volume: 1
-    pitch: 1
-    panStereo: 0
-    spatialBlend: 0
-    reverbZoneMix: 1
-    dopplerLevel: 1
-    spread: 0
-    minDistance: 1
-    maxDistance: 500
-    ignoreListenerVolume: 0
-    ignoreListenerPause: 0
-    rolloffMode: 0
-  finalBossBgmSound:
-    _clip: {fileID: 0}
-    _mixerGroup: {fileID: 0}
-    _loop: 0
-    _playOnAwake: 0
-    _frequentSound: 0
-    _useDedicatedSource: 0
-    mute: 0
-    bypassEffects: 0
-    bypassListenerEffects: 0
-    bypassReverbZones: 0
-    priority: 128
-    volume: 1
-    pitch: 1
-    panStereo: 0
-    spatialBlend: 0
-    reverbZoneMix: 1
-    dopplerLevel: 1
-    spread: 0
-    minDistance: 1
-    maxDistance: 500
-    ignoreListenerVolume: 0
-    ignoreListenerPause: 0
-    rolloffMode: 0
-  isLevel3: 0
-  playMinionBgmOnStart: 1
-  bgmFadeDuration: 1
-  enableDebugKeys: 0
-  skipToBossKey: 289
-  simulateBossDefeatedKey: 290
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -13067,6 +12953,10 @@ PrefabInstance:
     - target: {fileID: 6545562332362325644, guid: a42ce021a02714b1d82b4e35c8c67f4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177671809420525953, guid: a42ce021a02714b1d82b4e35c8c67f4d, type: 3}
+      propertyPath: maxSoundInstances
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

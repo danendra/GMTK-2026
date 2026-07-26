@@ -20851,22 +20851,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Player.AutoBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 4461483810114543362}
+  pooler: {fileID: 7434294141234133784}
   fltDelay: 0.05
   direction: {x: 0, y: 1}
   soundData:
-    _clip: {fileID: 0}
-    _mixerGroup: {fileID: 0}
+    _clip: {fileID: 8300000, guid: 02cf5fdd81a3f4d628a1698b5706aeda, type: 3}
+    _mixerGroup: {fileID: -3165942800488051908, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
     _loop: 0
     _playOnAwake: 0
-    _frequentSound: 0
+    _frequentSound: 1
     _useDedicatedSource: 0
     mute: 0
     bypassEffects: 0
     bypassListenerEffects: 0
     bypassReverbZones: 0
     priority: 128
-    volume: 1
+    volume: 0.1
     pitch: 1
     panStereo: 0
     spatialBlend: 0
@@ -21659,22 +21659,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Player.AutoBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 4461483810114543362}
+  pooler: {fileID: 7434294141234133784}
   fltDelay: 0.05
   direction: {x: 0, y: 1}
   soundData:
-    _clip: {fileID: 0}
-    _mixerGroup: {fileID: 0}
+    _clip: {fileID: 8300000, guid: 02cf5fdd81a3f4d628a1698b5706aeda, type: 3}
+    _mixerGroup: {fileID: -3165942800488051908, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
     _loop: 0
     _playOnAwake: 0
-    _frequentSound: 0
+    _frequentSound: 1
     _useDedicatedSource: 0
     mute: 0
     bypassEffects: 0
     bypassListenerEffects: 0
     bypassReverbZones: 0
     priority: 128
-    volume: 1
+    volume: 0.1
     pitch: 1
     panStereo: 0
     spatialBlend: 0
@@ -26529,22 +26529,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Player.AutoBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 4461483810114543362}
+  pooler: {fileID: 7434294141234133784}
   fltDelay: 0.05
   direction: {x: 0, y: 1}
   soundData:
-    _clip: {fileID: 0}
-    _mixerGroup: {fileID: 0}
+    _clip: {fileID: 8300000, guid: 02cf5fdd81a3f4d628a1698b5706aeda, type: 3}
+    _mixerGroup: {fileID: -3165942800488051908, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
     _loop: 0
     _playOnAwake: 0
-    _frequentSound: 0
+    _frequentSound: 1
     _useDedicatedSource: 0
     mute: 0
     bypassEffects: 0
     bypassListenerEffects: 0
     bypassReverbZones: 0
     priority: 128
-    volume: 1
+    volume: 0.1
     pitch: 1
     panStereo: 0
     spatialBlend: 0
@@ -42066,22 +42066,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Player.AutoBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
-  pooler: {fileID: 4461483810114543362}
+  pooler: {fileID: 7434294141234133784}
   fltDelay: 0.05
   direction: {x: 0, y: 1}
   soundData:
-    _clip: {fileID: 0}
-    _mixerGroup: {fileID: 0}
+    _clip: {fileID: 8300000, guid: 02cf5fdd81a3f4d628a1698b5706aeda, type: 3}
+    _mixerGroup: {fileID: -3165942800488051908, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
     _loop: 0
     _playOnAwake: 0
-    _frequentSound: 0
+    _frequentSound: 1
     _useDedicatedSource: 0
     mute: 0
     bypassEffects: 0
     bypassListenerEffects: 0
     bypassReverbZones: 0
     priority: 128
-    volume: 1
+    volume: 0.1
     pitch: 1
     panStereo: 0
     spatialBlend: 0
