@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 247fc218f2f174b00833c804da9ecbdd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8789891285966607281
+    second: Full Layout Control_0
+  - first:
+      213: -6718993995355024359
+    second: Full Layout Control_1
+  - first:
+      213: -5806844070217516302
+    second: Full Layout Control_2
+  - first:
+      213: 7680591633602419051
+    second: Full Layout Control_3
+  - first:
+      213: -3956954001708351850
+    second: Full Layout Control_4
+  - first:
+      213: -2225749154012795715
+    second: Full Layout Control_5
+  - first:
+      213: 8110068538925618202
+    second: Full Layout Control_6
+  - first:
+      213: 71019578094631420
+    second: Full Layout Control_7
+  - first:
+      213: -4200484472641733415
+    second: Full Layout Control_8
+  - first:
+      213: 2647464299543541576
+    second: Full Layout Control_9
+  - first:
+      213: 3309584540598163617
+    second: Full Layout Control_10
+  - first:
+      213: -5254889404763356408
+    second: Full Layout Control_11
+  - first:
+      213: -2403298346068744690
+    second: Full Layout Control_12
+  - first:
+      213: 6425139691141367056
+    second: Full Layout Control_13
+  - first:
+      213: -2420152226920586782
+    second: Full Layout Control_14
+  - first:
+      213: -8675642884867312761
+    second: Full Layout Control_15
+  - first:
+      213: 7506244043819131932
+    second: Full Layout Control_16
+  - first:
+      213: -4864805460539364444
+    second: Full Layout Control_17
+  - first:
+      213: 4330570162851745398
+    second: Full Layout Control_18
+  - first:
+      213: -1816678812097082315
+    second: Full Layout Control_19
+  - first:
+      213: -7150072372293584779
+    second: Full Layout Control_20
+  - first:
+      213: -3668870608345774813
+    second: Full Layout Control_21
+  - first:
+      213: -9159339399496611193
+    second: Full Layout Control_22
+  - first:
+      213: -5417372944700721500
+    second: Full Layout Control_23
+  - first:
+      213: 4560334104471106273
+    second: Full Layout Control_24
+  - first:
+      213: -5217711574782886110
+    second: Full Layout Control_25
+  - first:
+      213: 1823007587511601509
+    second: Full Layout Control_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Full Layout Control_0
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 3263
+        width: 314
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ca8ad3278040680800000000000000
+      internalID: -8789891285966607281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_1
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 3263
+        width: 181
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91491ea5f8651c2a0800000000000000
+      internalID: -6718993995355024359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_2
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 3263
+        width: 222
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2faf9988512f96fa0800000000000000
+      internalID: -5806844070217516302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_3
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 3263
+        width: 181
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6995b1b561f69a60800000000000000
+      internalID: 7680591633602419051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_4
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 3263
+        width: 181
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69efc9fdc431619c0800000000000000
+      internalID: -3956954001708351850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_5
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 3263
+        width: 181
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbce0fbdfec8c11e0800000000000000
+      internalID: -2225749154012795715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_6
+      rect:
+        serializedVersion: 2
+        x: 2826
+        y: 3263
+        width: 181
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a149bbefd50cc8070800000000000000
+      internalID: 8110068538925618202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_7
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 3263
+        width: 45
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9bd641eef4cf000800000000000000
+      internalID: 71019578094631420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_8
+      rect:
+        serializedVersion: 2
+        x: 3231
+        y: 3263
+        width: 181
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc35a390a1e4b5c0800000000000000
+      internalID: -4200484472641733415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_9
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 3263
+        width: 181
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84732d9e0ceadb420800000000000000
+      internalID: 2647464299543541576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_10
+      rect:
+        serializedVersion: 2
+        x: 3772
+        y: 3263
+        width: 158
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a85a70da910eed20800000000000000
+      internalID: 3309584540598163617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_11
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 2443
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803cd1f8de1e217b0800000000000000
+      internalID: -5254889404763356408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_12
+      rect:
+        serializedVersion: 2
+        x: 2724
+        y: 1967
+        width: 737
+        height: 736
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06e94133e4c5aed0800000000000000
+      internalID: -2403298346068744690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_13
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1991
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0158ebad18eaa2950800000000000000
+      internalID: 6425139691141367056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_14
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1991
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e127044f54e96ed0800000000000000
+      internalID: -2420152226920586782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_15
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1991
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783b65103cce99780800000000000000
+      internalID: -8675642884867312761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1109
+        width: 181
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c142b3520398b2860800000000000000
+      internalID: 7506244043819131932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_17
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1109
+        width: 181
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abab2f553dbc7cb0800000000000000
+      internalID: -4864805460539364444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_18
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1109
+        width: 181
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e0fa76e96491c30800000000000000
+      internalID: 4330570162851745398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_19
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1109
+        width: 181
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c89fdde3cd9c6e0800000000000000
+      internalID: -1816678812097082315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_20
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1109
+        width: 181
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5783b136f07d5cc90800000000000000
+      internalID: -7150072372293584779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_21
+      rect:
+        serializedVersion: 2
+        x: 2545
+        y: 1109
+        width: 181
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325cda6ce9d851dc0800000000000000
+      internalID: -3668870608345774813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_22
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 1109
+        width: 181
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ac3cb285d73e080800000000000000
+      internalID: -9159339399496611193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_23
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 1109
+        width: 314
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a63d4f5200a1d4b0800000000000000
+      internalID: -5417372944700721500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_24
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 1109
+        width: 181
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e27912d4bf894f30800000000000000
+      internalID: 4560334104471106273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1460
+        height: 741
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f3f94a7f6f697b0800000000000000
+      internalID: -5217711574782886110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout Control_26
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 10
+        width: 721
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569887cfdbf9c4910800000000000000
+      internalID: 1823007587511601509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Full Layout Control_0: -8789891285966607281
+      Full Layout Control_1: -6718993995355024359
+      Full Layout Control_10: 3309584540598163617
+      Full Layout Control_11: -5254889404763356408
+      Full Layout Control_12: -2403298346068744690
+      Full Layout Control_13: 6425139691141367056
+      Full Layout Control_14: -2420152226920586782
+      Full Layout Control_15: -8675642884867312761
+      Full Layout Control_16: 7506244043819131932
+      Full Layout Control_17: -4864805460539364444
+      Full Layout Control_18: 4330570162851745398
+      Full Layout Control_19: -1816678812097082315
+      Full Layout Control_2: -5806844070217516302
+      Full Layout Control_20: -7150072372293584779
+      Full Layout Control_21: -3668870608345774813
+      Full Layout Control_22: -9159339399496611193
+      Full Layout Control_23: -5417372944700721500
+      Full Layout Control_24: 4560334104471106273
+      Full Layout Control_25: -5217711574782886110
+      Full Layout Control_26: 1823007587511601509
+      Full Layout Control_3: 7680591633602419051
+      Full Layout Control_4: -3956954001708351850
+      Full Layout Control_5: -2225749154012795715
+      Full Layout Control_6: 8110068538925618202
+      Full Layout Control_7: 71019578094631420
+      Full Layout Control_8: -4200484472641733415
+      Full Layout Control_9: 2647464299543541576
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

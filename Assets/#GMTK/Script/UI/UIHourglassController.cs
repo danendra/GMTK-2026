@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
-using DG.Tweening;
 using AudioSystem;
 using System.Collections;
+using MoreMountains.Feedbacks;
 
 namespace GMTK.UI
 {
@@ -14,6 +14,7 @@ namespace GMTK.UI
         [SerializeField] protected Sprite[] arrSprites;
         [SerializeField] protected bool blnReverseAnimation = false;
         [SerializeField] protected float fltFlipDuration = 0.4f;
+        [SerializeField] protected MMFeedbacks flipFeedbacks;
         [SerializeField] protected SoundData soundDataFlip;
         [SerializeField] protected SoundData sandSoundData;
 
@@ -78,16 +79,8 @@ namespace GMTK.UI
 
             imgHourglass.rectTransform.localEulerAngles = Vector3.zero;
 
-            imgHourglass.rectTransform.DOKill();
-
-            imgHourglass.rectTransform.DORotate(new Vector3(0f, 0f, 180f), fltFlipDuration, RotateMode.LocalAxisAdd)
-                .SetEase(Ease.OutQuad)
-                .OnComplete(() =>
-                {
-                    imgHourglass.sprite = arrSprites[0];
-                    imgHourglass.rectTransform.localEulerAngles = Vector3.zero;
-                    blnIsFlipping = false;
-                });
+            flipFeedbacks?.PlayFeedbacks();
+            StartCoroutine(IEFinishFlip());
 
             if (soundDataFlip != null && SoundManager.Instance != null)
             {
@@ -100,6 +93,15 @@ namespace GMTK.UI
 
             StopSandSound();
             TriggerSandDropFeedback();
+        }
+
+        protected IEnumerator IEFinishFlip()
+        {
+            yield return new WaitForSeconds(Mathf.Max(0.01f, fltFlipDuration));
+
+            imgHourglass.sprite = arrSprites[0];
+            imgHourglass.rectTransform.localEulerAngles = Vector3.zero;
+            blnIsFlipping = false;
         }
 
         protected void TriggerSandDropFeedback()

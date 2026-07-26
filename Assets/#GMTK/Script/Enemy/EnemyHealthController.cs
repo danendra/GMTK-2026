@@ -12,7 +12,6 @@ namespace GMTK.Enemy
         [SerializeField] protected SoundData hitSoundData;
         [SerializeField] protected float hitSoundCooldown = 0.04f;
         [SerializeField] private MMF_Player damagedEffect;
-
         protected float bulletDamage = 1f;
         protected float lastHitSoundTime = -999f;
 
@@ -54,7 +53,6 @@ namespace GMTK.Enemy
         protected override void Die()
         {
             base.Die();
-
             // if (animator)
             // {
             //     animator.SetBool(isDestroyBoolName, true);
