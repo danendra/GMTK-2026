@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 225c4f8d7cc1e4972a89d5eb4c2ee7a0
+guid: adc8b93efb4fd4c438781291a11b68d8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8348378081241280806
-    second: Bullet_Lv2_V1_0
+      213: 3409111394071253238
+    second: Minion_Lv3_V1_0
+  - first:
+      213: -1413106153930758123
+    second: Minion_Lv3_V1_1
+  - first:
+      213: 3472927827497840250
+    second: Minion_Lv3_V1_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +52,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.505, y: 0.405}
-  spritePixelsToUnits: 300
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,19 +116,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -139,23 +132,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bullet_Lv2_V1_0
+      name: Minion_Lv3_V1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 256
-        height: 256
+        x: 5
+        y: 577
+        width: 16
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6213b0f12a56bd370800000000000000
-      internalID: 8348378081241280806
+      spriteID: 6f09a5b20c89f4f20800000000000000
+      internalID: 3409111394071253238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minion_Lv3_V1_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 289
+        width: 1905
+        height: 1575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518e901a073a36ce0800000000000000
+      internalID: -1413106153930758123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minion_Lv3_V1_2
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 337
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ee3907571523030800000000000000
+      internalID: 3472927827497840250
       vertices: []
       indices: 
       edges: []
@@ -164,8 +201,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -174,7 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bullet_Lv2_V1_0: 8348378081241280806
+      Minion_Lv3_V1_0: 3409111394071253238
+      Minion_Lv3_V1_1: -1413106153930758123
+      Minion_Lv3_V1_2: 3472927827497840250
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

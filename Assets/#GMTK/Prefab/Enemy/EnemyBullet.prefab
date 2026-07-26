@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.MoveController
   input: {fileID: 623423129641628918}
-  fltSpeed: 5
+  fltSpeed: 15
 --- !u!114 &9149354493507767674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -258,7 +258,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_MaskInteraction: 1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.9137255, g: 0.43580624, b: 0.32549024, a: 1}
