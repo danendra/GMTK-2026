@@ -301,7 +301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc89f88ecf0e64e70b8264c45fddfdc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerLiveController
-  intMaxHealth: 3
+  intMaxHealth: 5
   onRespawn:
     m_PersistentCalls:
       m_Calls:
@@ -463,7 +463,7 @@ MonoBehaviour:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
-            m_FloatArgument: 10
+            m_FloatArgument: 11
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
@@ -15515,6 +15515,78 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!1 &3445109761222684343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7280839697072953042}
+  - component: {fileID: 6263192577841485067}
+  m_Layer: 8
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7280839697072953042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3445109761222684343}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.15, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8222568403137557027}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6263192577841485067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3445109761222684343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65883bcd07c6c4d369bf98016b2bec3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Player.AutoBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 4461483810114543362}
+  fltDelay: 0.05
+  direction: {x: 0, y: 1}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1 &3502170630505683946
 GameObject:
   m_ObjectHideFlags: 0
@@ -15892,7 +15964,7 @@ GameObject:
   - component: {fileID: 5147733346975649508}
   - component: {fileID: 4751982400437729009}
   m_Layer: 8
-  m_Name: Spawner
+  m_Name: Spawner Center
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15907,7 +15979,7 @@ Transform:
   m_GameObject: {fileID: 4796729469041838191}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: -0.15, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15927,7 +15999,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Player.AutoBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
   pooler: {fileID: 7434294141234133784}
-  fltDelay: 0.1
+  fltDelay: 0.05
   direction: {x: 0, y: 1}
   soundData:
     _clip: {fileID: 8300000, guid: 02cf5fdd81a3f4d628a1698b5706aeda, type: 3}
@@ -16276,7 +16348,7 @@ Transform:
   m_GameObject: {fileID: 6234152161901744514}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0, z: 0}
+  m_LocalPosition: {x: -0.45, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16296,7 +16368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Player.AutoBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
   pooler: {fileID: 4461483810114543362}
-  fltDelay: 0.1
+  fltDelay: 0.05
   direction: {x: 0, y: 1}
   soundData:
     _clip: {fileID: 0}
@@ -21146,7 +21218,7 @@ Transform:
   m_GameObject: {fileID: 6724828674809431582}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0, z: 0}
+  m_LocalPosition: {x: 0.45, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21166,7 +21238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Player.AutoBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
   pooler: {fileID: 4461483810114543362}
-  fltDelay: 0.1
+  fltDelay: 0.05
   direction: {x: 0, y: 1}
   soundData:
     _clip: {fileID: 0}
@@ -21271,6 +21343,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1521727439509907425}
+  - {fileID: 7280839697072953042}
   - {fileID: 8460844781911422590}
   - {fileID: 2451196818205356411}
   m_Father: {fileID: 3152598386824345116}
@@ -21305,6 +21378,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5147733346975649508}
+  - {fileID: 3619878232860311550}
   - {fileID: 2755416177821107810}
   - {fileID: 8958432561982693226}
   m_Father: {fileID: 3152598386824345116}
@@ -26444,6 +26518,78 @@ Transform:
   - {fileID: 7563727048137893043}
   m_Father: {fileID: 7348847950403434704}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8847556828253508637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3619878232860311550}
+  - component: {fileID: 6560185164177327078}
+  m_Layer: 8
+  m_Name: Spawner Center
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3619878232860311550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8847556828253508637}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.15, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 576095665099749249}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6560185164177327078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8847556828253508637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65883bcd07c6c4d369bf98016b2bec3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Player.AutoBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 7434294141234133784}
+  fltDelay: 0.05
+  direction: {x: 0, y: 1}
+  soundData:
+    _clip: {fileID: 8300000, guid: 02cf5fdd81a3f4d628a1698b5706aeda, type: 3}
+    _mixerGroup: {fileID: -3165942800488051908, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 1
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 0.1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1 &9173758939112700596
 GameObject:
   m_ObjectHideFlags: 0
@@ -26470,7 +26616,7 @@ Transform:
   m_GameObject: {fileID: 9173758939112700596}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0.15, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26490,7 +26636,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Player.AutoBulletSpawnerController
   offset: {x: 0, y: 0, z: 0}
   pooler: {fileID: 4461483810114543362}
-  fltDelay: 0.1
+  fltDelay: 0.05
   direction: {x: 0, y: 1}
   soundData:
     _clip: {fileID: 0}
@@ -26524,6 +26670,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1006939167668234494}
     m_Modifications:
+    - target: {fileID: 173634676462244024, guid: 91b2341ab80014660909fdec328ce624, type: 3}
+      propertyPath: m_Color.a
+      value: 0.2509804
+      objectReference: {fileID: 0}
     - target: {fileID: 839207611969935884, guid: 91b2341ab80014660909fdec328ce624, type: 3}
       propertyPath: m_Name
       value: Player Bullet Unfocus
@@ -26531,6 +26681,10 @@ PrefabInstance:
     - target: {fileID: 839207611969935884, guid: 91b2341ab80014660909fdec328ce624, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1261317733459999881, guid: 91b2341ab80014660909fdec328ce624, type: 3}
+      propertyPath: fltSpeed
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1279850733807367915, guid: 91b2341ab80014660909fdec328ce624, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26605,6 +26759,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -7947947497880857302, guid: fd47e45ca98694ea5b60949030676d8b, type: 3}
+    - target: {fileID: 173634676462244024, guid: 91b2341ab80014660909fdec328ce624, type: 3}
+      propertyPath: m_Color.a
+      value: 0.2509804
+      objectReference: {fileID: 0}
     - target: {fileID: 839207611969935884, guid: 91b2341ab80014660909fdec328ce624, type: 3}
       propertyPath: m_Name
       value: Player Bullet Focus
@@ -26612,6 +26770,10 @@ PrefabInstance:
     - target: {fileID: 839207611969935884, guid: 91b2341ab80014660909fdec328ce624, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1261317733459999881, guid: 91b2341ab80014660909fdec328ce624, type: 3}
+      propertyPath: fltSpeed
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1279850733807367915, guid: 91b2341ab80014660909fdec328ce624, type: 3}
       propertyPath: m_LocalPosition.x

@@ -1,11 +1,13 @@
 using UnityEngine;
 
 using Anoa.Module;
+using System.Collections;
 
 namespace GMTK.Enemy
 {
     public class EnemyShootingController : MonoBehaviour
     {
+        [SerializeField] protected float fltInitialDelay = 0f;
         [SerializeField] protected float fltDelay = 0.2f;
 
         [SerializeField] protected bool isRandomize = false;
@@ -14,8 +16,25 @@ namespace GMTK.Enemy
         protected EnemyBulletSpawnerController[] arrBulletSpawners;
         protected CooldownModule cooldown;
 
+        void Awake()
+        {
+            arrBulletSpawners = GetComponentsInChildren<EnemyBulletSpawnerController>();
+        }
+
         // Start is called once before the first execution of Update after the MonoBehaviour is created
-        void Start()
+        IEnumerator Start()
+        {
+            yield return new WaitForSeconds(fltInitialDelay);
+
+            Initialize();
+        }
+
+        void OnEnable()
+        {
+            Initialize();
+        }
+
+        protected void Initialize()
         {
             if (isRandomize)
             {
@@ -24,15 +43,13 @@ namespace GMTK.Enemy
             else
             {
                 cooldown = new CooldownModule(fltDelay, false);
-            }
-
-            arrBulletSpawners = GetComponentsInChildren<EnemyBulletSpawnerController>();
+            }      
         }
 
         // Update is called once per frame
         void Update()
         {
-            if (cooldown.IsReady)
+            if (cooldown != null && cooldown.IsReady)
             {
                 SpawnBullet();
 
