@@ -896,7 +896,7 @@ MonoBehaviour:
   blnReverseAnimation: 0
   fltFlipDuration: 0.4
   soundDataFlip:
-    _clip: {fileID: 8300000, guid: cce769f4c0e1e42478eb58b763916db5, type: 3}
+    _clip: {fileID: 8300000, guid: c77241abebffb4ded8abe3a55a26362c, type: 3}
     _mixerGroup: {fileID: -3165942800488051908, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
     _loop: 0
     _playOnAwake: 0
@@ -907,7 +907,7 @@ MonoBehaviour:
     bypassListenerEffects: 1
     bypassReverbZones: 1
     priority: 64
-    volume: 1
+    volume: 0
     pitch: 1
     panStereo: 0
     spatialBlend: 0

@@ -10,12 +10,11 @@ namespace GMTK.Enemy
         [SerializeField] protected string isDestroyBoolName = "IsDestroy";
         [SerializeField] protected string playerTag = "Player";
         [SerializeField] protected SoundData hitSoundData;
-
-        [Header("Feedbacks")]
-        [SerializeField] private MMF_Player enemyDamagedEffect;
-        [SerializeField] private MMF_Player enemyDeadEffect;
+        [SerializeField] protected float hitSoundCooldown = 0.04f;
+        [SerializeField] private MMF_Player damagedEffect;
 
         protected float bulletDamage = 1f;
+        protected float lastHitSoundTime = -999f;
 
         protected override void Awake()
         {
@@ -26,37 +25,25 @@ namespace GMTK.Enemy
             }
         }
 
-        protected override void OnEnable()
-        {
-            base.OnEnable();
-
-            if (enemyDamagedEffect != null)
-            {
-                enemyDamagedEffect.StopFeedbacks();
-                enemyDamagedEffect.RestoreInitialValues();
-            }
-
-            if (enemyDeadEffect != null)
-            {
-                enemyDeadEffect.StopFeedbacks();
-                enemyDeadEffect.RestoreInitialValues();
-            }
-        }
-
         protected virtual void OnTriggerEnter2D(Collider2D _collision)
         {
             if (_collision.CompareTag(playerTag))
             {
                 if (hitSoundData != null && SoundManager.Instance != null)
                 {
-                    SoundManager.Instance.CreateSound()
-                        .WithSoundData(hitSoundData)
-                        .WithRandomPitch()
-                        .WithPosition(_collision.transform.position)
-                        .Play();
-                }
+                    float now = Time.time;
+                    if (now - lastHitSoundTime >= Mathf.Max(0f, hitSoundCooldown))
+                    {
+                        lastHitSoundTime = now;
 
-                enemyDamagedEffect.PlayFeedbacks();
+                        SoundManager.Instance.CreateSound()
+                            .WithSoundData(hitSoundData)
+                            .WithRandomPitch()
+                            .WithPosition(_collision.transform.position)
+                            .Play();
+                    }
+                }
+                damagedEffect.PlayFeedbacks();
                 TakeDamage(bulletDamage);
             }
         }
@@ -64,8 +51,6 @@ namespace GMTK.Enemy
         protected override void Die()
         {
             base.Die();
-
-            enemyDeadEffect.PlayFeedbacks();
 
             // if (animator)
             // {
