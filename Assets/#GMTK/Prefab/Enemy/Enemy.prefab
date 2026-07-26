@@ -226,6 +226,29 @@ MonoBehaviour:
   isDestroyBoolName: IsDestroy
   playerTag: Player
   bulletDamage: 10
+  hitSoundData:
+    _clip: {fileID: 8300000, guid: 19f37edb6292f44948fa08fdbdd292bf, type: 3}
+    _mixerGroup: {fileID: -3165942800488051908, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!114 &-7047354621690393986
 MonoBehaviour:
   m_ObjectHideFlags: 0
