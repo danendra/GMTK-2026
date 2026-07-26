@@ -1,3 +1,4 @@
+using MoreMountains.Feedbacks;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -20,6 +21,11 @@ namespace GMTK
         }
 
         protected virtual void OnEnable()
+        {
+            currentHealth = maxHealth;
+        }
+
+        public void RefillHealth()
         {
             currentHealth = maxHealth;
         }
