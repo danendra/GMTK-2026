@@ -133,7 +133,7 @@ MonoBehaviour:
     bypassEffects: 1
     bypassListenerEffects: 1
     bypassReverbZones: 1
-    priority: 128
+    priority: 32
     volume: 0.2
     pitch: 1
     panStereo: 0
@@ -157,7 +157,7 @@ MonoBehaviour:
     bypassEffects: 1
     bypassListenerEffects: 1
     bypassReverbZones: 1
-    priority: 128
+    priority: 32
     volume: 0.2
     pitch: 1
     panStereo: 0
@@ -181,7 +181,7 @@ MonoBehaviour:
     bypassEffects: 1
     bypassListenerEffects: 1
     bypassReverbZones: 1
-    priority: 128
+    priority: 32
     volume: 1
     pitch: 1
     panStereo: 0
@@ -205,7 +205,7 @@ MonoBehaviour:
     bypassEffects: 1
     bypassListenerEffects: 1
     bypassReverbZones: 1
-    priority: 128
+    priority: 32
     volume: 1
     pitch: 1
     panStereo: 0
