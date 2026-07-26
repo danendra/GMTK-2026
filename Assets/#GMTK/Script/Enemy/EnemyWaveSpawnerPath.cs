@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using AudioSystem;
+using UnityEngine.InputSystem;
 
 namespace GMTK.Enemy
 {
@@ -85,15 +86,45 @@ namespace GMTK.Enemy
                 return;
             }
 
-            if (Input.GetKeyDown(skipToBossKey))
+            if (IsDebugKeyPressed(skipToBossKey))
             {
                 DebugSkipToBossFight();
             }
 
-            if (Input.GetKeyDown(simulateBossDefeatedKey))
+            if (IsDebugKeyPressed(simulateBossDefeatedKey))
             {
                 DebugSimulateBossDefeated();
             }
+        }
+
+        protected bool IsDebugKeyPressed(KeyCode keyCode)
+        {
+#if ENABLE_INPUT_SYSTEM
+            if (Keyboard.current != null)
+            {
+                switch (keyCode)
+                {
+                    case KeyCode.F1: return Keyboard.current.f1Key.wasPressedThisFrame;
+                    case KeyCode.F2: return Keyboard.current.f2Key.wasPressedThisFrame;
+                    case KeyCode.F3: return Keyboard.current.f3Key.wasPressedThisFrame;
+                    case KeyCode.F4: return Keyboard.current.f4Key.wasPressedThisFrame;
+                    case KeyCode.F5: return Keyboard.current.f5Key.wasPressedThisFrame;
+                    case KeyCode.F6: return Keyboard.current.f6Key.wasPressedThisFrame;
+                    case KeyCode.F7: return Keyboard.current.f7Key.wasPressedThisFrame;
+                    case KeyCode.F8: return Keyboard.current.f8Key.wasPressedThisFrame;
+                    case KeyCode.F9: return Keyboard.current.f9Key.wasPressedThisFrame;
+                    case KeyCode.F10: return Keyboard.current.f10Key.wasPressedThisFrame;
+                    case KeyCode.F11: return Keyboard.current.f11Key.wasPressedThisFrame;
+                    case KeyCode.F12: return Keyboard.current.f12Key.wasPressedThisFrame;
+                }
+            }
+#endif
+
+#if ENABLE_LEGACY_INPUT_MANAGER
+            return Input.GetKeyDown(keyCode);
+#else
+            return false;
+#endif
         }
 
         private IEnumerator SpawnTimelineRoutine()
@@ -130,7 +161,7 @@ namespace GMTK.Enemy
             if (!bossBgmTriggered && waveEvent.triggerBossBgm)
             {
                 bossBgmTriggered = true;
-                PlayBossOverlayBgm();
+                TransitionToBossBgm();
             }
 
             if (waveEvent.enemyPool == null)
@@ -212,7 +243,7 @@ namespace GMTK.Enemy
             minionBgmSource.Play();
         }
 
-        protected void PlayBossOverlayBgm()
+        protected void PlayBossBgm()
         {
             if (bossBgmSound == null)
             {
@@ -224,16 +255,33 @@ namespace GMTK.Enemy
             bossBgmSource.Play();
         }
 
+        protected void TransitionToBossBgm()
+        {
+            if (bossBgmSound == null)
+            {
+                return;
+            }
+
+            if (minionFadeCoroutine != null)
+            {
+                StopCoroutine(minionFadeCoroutine);
+            }
+
+            minionFadeCoroutine = StartCoroutine(IECrossfadeToBoss());
+        }
+
         public void OnBossDefeated()
         {
             SoundData postBossBgm = isLevel3 ? finalBossBgmSound : finalMinionBgmSound;
 
             if (postBossBgm != null)
             {
-                CrossfadeMinionTo(postBossBgm);
+                CrossfadeBossTo(postBossBgm);
             }
-
-            FadeOutBossOverlay();
+            else if (minionBgmSound != null)
+            {
+                CrossfadeBossTo(minionBgmSound);
+            }
         }
 
         [ContextMenu("Debug/Skip To Boss Fight")]
@@ -245,7 +293,7 @@ namespace GMTK.Enemy
             }
 
             bossBgmTriggered = true;
-            PlayBossOverlayBgm();
+            TransitionToBossBgm();
         }
 
         [ContextMenu("Debug/Simulate Boss Defeated")]
@@ -254,7 +302,7 @@ namespace GMTK.Enemy
             OnBossDefeated();
         }
 
-        protected void CrossfadeMinionTo(SoundData targetSound)
+        protected void CrossfadeBossTo(SoundData targetSound)
         {
             if (targetSound == null)
             {
@@ -266,10 +314,10 @@ namespace GMTK.Enemy
                 StopCoroutine(minionFadeCoroutine);
             }
 
-            minionFadeCoroutine = StartCoroutine(IECrossfadeMinion(targetSound));
+            minionFadeCoroutine = StartCoroutine(IECrossfadeBossToMinion(targetSound));
         }
 
-        protected IEnumerator IECrossfadeMinion(SoundData targetSound)
+        protected IEnumerator IECrossfadeToBoss()
         {
             float duration = Mathf.Max(0.01f, bgmFadeDuration);
             float elapsed = 0f;
@@ -281,6 +329,39 @@ namespace GMTK.Enemy
                 minionBgmSource.volume = Mathf.Lerp(startVolume, 0f, elapsed / duration);
                 yield return null;
             }
+
+            minionBgmSource.Stop();
+
+            ConfigureSource(bossBgmSource, bossBgmSound);
+            bossBgmSource.volume = 0f;
+            bossBgmSource.Play();
+
+            elapsed = 0f;
+            while (elapsed < duration)
+            {
+                elapsed += Time.deltaTime;
+                bossBgmSource.volume = Mathf.Lerp(0f, bossBgmSound.volume, elapsed / duration);
+                yield return null;
+            }
+
+            bossBgmSource.volume = bossBgmSound.volume;
+            minionFadeCoroutine = null;
+        }
+
+        protected IEnumerator IECrossfadeBossToMinion(SoundData targetSound)
+        {
+            float duration = Mathf.Max(0.01f, bgmFadeDuration);
+            float elapsed = 0f;
+            float startVolume = bossBgmSource.volume;
+
+            while (elapsed < duration)
+            {
+                elapsed += Time.deltaTime;
+                bossBgmSource.volume = Mathf.Lerp(startVolume, 0f, elapsed / duration);
+                yield return null;
+            }
+
+            bossBgmSource.Stop();
 
             ConfigureSource(minionBgmSource, targetSound);
             minionBgmSource.volume = 0f;
@@ -296,38 +377,6 @@ namespace GMTK.Enemy
 
             minionBgmSource.volume = targetSound.volume;
             minionFadeCoroutine = null;
-        }
-
-        protected void FadeOutBossOverlay()
-        {
-            if (!bossBgmSource.isPlaying)
-            {
-                return;
-            }
-
-            if (bossFadeCoroutine != null)
-            {
-                StopCoroutine(bossFadeCoroutine);
-            }
-
-            bossFadeCoroutine = StartCoroutine(IEFadeOutBoss());
-        }
-
-        protected IEnumerator IEFadeOutBoss()
-        {
-            float duration = Mathf.Max(0.01f, bgmFadeDuration);
-            float elapsed = 0f;
-            float startVolume = bossBgmSource.volume;
-
-            while (elapsed < duration)
-            {
-                elapsed += Time.deltaTime;
-                bossBgmSource.volume = Mathf.Lerp(startVolume, 0f, elapsed / duration);
-                yield return null;
-            }
-
-            bossBgmSource.Stop();
-            bossFadeCoroutine = null;
         }
 
         protected void ConfigureSource(AudioSource source, SoundData data)
