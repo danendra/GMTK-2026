@@ -42,14 +42,14 @@ namespace GMTK.Enemy
             }
             else
             {
-                UI.UISuccessController successController = FindObjectOfType<UI.UISuccessController>();
+                UI.UIResultController successController = FindObjectOfType<UI.UIResultController>();
                 if (successController != null)
                 {
-                    successController.Show();
+                    successController.ShowSuccess();
                 }
                 else
                 {
-                    Debug.LogWarning("[BossHealthController] No UISuccessController found in the scene to show success panel.");
+                    Debug.LogWarning("[BossHealthController] No UIResultController found in the scene to show success panel.");
                 }
 
                 base.Die();

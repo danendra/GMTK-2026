@@ -32,6 +32,12 @@ namespace GMTK.Player
 
             if (intCurrentHealth < 1)
             {
+                GMTK.UI.UIResultController resultController = FindObjectOfType<GMTK.UI.UIResultController>();
+                if (resultController != null)
+                {
+                    resultController.ShowRestart();
+                }
+
                 onGameOver.Invoke();
             }
             else
