@@ -11,6 +11,7 @@ namespace GMTK.Enemy
         [SerializeField] protected float fltDelay = 0.2f;
 
         [SerializeField] protected bool isRandomize = false;
+        [SerializeField] protected bool canStartShot = true;
         [SerializeField] protected Vector2 minMaxDelay;
 
         protected EnemyBulletSpawnerController[] arrBulletSpawners;
@@ -38,11 +39,11 @@ namespace GMTK.Enemy
         {
             if (isRandomize)
             {
-                cooldown = new CooldownModule(Random.Range(minMaxDelay.x, minMaxDelay.y), false);
+                cooldown = new CooldownModule(Random.Range(minMaxDelay.x, minMaxDelay.y), canStartShot);
             }
             else
             {
-                cooldown = new CooldownModule(fltDelay, false);
+                cooldown = new CooldownModule(fltDelay, canStartShot);
             }      
         }
 
