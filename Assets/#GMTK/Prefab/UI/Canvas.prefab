@@ -901,6 +901,7 @@ MonoBehaviour:
     _loop: 0
     _playOnAwake: 0
     _frequentSound: 0
+    _useDedicatedSource: 0
     mute: 0
     bypassEffects: 1
     bypassListenerEffects: 1
@@ -924,12 +925,13 @@ MonoBehaviour:
     _loop: 0
     _playOnAwake: 0
     _frequentSound: 1
+    _useDedicatedSource: 0
     mute: 0
     bypassEffects: 1
     bypassListenerEffects: 1
     bypassReverbZones: 1
     priority: 64
-    volume: 0.1
+    volume: 0
     pitch: 1
     panStereo: 0
     spatialBlend: 0

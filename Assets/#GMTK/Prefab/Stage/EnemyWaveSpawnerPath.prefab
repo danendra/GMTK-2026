@@ -128,11 +128,12 @@ MonoBehaviour:
     _loop: 1
     _playOnAwake: 0
     _frequentSound: 0
+    _useDedicatedSource: 1
     mute: 0
     bypassEffects: 1
     bypassListenerEffects: 1
     bypassReverbZones: 1
-    priority: 128
+    priority: 32
     volume: 0.2
     pitch: 1
     panStereo: 0
@@ -151,11 +152,12 @@ MonoBehaviour:
     _loop: 1
     _playOnAwake: 0
     _frequentSound: 0
+    _useDedicatedSource: 1
     mute: 0
     bypassEffects: 1
     bypassListenerEffects: 1
     bypassReverbZones: 1
-    priority: 128
+    priority: 32
     volume: 0.2
     pitch: 1
     panStereo: 0
@@ -174,11 +176,12 @@ MonoBehaviour:
     _loop: 1
     _playOnAwake: 0
     _frequentSound: 0
+    _useDedicatedSource: 1
     mute: 0
     bypassEffects: 1
     bypassListenerEffects: 1
     bypassReverbZones: 1
-    priority: 128
+    priority: 32
     volume: 1
     pitch: 1
     panStereo: 0
@@ -197,11 +200,12 @@ MonoBehaviour:
     _loop: 1
     _playOnAwake: 0
     _frequentSound: 0
+    _useDedicatedSource: 1
     mute: 0
     bypassEffects: 1
     bypassListenerEffects: 1
     bypassReverbZones: 1
-    priority: 128
+    priority: 32
     volume: 1
     pitch: 1
     panStereo: 0

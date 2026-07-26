@@ -11,12 +11,14 @@ namespace AudioSystem{
         [SerializeField] private bool _loop;
         [SerializeField] private bool _playOnAwake;
         [SerializeField] private bool _frequentSound;
+        [SerializeField] private bool _useDedicatedSource;
 
         public AudioClip Clip => _clip;
         public AudioMixerGroup MixerGroup => _mixerGroup;
         public bool Loop => _loop;
         public bool PlayOnAwake => _playOnAwake;
         public bool FrequentSound => _frequentSound;
+        public bool UseDedicatedSource => _useDedicatedSource;
     
         public bool mute;
         public bool bypassEffects;

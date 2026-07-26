@@ -58,12 +58,13 @@ MonoBehaviour:
     _loop: 0
     _playOnAwake: 0
     _frequentSound: 0
+    _useDedicatedSource: 0
     mute: 0
     bypassEffects: 0
     bypassListenerEffects: 0
     bypassReverbZones: 0
     priority: 128
-    volume: 1
+    volume: 0.3
     pitch: 1
     panStereo: 0
     spatialBlend: 0
@@ -81,12 +82,13 @@ MonoBehaviour:
     _loop: 0
     _playOnAwake: 0
     _frequentSound: 0
+    _useDedicatedSource: 0
     mute: 0
     bypassEffects: 0
     bypassListenerEffects: 0
     bypassReverbZones: 0
     priority: 128
-    volume: 1
+    volume: 0.3
     pitch: 1
     panStereo: 0
     spatialBlend: 0
@@ -991,12 +993,13 @@ MonoBehaviour:
     _loop: 0
     _playOnAwake: 0
     _frequentSound: 1
+    _useDedicatedSource: 0
     mute: 0
     bypassEffects: 0
     bypassListenerEffects: 0
     bypassReverbZones: 0
     priority: 128
-    volume: 0.01
+    volume: 0.1
     pitch: 1
     panStereo: 0
     spatialBlend: 0
@@ -1062,12 +1065,13 @@ MonoBehaviour:
     _loop: 0
     _playOnAwake: 0
     _frequentSound: 1
+    _useDedicatedSource: 0
     mute: 0
     bypassEffects: 0
     bypassListenerEffects: 0
     bypassReverbZones: 0
     priority: 128
-    volume: 0.01
+    volume: 0.1
     pitch: 1
     panStereo: 0
     spatialBlend: 0
@@ -1462,12 +1466,13 @@ MonoBehaviour:
     _loop: 0
     _playOnAwake: 0
     _frequentSound: 1
+    _useDedicatedSource: 0
     mute: 0
     bypassEffects: 0
     bypassListenerEffects: 0
     bypassReverbZones: 0
     priority: 128
-    volume: 0.01
+    volume: 0.1
     pitch: 1
     panStereo: 0
     spatialBlend: 0
@@ -1830,6 +1835,7 @@ MonoBehaviour:
     _loop: 0
     _playOnAwake: 0
     _frequentSound: 0
+    _useDedicatedSource: 0
     mute: 0
     bypassEffects: 0
     bypassListenerEffects: 0
@@ -6699,6 +6705,7 @@ MonoBehaviour:
     _loop: 0
     _playOnAwake: 0
     _frequentSound: 0
+    _useDedicatedSource: 0
     mute: 0
     bypassEffects: 0
     bypassListenerEffects: 0
@@ -7240,6 +7247,7 @@ MonoBehaviour:
     _loop: 0
     _playOnAwake: 0
     _frequentSound: 0
+    _useDedicatedSource: 0
     mute: 0
     bypassEffects: 0
     bypassListenerEffects: 0
