@@ -79,7 +79,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_MaskInteraction: 1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 0.362, b: 0.355, a: 1}
@@ -190,7 +190,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!114 &340348268997674909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 673d4175e778f4774b529be3849f9a97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyHealthController
-  maxHealth: 10
+  maxHealth: 5000
   onHealthChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -231,6 +231,7 @@ MonoBehaviour:
     _loop: 0
     _playOnAwake: 0
     _frequentSound: 0
+    _useDedicatedSource: 0
     mute: 0
     bypassEffects: 0
     bypassListenerEffects: 0

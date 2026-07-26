@@ -21,7 +21,7 @@ namespace GMTK.Enemy
         void Start()
         {
             cooldown = new CooldownModule(fltDelay, false);
-            cooldownDuration = new CooldownModule(fltDurationFire + fltDurationTelegraph, true);
+            cooldownDuration = new CooldownModule(fltDurationFire + fltDurationTelegraph, false);
             arrLaserSpawners = GetComponentsInChildren<EnemyLaserSpawnerController>();
 
             transParent = transform.parent;
