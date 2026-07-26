@@ -45,6 +45,12 @@ namespace GMTK.Player
             onRespawn.RemoveListener(_onRespawn);
         }
 
+        public void TriggerBomb()
+        {
+            Debug.Log("TriggerBomb di PlayerLiveController berhasil dijalankan!");
+            onRespawn.Invoke();
+        }
+
         // Update is called once per frame
         void Update()
         {
