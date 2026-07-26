@@ -874,8 +874,8 @@ MonoBehaviour:
         ExtraBoundRenderers: []
         Mode: 0
         PropertyName: _Tint
-        FlickerDuration: 0.05
-        FlickerPeriod: 0.05
+        FlickerDuration: 0.02
+        FlickerPeriod: 0.02
         FlickerColor: {r: 0.1509434, g: 0.05482378, b: 0.05482378, a: 1}
         MaterialIndexes: 00000000
         UseMaterialPropertyBlocks: 1

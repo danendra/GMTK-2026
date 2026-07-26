@@ -26,6 +26,23 @@ namespace GMTK.Enemy
             }
         }
 
+        protected override void OnEnable()
+        {
+            base.OnEnable();
+
+            if (enemyDamagedEffect != null)
+            {
+                enemyDamagedEffect.StopFeedbacks();
+                enemyDamagedEffect.RestoreInitialValues();
+            }
+
+            if (enemyDeadEffect != null)
+            {
+                enemyDeadEffect.StopFeedbacks();
+                enemyDeadEffect.RestoreInitialValues();
+            }
+        }
+
         protected virtual void OnTriggerEnter2D(Collider2D _collision)
         {
             if (_collision.CompareTag(playerTag))
@@ -49,14 +66,15 @@ namespace GMTK.Enemy
             base.Die();
 
             enemyDeadEffect.PlayFeedbacks();
-            if (animator)
-            {
-                animator.SetBool(isDestroyBoolName, true);
-            }
-            else
-            {
-                gameObject.SetActive(false);
-            }
+
+            // if (animator)
+            // {
+            //     animator.SetBool(isDestroyBoolName, true);
+            // }
+            // else
+            // {
+            //     gameObject.SetActive(false);
+            // }
         }
 
         /// <summary>
