@@ -2805,6 +2805,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 686887756936207158, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: txtScore
+      value: 
+      objectReference: {fileID: 915953577}
+    - target: {fileID: 686887756936207158, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: txtHighscore
+      value: 
+      objectReference: {fileID: 596630282}
     - target: {fileID: 835664442285537140, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
       propertyPath: playerLiveController
       value: 
@@ -3450,6 +3458,17 @@ Transform:
   - {fileID: 1018893941}
   m_Father: {fileID: 1683710137}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &596630282 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8329792912561380597, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+  m_PrefabInstance: {fileID: 492808311}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &608154338 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2813584993196639987, guid: 6d8f22391732a4e82816e7a969797766, type: 3}
@@ -5368,6 +5387,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f2945cdd38d546fdbf82d9c1a131ec7, type: 3}
+--- !u!114 &915953577 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4733281431336711637, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+  m_PrefabInstance: {fileID: 492808311}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1001 &924348851
 PrefabInstance:
   m_ObjectHideFlags: 0
