@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 9ba0ac8b14a284d658ff01bfef430d8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7306058198734050893
+    second: MageLogo_White_0
+  - first:
+      213: 41767243719381940
+    second: MageLogo_White_1
+  - first:
+      213: -3159716012159012148
+    second: MageLogo_White_2
+  - first:
+      213: -7546484168189915066
+    second: MageLogo_White_3
+  - first:
+      213: 460960040100722714
+    second: MageLogo_White_4
+  - first:
+      213: -7126105716361241829
+    second: MageLogo_White_5
+  - first:
+      213: 8226281500740714310
+    second: MageLogo_White_6
+  - first:
+      213: -1771541733342827290
+    second: MageLogo_White_7
+  - first:
+      213: 7194522694071247744
+    second: MageLogo_White_8
+  - first:
+      213: -6481498319678521481
+    second: MageLogo_White_9
+  - first:
+      213: -3607519311121772345
+    second: MageLogo_White_10
+  - first:
+      213: -3449209109582263841
+    second: MageLogo_White_11
+  - first:
+      213: 7272714755102706407
+    second: MageLogo_White_12
+  - first:
+      213: -8590877590548626228
+    second: MageLogo_White_13
+  - first:
+      213: 1034226986642283486
+    second: MageLogo_White_14
+  - first:
+      213: -2847587481660165058
+    second: MageLogo_White_15
+  - first:
+      213: -6874663634475735117
+    second: MageLogo_White_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MageLogo_White_0
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1084
+        width: 2315
+        height: 989
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d469fdbf835546560800000000000000
+      internalID: 7306058198734050893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageLogo_White_1
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1046
+        width: 1050
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3142d3613649000800000000000000
+      internalID: 41767243719381940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageLogo_White_2
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 1046
+        width: 181
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2f520270f6624d0800000000000000
+      internalID: -3159716012159012148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageLogo_White_3
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 1285
+        width: 501
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6405eebc1a0854790800000000000000
+      internalID: -7546484168189915066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageLogo_White_4
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 733
+        width: 322
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a187ad5d6b8a56600800000000000000
+      internalID: 460960040100722714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageLogo_White_5
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 738
+        width: 247
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b58605b9cfa1d90800000000000000
+      internalID: -7126105716361241829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageLogo_White_6
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 739
+        width: 230
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f7402b07f992270800000000000000
+      internalID: 8226281500740714310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageLogo_White_7
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 737
+        width: 201
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec2257fd283a67e0800000000000000
+      internalID: -1771541733342827290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageLogo_White_8
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 738
+        width: 217
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0836a94a54418d360800000000000000
+      internalID: 7194522694071247744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageLogo_White_9
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 737
+        width: 179
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f35436e971d06a0800000000000000
+      internalID: -6481498319678521481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageLogo_White_10
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 737
+        width: 245
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0993ccc448fedc0800000000000000
+      internalID: -3607519311121772345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageLogo_White_11
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 737
+        width: 150
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9ce4be692f120d0800000000000000
+      internalID: -3449209109582263841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageLogo_White_12
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 715
+        width: 220
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea83aa898fdde460800000000000000
+      internalID: 7272714755102706407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageLogo_White_13
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1
+        width: 1859
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc44c7a095217c880800000000000000
+      internalID: -8590877590548626228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageLogo_White_14
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 306
+        width: 272
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb9febf6ff4a5e00800000000000000
+      internalID: 1034226986642283486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageLogo_White_15
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 447
+        width: 321
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34fbc8c5465b78d0800000000000000
+      internalID: -2847587481660165058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageLogo_White_16
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 145
+        width: 238
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b727c419d94890a0800000000000000
+      internalID: -6874663634475735117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MageLogo_White_0: 7306058198734050893
+      MageLogo_White_1: 41767243719381940
+      MageLogo_White_10: -3607519311121772345
+      MageLogo_White_11: -3449209109582263841
+      MageLogo_White_12: 7272714755102706407
+      MageLogo_White_13: -8590877590548626228
+      MageLogo_White_14: 1034226986642283486
+      MageLogo_White_15: -2847587481660165058
+      MageLogo_White_16: -6874663634475735117
+      MageLogo_White_2: -3159716012159012148
+      MageLogo_White_3: -7546484168189915066
+      MageLogo_White_4: 460960040100722714
+      MageLogo_White_5: -7126105716361241829
+      MageLogo_White_6: 8226281500740714310
+      MageLogo_White_7: -1771541733342827290
+      MageLogo_White_8: 7194522694071247744
+      MageLogo_White_9: -6481498319678521481
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
