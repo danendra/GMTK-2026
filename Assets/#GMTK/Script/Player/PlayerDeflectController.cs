@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 using Anoa.Module;
 
@@ -6,44 +7,35 @@ namespace GMTK.Player
 {
     public class PlayerDeflectController : MonoBehaviour
     {
-        [SerializeField] protected SpriteRenderer sprite;
         [SerializeField] protected float fltDelay = 0.2f;
         [SerializeField] protected float fltDuration = 0.2f;
         [SerializeField] protected SpawnerController spawnBullet;
 
-        protected CooldownModule cooldownDeflect;
-        protected Collider2D collider;
-        protected Color color;
+        [SerializeField] protected UnityEvent onActive;
+        [SerializeField] protected UnityEvent onDeactive;
+
+        protected CooldownModule cooldownDeflect;                
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
-        {
-            collider = GetComponent<Collider2D>();
-            cooldownDeflect = new CooldownModule(fltDelay, true);
-            
-            color = sprite.color;
+        {            
+            cooldownDeflect = new CooldownModule(fltDelay, true);            
         }
 
         public void Activate()
         {
             if(!gameObject.activeInHierarchy || !cooldownDeflect.IsReady) return;
 
-            collider.enabled = true;            
-            color.a = 1.0f;
-
-            sprite.color = color;
-
             cooldownDeflect.Use();
+
+            onActive.Invoke();
 
             Invoke("Deactivate", fltDuration);
         }
 
         public void Deactivate()
-        {
-            collider.enabled = false;            
-            color.a = 0.1f;
-
-            sprite.color = color;
+        {                      
+            onDeactive.Invoke();
         }
 
         // Update is called once per frame
