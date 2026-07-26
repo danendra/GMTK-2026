@@ -1,6 +1,7 @@
 using UnityEngine;
 using AudioSystem;
 using MoreMountains.Feedbacks;
+using GMTK.Player;
 
 namespace GMTK.Enemy
 {
@@ -52,6 +53,9 @@ namespace GMTK.Enemy
 
         protected override void Die()
         {
+            if (ScoreCalculationController.instance)
+                ScoreCalculationController.instance.AddScore(maxHealth);
+
             base.Die();
             // if (animator)
             // {
