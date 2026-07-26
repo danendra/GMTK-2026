@@ -72,6 +72,14 @@ namespace GMTK.Player
 
                 _direction.transform.position = _collision.transform.position;
                 _direction.SetDirection(_directionReflect);
+
+                // Add 10% charge to the Bomb ultimate per deflection
+                PlayerBombController _bomb = GetComponentInParent<PlayerBombController>();
+                if (_bomb == null) _bomb = GetComponent<PlayerBombController>();
+                if (_bomb != null)
+                {
+                    _bomb.AddCharge(10f);
+                }
             }
         }
     }

@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace GMTK
 {
+    using GMTK.Mode;
     using Player;
     public class BulletController : MonoBehaviour
     {
@@ -18,6 +19,7 @@ namespace GMTK
                 Awake();
 
             playerLive?.AddRespawnListener(Disable);
+            ModeManager.instance?.GetActiveMode.AddListener(Disable);
         }
 
         void OnDisable()
@@ -26,6 +28,7 @@ namespace GMTK
                 Awake();
 
             playerLive?.RemoveRespawnListener(Disable);
+            ModeManager.instance?.GetActiveMode.RemoveListener(Disable);
         }
 
         public void Disable()

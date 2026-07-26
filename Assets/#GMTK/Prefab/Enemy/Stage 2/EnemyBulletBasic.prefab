@@ -24,6 +24,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 173634676462244024, guid: c4ce40362a131428e881c475a1cc4d73, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 839207611969935884, guid: c4ce40362a131428e881c475a1cc4d73, type: 3}
       propertyPath: m_Name
       value: EnemyBulletBasic
@@ -71,6 +75,10 @@ PrefabInstance:
     - target: {fileID: 1279850733807367915, guid: c4ce40362a131428e881c475a1cc4d73, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046699801972420031, guid: c4ce40362a131428e881c475a1cc4d73, type: 3}
+      propertyPath: m_Radius
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: 8922018782611949223, guid: c4ce40362a131428e881c475a1cc4d73, type: 3}
       propertyPath: m_LocalRotation.w
