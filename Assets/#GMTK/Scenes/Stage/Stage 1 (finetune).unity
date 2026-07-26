@@ -2805,6 +2805,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 835664442285537140, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: playerLiveController
+      value: 
+      objectReference: {fileID: 1691370976779198530}
+    - target: {fileID: 1507577178038412265, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1507577178038412265, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1507577178038412265, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1507577178038412265, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2156341416383884770, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2818,6 +2838,54 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2156341416383884770, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523103545966342730, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523103545966342730, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523103545966342730, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523103545966342730, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051640176901059257, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051640176901059257, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051640176901059257, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051640176901059257, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544414893754220777, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544414893754220777, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544414893754220777, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544414893754220777, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
@@ -12527,6 +12595,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea333d64a5b0149e78e387b5a351a84b, type: 3}
+--- !u!114 &1691370976779198530 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7063087289431749525, guid: ea333d64a5b0149e78e387b5a351a84b, type: 3}
+  m_PrefabInstance: {fileID: 1691370976779198529}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc89f88ecf0e64e70b8264c45fddfdc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerLiveController
 --- !u!114 &1943546032581161869 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9199790644214194716, guid: 170594ab0c8db4c84a878c85b84bb5e7, type: 3}

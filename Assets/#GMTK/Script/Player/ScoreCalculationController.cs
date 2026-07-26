@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 namespace GMTK.Player
 {
@@ -11,6 +12,8 @@ namespace GMTK.Player
         public float intCurrentScore {get; protected set;}
 
         protected PlayerLiveController playerLive;
+        [SerializeField] protected TMP_Text txtHighscore;
+        [SerializeField] protected TMP_Text txtScore;
 
         void Awake()
         {
@@ -22,6 +25,7 @@ namespace GMTK.Player
         {
             intHighScore = PlayerPrefs.GetInt(SceneManager.GetActiveScene().name+"Hi Score", 0);
             intCurrentScore = 0;
+            RefreshScoreTexts();
 
             do
             {
@@ -40,6 +44,21 @@ namespace GMTK.Player
             {
                 intHighScore = Mathf.RoundToInt(intCurrentScore);
                 PlayerPrefs.SetInt(SceneManager.GetActiveScene().name+"Hi Score", intHighScore);
+            }
+
+            RefreshScoreTexts();
+        }
+
+        protected void RefreshScoreTexts()
+        {
+            if (txtScore != null)
+            {
+                txtScore.text = Mathf.RoundToInt(intCurrentScore).ToString();
+            }
+
+            if (txtHighscore != null)
+            {
+                txtHighscore.text = intHighScore.ToString();
             }
         }
 
