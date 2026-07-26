@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6432519251620433681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4495413019784150508}
+  - component: {fileID: 2048462812515685512}
+  m_Layer: 0
+  m_Name: EnemyWaveSpawnerPath
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4495413019784150508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6432519251620433681}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.61, y: 1.59, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2048462812515685512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6432519251620433681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd8bb557eed245db8e127f4b272931f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyWaveSpawnerPath
+  waveTimeline:
+  - fltDelay: 0
+    enemyPool: {fileID: 0}
+    dotweenPathReference: {fileID: 0}
+    count: 10
+    spawnInterval: 0.5
+    dontDeactivateAtEnd: 0
+    triggerBossBgm: 0
+  - fltDelay: 5
+    enemyPool: {fileID: 0}
+    dotweenPathReference: {fileID: 0}
+    count: 10
+    spawnInterval: 0.5
+    dontDeactivateAtEnd: 0
+    triggerBossBgm: 0
+  - fltDelay: 5
+    enemyPool: {fileID: 0}
+    dotweenPathReference: {fileID: 0}
+    count: 1
+    spawnInterval: 0.5
+    dontDeactivateAtEnd: 0
+    triggerBossBgm: 0
+  - fltDelay: 0
+    enemyPool: {fileID: 0}
+    dotweenPathReference: {fileID: 0}
+    count: 1
+    spawnInterval: 0.5
+    dontDeactivateAtEnd: 0
+    triggerBossBgm: 0
+  - fltDelay: 0
+    enemyPool: {fileID: 0}
+    dotweenPathReference: {fileID: 0}
+    count: 1
+    spawnInterval: 0.5
+    dontDeactivateAtEnd: 0
+    triggerBossBgm: 0
+  - fltDelay: 5
+    enemyPool: {fileID: 0}
+    dotweenPathReference: {fileID: 0}
+    count: 1
+    spawnInterval: 0.5
+    dontDeactivateAtEnd: 0
+    triggerBossBgm: 0
+  - fltDelay: 0
+    enemyPool: {fileID: 0}
+    dotweenPathReference: {fileID: 0}
+    count: 1
+    spawnInterval: 0.5
+    dontDeactivateAtEnd: 0
+    triggerBossBgm: 0
+  - fltDelay: 0
+    enemyPool: {fileID: 0}
+    dotweenPathReference: {fileID: 0}
+    count: 1
+    spawnInterval: 0.5
+    dontDeactivateAtEnd: 0
+    triggerBossBgm: 0
+  - fltDelay: 5
+    enemyPool: {fileID: 0}
+    dotweenPathReference: {fileID: 0}
+    count: 8
+    spawnInterval: 0.5
+    dontDeactivateAtEnd: 0
+    triggerBossBgm: 0
+  - fltDelay: 0
+    enemyPool: {fileID: 0}
+    dotweenPathReference: {fileID: 0}
+    count: 8
+    spawnInterval: 0.5
+    dontDeactivateAtEnd: 0
+    triggerBossBgm: 0
+  - fltDelay: 5
+    enemyPool: {fileID: 0}
+    dotweenPathReference: {fileID: 0}
+    count: 1
+    spawnInterval: 0.5
+    dontDeactivateAtEnd: 1
+    triggerBossBgm: 0
+  minionBgmSound:
+    _clip: {fileID: 8300000, guid: 88f6f1fcf6c3b4fed8950e065363bfc0, type: 3}
+    _mixerGroup: {fileID: -2273146209696275378, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
+    _loop: 1
+    _playOnAwake: 0
+    _frequentSound: 0
+    mute: 0
+    bypassEffects: 1
+    bypassListenerEffects: 1
+    bypassReverbZones: 1
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+  bossBgmSound:
+    _clip: {fileID: 8300000, guid: 827241a4524d24832ae09c934f2ec046, type: 3}
+    _mixerGroup: {fileID: -2273146209696275378, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
+    _loop: 1
+    _playOnAwake: 0
+    _frequentSound: 0
+    mute: 0
+    bypassEffects: 1
+    bypassListenerEffects: 1
+    bypassReverbZones: 1
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+  finalMinionBgmSound:
+    _clip: {fileID: 8300000, guid: 71e8a9aa4dc254af8844c292d1d4c21e, type: 3}
+    _mixerGroup: {fileID: -2273146209696275378, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
+    _loop: 1
+    _playOnAwake: 0
+    _frequentSound: 0
+    mute: 0
+    bypassEffects: 1
+    bypassListenerEffects: 1
+    bypassReverbZones: 1
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+  finalBossBgmSound:
+    _clip: {fileID: 8300000, guid: 9df14ff8e76f34ae6baa8058deb6366a, type: 3}
+    _mixerGroup: {fileID: -2273146209696275378, guid: 7e984f512e89b60468e829489e8883e3, type: 2}
+    _loop: 1
+    _playOnAwake: 0
+    _frequentSound: 0
+    mute: 0
+    bypassEffects: 1
+    bypassListenerEffects: 1
+    bypassReverbZones: 1
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+  isLevel3: 0
+  playMinionBgmOnStart: 1
+  bgmFadeDuration: 1
+  enableDebugKeys: 0
+  skipToBossKey: 289
+  simulateBossDefeatedKey: 290

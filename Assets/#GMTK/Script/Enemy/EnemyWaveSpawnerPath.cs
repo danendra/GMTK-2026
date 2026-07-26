@@ -51,6 +51,11 @@ namespace GMTK.Enemy
         [SerializeField] protected bool playMinionBgmOnStart = true;
         [SerializeField] protected float bgmFadeDuration = 1.0f;
 
+        [Header("Debug")]
+        [SerializeField] protected bool enableDebugKeys;
+        [SerializeField] protected KeyCode skipToBossKey = KeyCode.F8;
+        [SerializeField] protected KeyCode simulateBossDefeatedKey = KeyCode.F9;
+
         protected bool bossBgmTriggered;
         protected AudioSource minionBgmSource;
         protected AudioSource bossBgmSource;
@@ -71,6 +76,24 @@ namespace GMTK.Enemy
             }
 
             StartCoroutine(SpawnTimelineRoutine());
+        }
+
+        void Update()
+        {
+            if (!enableDebugKeys)
+            {
+                return;
+            }
+
+            if (Input.GetKeyDown(skipToBossKey))
+            {
+                DebugSkipToBossFight();
+            }
+
+            if (Input.GetKeyDown(simulateBossDefeatedKey))
+            {
+                DebugSimulateBossDefeated();
+            }
         }
 
         private IEnumerator SpawnTimelineRoutine()
@@ -211,6 +234,24 @@ namespace GMTK.Enemy
             }
 
             FadeOutBossOverlay();
+        }
+
+        [ContextMenu("Debug/Skip To Boss Fight")]
+        public void DebugSkipToBossFight()
+        {
+            if (!minionBgmSource.isPlaying)
+            {
+                PlayMinionBgm();
+            }
+
+            bossBgmTriggered = true;
+            PlayBossOverlayBgm();
+        }
+
+        [ContextMenu("Debug/Simulate Boss Defeated")]
+        public void DebugSimulateBossDefeated()
+        {
+            OnBossDefeated();
         }
 
         protected void CrossfadeMinionTo(SoundData targetSound)
