@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace GMTK.UI
@@ -9,13 +8,12 @@ namespace GMTK.UI
     {
         [Header("Panels")]
         [SerializeField] private GameObject successPanel;
-        [SerializeField] private GameObject restartPanel;
+        [SerializeField] private GameObject gameOverPanel;
 
         [Header("Success")]
         [SerializeField] private Graphic successText;
         [SerializeField] private float blinkDuration = 5f;
         [SerializeField] private float blinkSpeed = 0.25f;
-        [SerializeField] private string nextSceneName = "Stage 2";
 
         [Header("Restart")]
         [SerializeField] private Button retryButton;
@@ -29,7 +27,6 @@ namespace GMTK.UI
 
         public void ShowSuccess()
         {
-            gameObject.SetActive(true);
             HideAll();
 
             if (successPanel != null)
@@ -47,12 +44,11 @@ namespace GMTK.UI
 
         public void ShowRestart()
         {
-            gameObject.SetActive(true);
             HideAll();
 
-            if (restartPanel != null)
+            if (gameOverPanel != null)
             {
-                restartPanel.SetActive(true);
+                gameOverPanel.SetActive(true);
             }
 
             if (retryButton != null && UnityEngine.EventSystems.EventSystem.current != null)
@@ -64,7 +60,7 @@ namespace GMTK.UI
         public void RestartCurrentScene()
         {
             Time.timeScale = 1f;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
         }
 
         IEnumerator IEShowSuccess()
@@ -90,12 +86,6 @@ namespace GMTK.UI
             }
 
             Time.timeScale = 1f;
-
-            if (!string.IsNullOrEmpty(nextSceneName))
-            {
-                SceneManager.LoadScene(nextSceneName);
-            }
-
             activeRoutine = null;
         }
 
@@ -106,9 +96,9 @@ namespace GMTK.UI
                 successPanel.SetActive(false);
             }
 
-            if (restartPanel != null)
+            if (gameOverPanel != null)
             {
-                restartPanel.SetActive(false);
+                gameOverPanel.SetActive(false);
             }
         }
     }

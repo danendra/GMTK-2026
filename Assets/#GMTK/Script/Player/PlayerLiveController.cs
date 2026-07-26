@@ -32,7 +32,7 @@ namespace GMTK.Player
 
             if (intCurrentHealth < 1)
             {
-                GMTK.UI.UIResultController resultController = FindObjectOfType<GMTK.UI.UIResultController>();
+                GMTK.UI.UIResultController resultController = FindFirstObjectByType<GMTK.UI.UIResultController>();
                 if (resultController != null)
                 {
                     resultController.ShowRestart();

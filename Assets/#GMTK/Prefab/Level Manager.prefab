@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3215780792188763842}
   - component: {fileID: 6372559814235148945}
   - component: {fileID: 7826976516281756563}
+  - component: {fileID: 2951330338113644688}
   m_Layer: 0
   m_Name: Level Manager
   m_TagString: Untagged
@@ -113,3 +114,21 @@ MonoBehaviour:
     ignoreListenerPause: 0
     rolloffMode: 0
   fadeDuration: 1
+--- !u!114 &2951330338113644688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2156803093253998799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f933abb83504b148e4135b01405df3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.UI.UIResultController
+  successPanel: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  successText: {fileID: 0}
+  blinkDuration: 5
+  blinkSpeed: 0.25
+  retryButton: {fileID: 0}

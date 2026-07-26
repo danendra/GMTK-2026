@@ -2871,6 +2871,38 @@ PrefabInstance:
       addedObject: {fileID: 2136210749}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+--- !u!114 &492808312 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2452165468377001912, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+  m_PrefabInstance: {fileID: 492808311}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!1 &492808313 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2643439993611053445, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+  m_PrefabInstance: {fileID: 492808311}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &492808314 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5226632350291271251, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+  m_PrefabInstance: {fileID: 492808311}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+--- !u!1 &492808315 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2872385711325818264, guid: 5daa84ae7c5f04731b01963cacdabbcd, type: 3}
+  m_PrefabInstance: {fileID: 492808311}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &524966082
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6678,6 +6710,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 2951330338113644688, guid: d545a44aa15594b6a8192c5a9586d5a1, type: 3}
+      propertyPath: retryButton
+      value: 
+      objectReference: {fileID: 492808314}
+    - target: {fileID: 2951330338113644688, guid: d545a44aa15594b6a8192c5a9586d5a1, type: 3}
+      propertyPath: successText
+      value: 
+      objectReference: {fileID: 492808312}
+    - target: {fileID: 2951330338113644688, guid: d545a44aa15594b6a8192c5a9586d5a1, type: 3}
+      propertyPath: successPanel
+      value: 
+      objectReference: {fileID: 492808313}
+    - target: {fileID: 2951330338113644688, guid: d545a44aa15594b6a8192c5a9586d5a1, type: 3}
+      propertyPath: gameOverPanel
+      value: 
+      objectReference: {fileID: 492808315}
     - target: {fileID: 3215780792188763842, guid: d545a44aa15594b6a8192c5a9586d5a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

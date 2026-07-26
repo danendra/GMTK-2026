@@ -42,7 +42,7 @@ namespace GMTK.Enemy
             }
             else
             {
-                UI.UIResultController successController = FindObjectOfType<UI.UIResultController>();
+                UI.UIResultController successController = FindFirstObjectByType<UI.UIResultController>();
                 if (successController != null)
                 {
                     successController.ShowSuccess();
