@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fd47e45ca98694ea5b60949030676d8b
+guid: a6c9f40d745c74e279f8e3ba0d0e9e5b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7947947497880857302
-    second: Focused Bullet_0
+      213: -2686303660713360048
+    second: Bullet_Lv3_V1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 550
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Focused Bullet_0
+      name: Bullet_Lv3_V1_0
       rect:
         serializedVersion: 2
-        x: 511
-        y: 100
-        width: 186
-        height: 1040
+        x: 309
+        y: 311
+        width: 1463
+        height: 1405
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a255b575cd733b190800000000000000
-      internalID: -7947947497880857302
+      spriteID: 0554950ad0558bad0800000000000000
+      internalID: -2686303660713360048
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Focused Bullet_0: -7947947497880857302
+      Bullet_Lv3_V1_0: -2686303660713360048
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
