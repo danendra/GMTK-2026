@@ -1,0 +1,3692 @@
+fileFormatVersion: 2
+guid: da7e88d4ee1ce467d99285eeb080e505
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6039451000595011474
+    second: Full Layout  Hourglass_0
+  - first:
+      213: 421000857363764823
+    second: Full Layout  Hourglass_1
+  - first:
+      213: 6534388278356150149
+    second: Full Layout  Hourglass_2
+  - first:
+      213: 8971300969091051188
+    second: Full Layout  Hourglass_3
+  - first:
+      213: -2331810318385171807
+    second: Full Layout  Hourglass_4
+  - first:
+      213: -5989662242813409241
+    second: Full Layout  Hourglass_5
+  - first:
+      213: 856007906694985981
+    second: Full Layout  Hourglass_6
+  - first:
+      213: -7721151128011104787
+    second: Full Layout  Hourglass_7
+  - first:
+      213: 6779983835294882699
+    second: Full Layout  Hourglass_8
+  - first:
+      213: -2123838182037018524
+    second: Full Layout  Hourglass_9
+  - first:
+      213: 8795556209771724601
+    second: Full Layout  Hourglass_10
+  - first:
+      213: -774101797487165400
+    second: Full Layout  Hourglass_11
+  - first:
+      213: 4899060344897746209
+    second: Full Layout  Hourglass_12
+  - first:
+      213: -1289770372019987291
+    second: Full Layout  Hourglass_13
+  - first:
+      213: -6913556843734305361
+    second: Full Layout  Hourglass_14
+  - first:
+      213: 2177153523436676277
+    second: Full Layout  Hourglass_15
+  - first:
+      213: 7296826413697892712
+    second: Full Layout  Hourglass_16
+  - first:
+      213: 3904338235579157450
+    second: Full Layout  Hourglass_17
+  - first:
+      213: 3225188247806980585
+    second: Full Layout  Hourglass_18
+  - first:
+      213: -7846821964684071156
+    second: Full Layout  Hourglass_19
+  - first:
+      213: -3746943300497941753
+    second: Full Layout  Hourglass_20
+  - first:
+      213: 6355168277254773560
+    second: Full Layout  Hourglass_21
+  - first:
+      213: -8743724044550911084
+    second: Full Layout  Hourglass_22
+  - first:
+      213: -3247985083788315708
+    second: Full Layout  Hourglass_23
+  - first:
+      213: -5168122774716418479
+    second: Full Layout  Hourglass_24
+  - first:
+      213: 3095265559709860063
+    second: Full Layout  Hourglass_25
+  - first:
+      213: -6050197497502576332
+    second: Full Layout  Hourglass_26
+  - first:
+      213: 67760106410762054
+    second: Full Layout  Hourglass_27
+  - first:
+      213: 1863162850106985900
+    second: Full Layout  Hourglass_28
+  - first:
+      213: -581910909169662143
+    second: Full Layout  Hourglass_29
+  - first:
+      213: 8794664910365334139
+    second: Full Layout  Hourglass_30
+  - first:
+      213: 6603131947319266383
+    second: Full Layout  Hourglass_31
+  - first:
+      213: 1815962117116451671
+    second: Full Layout  Hourglass_32
+  - first:
+      213: 1263114757990685027
+    second: Full Layout  Hourglass_33
+  - first:
+      213: -5613173919805081182
+    second: Full Layout  Hourglass_34
+  - first:
+      213: -1919215336251224497
+    second: Full Layout  Hourglass_35
+  - first:
+      213: -3752376502497882994
+    second: Full Layout  Hourglass_36
+  - first:
+      213: 5893626491756287277
+    second: Full Layout  Hourglass_37
+  - first:
+      213: -4341443463916124840
+    second: Full Layout  Hourglass_38
+  - first:
+      213: -2645409526615747895
+    second: Full Layout  Hourglass_39
+  - first:
+      213: 3275214769371781671
+    second: Full Layout  Hourglass_40
+  - first:
+      213: 8267894607364075050
+    second: Full Layout  Hourglass_41
+  - first:
+      213: 5673565201016385827
+    second: Full Layout  Hourglass_42
+  - first:
+      213: -8490707697424668996
+    second: Full Layout  Hourglass_43
+  - first:
+      213: -4204384429550701853
+    second: Full Layout  Hourglass_44
+  - first:
+      213: -1617449251991275592
+    second: Full Layout  Hourglass_45
+  - first:
+      213: -7422215835126689358
+    second: Full Layout  Hourglass_46
+  - first:
+      213: 3657814067890248016
+    second: Full Layout  Hourglass_47
+  - first:
+      213: 3372390752481346216
+    second: Full Layout  Hourglass_48
+  - first:
+      213: -6692153185165902810
+    second: Full Layout  Hourglass_49
+  - first:
+      213: 5885357381227181298
+    second: Full Layout  Hourglass_50
+  - first:
+      213: -3960860268934888938
+    second: Full Layout  Hourglass_51
+  - first:
+      213: -8276205482114906006
+    second: Full Layout  Hourglass_52
+  - first:
+      213: 3103313884237538958
+    second: Full Layout  Hourglass_53
+  - first:
+      213: 728447643692453139
+    second: Full Layout  Hourglass_54
+  - first:
+      213: 47497103639183660
+    second: Full Layout  Hourglass_55
+  - first:
+      213: -5024050402689623928
+    second: Full Layout  Hourglass_56
+  - first:
+      213: -8883751074231496770
+    second: Full Layout  Hourglass_57
+  - first:
+      213: 2738469726361125068
+    second: Full Layout  Hourglass_58
+  - first:
+      213: 7186824885208429952
+    second: Full Layout  Hourglass_59
+  - first:
+      213: 4184600956344886555
+    second: Full Layout  Hourglass_60
+  - first:
+      213: -6831284218658822010
+    second: Full Layout  Hourglass_61
+  - first:
+      213: -3197005497336157137
+    second: Full Layout  Hourglass_62
+  - first:
+      213: -6557801681620544224
+    second: Full Layout  Hourglass_63
+  - first:
+      213: 1008036382962448076
+    second: Full Layout  Hourglass_64
+  - first:
+      213: -8975385300852563808
+    second: Full Layout  Hourglass_65
+  - first:
+      213: -7093215085121847610
+    second: Full Layout  Hourglass_66
+  - first:
+      213: -7336217493003541757
+    second: Full Layout  Hourglass_67
+  - first:
+      213: -8705779171907905296
+    second: Full Layout  Hourglass_68
+  - first:
+      213: -5932051906983943051
+    second: Full Layout  Hourglass_69
+  - first:
+      213: -6261966767237679003
+    second: Full Layout  Hourglass_70
+  - first:
+      213: 8580526212081023323
+    second: Full Layout  Hourglass_71
+  - first:
+      213: -8392031035591645413
+    second: Full Layout  Hourglass_72
+  - first:
+      213: -3960994499479833000
+    second: Full Layout  Hourglass_73
+  - first:
+      213: -5116466028138584892
+    second: Full Layout  Hourglass_74
+  - first:
+      213: -4575705034295811043
+    second: Full Layout  Hourglass_75
+  - first:
+      213: -6188766443221407702
+    second: Full Layout  Hourglass_76
+  - first:
+      213: 3088850914790791679
+    second: Full Layout  Hourglass_77
+  - first:
+      213: -8809576460095366519
+    second: Full Layout  Hourglass_78
+  - first:
+      213: 3418074566143886664
+    second: Full Layout  Hourglass_79
+  - first:
+      213: 5597680232159749363
+    second: Full Layout  Hourglass_80
+  - first:
+      213: -6109791648375213024
+    second: Full Layout  Hourglass_81
+  - first:
+      213: 2375148318554886404
+    second: Full Layout  Hourglass_82
+  - first:
+      213: -225565331124289243
+    second: Full Layout  Hourglass_83
+  - first:
+      213: 3783565827326245779
+    second: Full Layout  Hourglass_84
+  - first:
+      213: 1325603316975078994
+    second: Full Layout  Hourglass_85
+  - first:
+      213: -8881693734405149148
+    second: Full Layout  Hourglass_86
+  - first:
+      213: -7291894622923494111
+    second: Full Layout  Hourglass_87
+  - first:
+      213: 2124390009275574535
+    second: Full Layout  Hourglass_88
+  - first:
+      213: -8209191875913297588
+    second: Full Layout  Hourglass_89
+  - first:
+      213: 446038066975227555
+    second: Full Layout  Hourglass_90
+  - first:
+      213: -3545968760755421622
+    second: Full Layout  Hourglass_91
+  - first:
+      213: -7398342621351329909
+    second: Full Layout  Hourglass_92
+  - first:
+      213: -126748574622594815
+    second: Full Layout  Hourglass_93
+  - first:
+      213: -7294244486492596191
+    second: Full Layout  Hourglass_94
+  - first:
+      213: -3209265998164717941
+    second: Full Layout  Hourglass_95
+  - first:
+      213: 7127090918158989306
+    second: Full Layout  Hourglass_96
+  - first:
+      213: -7377224784201643617
+    second: Full Layout  Hourglass_97
+  - first:
+      213: -5188001422905389494
+    second: Full Layout  Hourglass_98
+  - first:
+      213: -1373017130125208164
+    second: Full Layout  Hourglass_99
+  - first:
+      213: -6466821583699093943
+    second: Full Layout  Hourglass_100
+  - first:
+      213: -6508337530056640593
+    second: Full Layout  Hourglass_101
+  - first:
+      213: -3773163461435136599
+    second: Full Layout  Hourglass_102
+  - first:
+      213: -1404973962764135241
+    second: Full Layout  Hourglass_103
+  - first:
+      213: 2852921015904537138
+    second: Full Layout  Hourglass_104
+  - first:
+      213: 7408909220981744569
+    second: Full Layout  Hourglass_105
+  - first:
+      213: -988225110554049712
+    second: Full Layout  Hourglass_106
+  - first:
+      213: -4225125581678483217
+    second: Full Layout  Hourglass_107
+  - first:
+      213: -3598548676462420506
+    second: Full Layout  Hourglass_108
+  - first:
+      213: -7888844451316224513
+    second: Full Layout  Hourglass_109
+  - first:
+      213: -7813926172727466549
+    second: Full Layout  Hourglass_110
+  - first:
+      213: -4655140891397235516
+    second: Full Layout  Hourglass_111
+  - first:
+      213: 2983061824572098299
+    second: Full Layout  Hourglass_112
+  - first:
+      213: -9129583877731274694
+    second: Full Layout  Hourglass_113
+  - first:
+      213: -7958267082994332792
+    second: Full Layout  Hourglass_114
+  - first:
+      213: 8587346837369265001
+    second: Full Layout  Hourglass_115
+  - first:
+      213: -7282529045122120916
+    second: Full Layout  Hourglass_116
+  - first:
+      213: 5860842797147045213
+    second: Full Layout  Hourglass_117
+  - first:
+      213: 4178895332667460384
+    second: Full Layout  Hourglass_118
+  - first:
+      213: -8118946506120652818
+    second: Full Layout  Hourglass_119
+  - first:
+      213: -2263029464205314357
+    second: Full Layout  Hourglass_120
+  - first:
+      213: -3763938044067388300
+    second: Full Layout  Hourglass_121
+  - first:
+      213: 3813917181819737039
+    second: Full Layout  Hourglass_122
+  - first:
+      213: -4407793865283071041
+    second: Full Layout  Hourglass_123
+  - first:
+      213: -7119314356497596772
+    second: Full Layout  Hourglass_124
+  - first:
+      213: 7044873801693147272
+    second: Full Layout  Hourglass_125
+  - first:
+      213: -2453133100880675731
+    second: Full Layout  Hourglass_126
+  - first:
+      213: -3655580323570741273
+    second: Full Layout  Hourglass_127
+  - first:
+      213: -5635443486974318524
+    second: Full Layout  Hourglass_128
+  - first:
+      213: 1076998900699311884
+    second: Full Layout  Hourglass_129
+  - first:
+      213: 3126378231505734815
+    second: Full Layout  Hourglass_130
+  - first:
+      213: 7479376853130872378
+    second: Full Layout  Hourglass_131
+  - first:
+      213: -494054114058985881
+    second: Full Layout  Hourglass_132
+  - first:
+      213: 5061727129538857452
+    second: Full Layout  Hourglass_133
+  - first:
+      213: 500792500166238835
+    second: Full Layout  Hourglass_134
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1213
+        height: 2481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297d7d8cfa070d350800000000000000
+      internalID: 6039451000595011474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_1
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 2102
+        width: 180
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7565d499c02b7d500800000000000000
+      internalID: 421000857363764823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_2
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 2102
+        width: 180
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58705ebb48fceaa50800000000000000
+      internalID: 6534388278356150149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_3
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 2102
+        width: 180
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be2acb03b6708c70800000000000000
+      internalID: 8971300969091051188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_4
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 2102
+        width: 152
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2bf01bedeb3afd0800000000000000
+      internalID: -2331810318385171807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_5
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 1999
+        width: 180
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728898cbce170eca0800000000000000
+      internalID: -5989662242813409241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_6
+      rect:
+        serializedVersion: 2
+        x: 2865
+        y: 2102
+        width: 46
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8fa73e7a621eb00800000000000000
+      internalID: 856007906694985981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_7
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 2102
+        width: 180
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded9acd15f5f8d490800000000000000
+      internalID: -7721151128011104787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_8
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 2102
+        width: 180
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b54a55067571e50800000000000000
+      internalID: 6779983835294882699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_9
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 2102
+        width: 180
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468a54f0d6c9682e0800000000000000
+      internalID: -2123838182037018524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_10
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1638
+        width: 59
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93fbc6d95c7101a70800000000000000
+      internalID: 8795556209771724601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_11
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1638
+        width: 59
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82049cc3486d145f0800000000000000
+      internalID: -774101797487165400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_12
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 1638
+        width: 71
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12535d66d65fcf340800000000000000
+      internalID: 4899060344897746209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_13
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 1638
+        width: 35
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acdced1ea0d91ee0800000000000000
+      internalID: -1289770372019987291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_14
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 1638
+        width: 59
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5feb22eac1e00a0800000000000000
+      internalID: -6913556843734305361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_15
+      rect:
+        serializedVersion: 2
+        x: 2649
+        y: 1638
+        width: 16
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4eee1389dc63e10800000000000000
+      internalID: 2177153523436676277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_16
+      rect:
+        serializedVersion: 2
+        x: 2691
+        y: 1733
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861862886f8834560800000000000000
+      internalID: 7296826413697892712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_17
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 1638
+        width: 59
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbcbae60fefe2630800000000000000
+      internalID: 3904338235579157450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_18
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 1638
+        width: 51
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1bc44af9b22cc20800000000000000
+      internalID: 3225188247806980585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_19
+      rect:
+        serializedVersion: 2
+        x: 3431
+        y: 1733
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fe5435ffc7a1390800000000000000
+      internalID: -7846821964684071156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_20
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1638
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b5a4c9bee200cc0800000000000000
+      internalID: -3746943300497941753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_21
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 1638
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b1a9580e7123850800000000000000
+      internalID: 6355168277254773560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_22
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 1638
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b4086ce4d08a680800000000000000
+      internalID: -8743724044550911084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_23
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 1638
+        width: 62
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3b70d56c6dce2d0800000000000000
+      internalID: -3247985083788315708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_24
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1605
+        width: 77
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156fb61e7b32748b0800000000000000
+      internalID: -5168122774716418479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_25
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 1638
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0c10c80a794fa20800000000000000
+      internalID: 3095265559709860063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_26
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 1638
+        width: 71
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431d66c6e61690ca0800000000000000
+      internalID: -6050197497502576332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_27
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 1638
+        width: 71
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f5e80357bb0f000800000000000000
+      internalID: 67760106410762054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_28
+      rect:
+        serializedVersion: 2
+        x: 2691
+        y: 1638
+        width: 16
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadc45f9db84bd910800000000000000
+      internalID: 1863162850106985900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_29
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 1598
+        width: 59
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14784087c13ace7f0800000000000000
+      internalID: -581910909169662143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_30
+      rect:
+        serializedVersion: 2
+        x: 2818
+        y: 1638
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a1becc32dec0a70800000000000000
+      internalID: 8794664910365334139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_31
+      rect:
+        serializedVersion: 2
+        x: 2938
+        y: 1638
+        width: 100
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c8ffc658903ab50800000000000000
+      internalID: 6603131947319266383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_32
+      rect:
+        serializedVersion: 2
+        x: 3149
+        y: 1638
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75bda449ce7933910800000000000000
+      internalID: 1815962117116451671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_33
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 1638
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369969c1e2c778110800000000000000
+      internalID: 1263114757990685027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_34
+      rect:
+        serializedVersion: 2
+        x: 3431
+        y: 1638
+        width: 16
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9f78f4f000a12b0800000000000000
+      internalID: -5613173919805081182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_35
+      rect:
+        serializedVersion: 2
+        x: 3473
+        y: 1638
+        width: 100
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e8343f1d39d55e0800000000000000
+      internalID: -1919215336251224497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_36
+      rect:
+        serializedVersion: 2
+        x: 3599
+        y: 1638
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c4711b371ecebc0800000000000000
+      internalID: -3752376502497882994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_37
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 1638
+        width: 50
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2517f7811e5ac150800000000000000
+      internalID: 5893626491756287277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_38
+      rect:
+        serializedVersion: 2
+        x: 3791
+        y: 1638
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85586d8eb2810c3c0800000000000000
+      internalID: -4341443463916124840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_39
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 1638
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c252a03d0e994bd0800000000000000
+      internalID: -2645409526615747895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_40
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 1638
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a948bda76e37d20800000000000000
+      internalID: 3275214769371781671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_41
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1422
+        width: 51
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ead4817567db270800000000000000
+      internalID: 8267894607364075050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_42
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 1517
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32179909d7d8cbe40800000000000000
+      internalID: 5673565201016385827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_43
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 1422
+        width: 51
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6e35bb552fa2a80800000000000000
+      internalID: -8490707697424668996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_44
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 1422
+        width: 59
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2727913a607a5c0800000000000000
+      internalID: -4204384429550701853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_45
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 1517
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7b6d4997aad89e0800000000000000
+      internalID: -1617449251991275592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_46
+      rect:
+        serializedVersion: 2
+        x: 3202
+        y: 1422
+        width: 77
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b19ef4c50efef890800000000000000
+      internalID: -7422215835126689358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_47
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1422
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059560bc38a23c230800000000000000
+      internalID: 3657814067890248016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_48
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1422
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2867d85832dce20800000000000000
+      internalID: 3372390752481346216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_49
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 1408
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62cffa77222b023a0800000000000000
+      internalID: -6692153185165902810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_50
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1422
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4f4443b5dfca150800000000000000
+      internalID: 5885357381227181298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_51
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1422
+        width: 100
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6128d2922923809c0800000000000000
+      internalID: -3960860268934888938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_52
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 1422
+        width: 16
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68866696f2052d80800000000000000
+      internalID: -8276205482114906006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_53
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 1422
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e862480298f211b20800000000000000
+      internalID: 3103313884237538958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_54
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 1422
+        width: 16
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d42cfb547fb1a00800000000000000
+      internalID: 728447643692453139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_55
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 1422
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2106463d5eb8a000800000000000000
+      internalID: 47497103639183660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_56
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 1389
+        width: 59
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888d60ef6ccf64ab0800000000000000
+      internalID: -5024050402689623928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_57
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 1390
+        width: 59
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfcf63577396b480800000000000000
+      internalID: -8883751074231496770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_58
+      rect:
+        serializedVersion: 2
+        x: 2724
+        y: 1422
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc08ae305bff00620800000000000000
+      internalID: 2738469726361125068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_59
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 1422
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08539c9d72bbcb360800000000000000
+      internalID: 7186824885208429952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_60
+      rect:
+        serializedVersion: 2
+        x: 2893
+        y: 1422
+        width: 50
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1562b91660b21a30800000000000000
+      internalID: 4184600956344886555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_61
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 1422
+        width: 112
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688eb1362376231a0800000000000000
+      internalID: -6831284218658822010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_62
+      rect:
+        serializedVersion: 2
+        x: 3121
+        y: 1422
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2cae4a4074f1a3d0800000000000000
+      internalID: -3197005497336157137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_63
+      rect:
+        serializedVersion: 2
+        x: 3290
+        y: 1422
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0255c838d120ef4a0800000000000000
+      internalID: -6557801681620544224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_64
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 1422
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6752fdfb34dfd00800000000000000
+      internalID: 1008036382962448076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_65
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1022
+        width: 71
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0ab6c5f96017380800000000000000
+      internalID: -8975385300852563808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_66
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 1117
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cebed72676df8d90800000000000000
+      internalID: -7093215085121847610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_67
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 1022
+        width: 77
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303648e1f05803a90800000000000000
+      internalID: -7336217493003541757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_68
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1022
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f85f65e7fbde2780800000000000000
+      internalID: -8705779171907905296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_69
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1022
+        width: 71
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5742b0f483e1dada0800000000000000
+      internalID: -5932051906983943051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_70
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1022
+        width: 71
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5683f7b07660919a0800000000000000
+      internalID: -6261966767237679003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_71
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 1022
+        width: 28
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b597409d027241770800000000000000
+      internalID: 8580526212081023323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_72
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1022
+        width: 72
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17a18b6c34898b80800000000000000
+      internalID: -8392031035591645413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_73
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 1022
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8567a3d2d78b709c0800000000000000
+      internalID: -3960994499479833000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_74
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 1022
+        width: 112
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4227f6149aef8b0800000000000000
+      internalID: -5116466028138584892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_75
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 1022
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14e4d1b384df70c0800000000000000
+      internalID: -4575705034295811043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_76
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 1022
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a282ee995b51d1aa0800000000000000
+      internalID: -6188766443221407702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_77
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 806
+        width: 59
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9de34aa8dcdda20800000000000000
+      internalID: 3088850914790791679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_78
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 901
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a5f5a72e81eb580800000000000000
+      internalID: -8809576460095366519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_79
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 806
+        width: 51
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845cdca45b07f6f20800000000000000
+      internalID: 3418074566143886664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_80
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 806
+        width: 51
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4ab1c6384fead40800000000000000
+      internalID: 5597680232159749363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_81
+      rect:
+        serializedVersion: 2
+        x: 2576
+        y: 806
+        width: 64
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02472faedd8a53ba0800000000000000
+      internalID: -6109791648375213024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_82
+      rect:
+        serializedVersion: 2
+        x: 2739
+        y: 806
+        width: 59
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4019458cfc836f020800000000000000
+      internalID: 2375148318554886404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_83
+      rect:
+        serializedVersion: 2
+        x: 2987
+        y: 806
+        width: 59
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52181b4c681aedcf0800000000000000
+      internalID: -225565331124289243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_84
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 806
+        width: 59
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b7612e21de18430800000000000000
+      internalID: 3783565827326245779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_85
+      rect:
+        serializedVersion: 2
+        x: 3801
+        y: 901
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e0165813d756210800000000000000
+      internalID: 1325603316975078994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_86
+      rect:
+        serializedVersion: 2
+        x: 4007
+        y: 845
+        width: 16
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ee7f41b92edb480800000000000000
+      internalID: -8881693734405149148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_87
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 806
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d601d797cfdca90800000000000000
+      internalID: -7291894622923494111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_88
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 806
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709624b35795b7d10800000000000000
+      internalID: 2124390009275574535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_89
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 806
+        width: 100
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c415a27ab77131e80800000000000000
+      internalID: -8209191875913297588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_90
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 806
+        width: 16
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae3c5a3245a03600800000000000000
+      internalID: 446038066975227555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_91
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 806
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e7a8e03303acec0800000000000000
+      internalID: -3545968760755421622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_92
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 806
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8fb8bf759ec35990800000000000000
+      internalID: -7398342621351329909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_93
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 806
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10945d9c7d2bd3ef0800000000000000
+      internalID: -126748574622594815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_94
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 806
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128d1cd3943a5ca90800000000000000
+      internalID: -7294244486492596191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_95
+      rect:
+        serializedVersion: 2
+        x: 2492
+        y: 806
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e07adf3956673d0800000000000000
+      internalID: -3209265998164717941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_96
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 806
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af777cadd6388e260800000000000000
+      internalID: 7127090918158989306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_97
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 806
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99047d1525de9990800000000000000
+      internalID: -7377224784201643617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_98
+      rect:
+        serializedVersion: 2
+        x: 2902
+        y: 806
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ec08d61348008b0800000000000000
+      internalID: -5188001422905389494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_99
+      rect:
+        serializedVersion: 2
+        x: 3071
+        y: 806
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c955c58d13012fce0800000000000000
+      internalID: -1373017130125208164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_100
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 806
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94659c5480c3146a0800000000000000
+      internalID: -6466821583699093943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_101
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 806
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa771a2cf7dbda5a0800000000000000
+      internalID: -6508337530056640593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_102
+      rect:
+        serializedVersion: 2
+        x: 3481
+        y: 806
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5eca9a2d703abc0800000000000000
+      internalID: -3773163461435136599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_103
+      rect:
+        serializedVersion: 2
+        x: 3566
+        y: 806
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b455ceef97808ce0800000000000000
+      internalID: -1404973962764135241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_104
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 806
+        width: 50
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a8c3d6c8c979720800000000000000
+      internalID: 2852921015904537138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_105
+      rect:
+        serializedVersion: 2
+        x: 3713
+        y: 806
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3abb1beabb1d660800000000000000
+      internalID: 7408909220981744569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_106
+      rect:
+        serializedVersion: 2
+        x: 3801
+        y: 806
+        width: 16
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0530e4f6f7e1942f0800000000000000
+      internalID: -988225110554049712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_107
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 806
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe863ac4ba65d55c0800000000000000
+      internalID: -4225125581678483217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_108
+      rect:
+        serializedVersion: 2
+        x: 3923
+        y: 806
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed51807b036f0ec0800000000000000
+      internalID: -3598548676462420506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_109
+      rect:
+        serializedVersion: 2
+        x: 4007
+        y: 806
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd2cf6b4c1358290800000000000000
+      internalID: -7888844451316224513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_110
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 370
+        width: 75
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5a37dbb8b5f8390800000000000000
+      internalID: -7813926172727466549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_111
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 465
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc5fd4f50e956fb0800000000000000
+      internalID: -4655140891397235516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_112
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 337
+        width: 77
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf606acace6f56920800000000000000
+      internalID: 2983061824572098299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_113
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 337
+        width: 77
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30b1b475d33d4180800000000000000
+      internalID: -9129583877731274694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_114
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 370
+        width: 62
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b4072b04e8e8190800000000000000
+      internalID: -7958267082994332792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_115
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 370
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b187c63726c2770800000000000000
+      internalID: 8587346837369265001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_116
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 370
+        width: 71
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23080ffa624fea90800000000000000
+      internalID: -7282529045122120916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_117
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 370
+        width: 71
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d3b50d875e55150800000000000000
+      internalID: 5860842797147045213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_118
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 370
+        width: 28
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b8e211a2b6ef930800000000000000
+      internalID: 4178895332667460384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_119
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 370
+        width: 72
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee797403b25b35f80800000000000000
+      internalID: -8118946506120652818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_120
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 370
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6bccd31ba1890e0800000000000000
+      internalID: -2263029464205314357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_121
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 154
+        width: 59
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474e8c68a4ec3cbc0800000000000000
+      internalID: -3763938044067388300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_122
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 154
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3df194871cde430800000000000000
+      internalID: 3813917181819737039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_123
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 154
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb318a045de54d2c0800000000000000
+      internalID: -4407793865283071041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_124
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 154
+        width: 51
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e3f90005d133d90800000000000000
+      internalID: -7119314356497596772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_125
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 154
+        width: 51
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8803065b56b64c160800000000000000
+      internalID: 7044873801693147272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_126
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 154
+        width: 59
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c31472178b4fdd0800000000000000
+      internalID: -2453133100880675731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_127
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 154
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef88a55015c44dc0800000000000000
+      internalID: -3655580323570741273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_128
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 154
+        width: 100
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4486b17a102eac1b0800000000000000
+      internalID: -5635443486974318524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_129
+      rect:
+        serializedVersion: 2
+        x: 2302
+        y: 154
+        width: 59
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f2ba34bc442fe00800000000000000
+      internalID: 1076998900699311884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_130
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 154
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9cc962ff60236b20800000000000000
+      internalID: 3126378231505734815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_131
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 154
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a360528de951cc760800000000000000
+      internalID: 7479376853130872378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_132
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 154
+        width: 64
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e91bf9664c429f0800000000000000
+      internalID: -494054114058985881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_133
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 193
+        width: 16
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce90f12910ede3640800000000000000
+      internalID: 5061727129538857452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full Layout  Hourglass_134
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 154
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372a696202c23f600800000000000000
+      internalID: 500792500166238835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Full Layout  Hourglass_0: 6039451000595011474
+      Full Layout  Hourglass_1: 421000857363764823
+      Full Layout  Hourglass_10: 8795556209771724601
+      Full Layout  Hourglass_100: -6466821583699093943
+      Full Layout  Hourglass_101: -6508337530056640593
+      Full Layout  Hourglass_102: -3773163461435136599
+      Full Layout  Hourglass_103: -1404973962764135241
+      Full Layout  Hourglass_104: 2852921015904537138
+      Full Layout  Hourglass_105: 7408909220981744569
+      Full Layout  Hourglass_106: -988225110554049712
+      Full Layout  Hourglass_107: -4225125581678483217
+      Full Layout  Hourglass_108: -3598548676462420506
+      Full Layout  Hourglass_109: -7888844451316224513
+      Full Layout  Hourglass_11: -774101797487165400
+      Full Layout  Hourglass_110: -7813926172727466549
+      Full Layout  Hourglass_111: -4655140891397235516
+      Full Layout  Hourglass_112: 2983061824572098299
+      Full Layout  Hourglass_113: -9129583877731274694
+      Full Layout  Hourglass_114: -7958267082994332792
+      Full Layout  Hourglass_115: 8587346837369265001
+      Full Layout  Hourglass_116: -7282529045122120916
+      Full Layout  Hourglass_117: 5860842797147045213
+      Full Layout  Hourglass_118: 4178895332667460384
+      Full Layout  Hourglass_119: -8118946506120652818
+      Full Layout  Hourglass_12: 4899060344897746209
+      Full Layout  Hourglass_120: -2263029464205314357
+      Full Layout  Hourglass_121: -3763938044067388300
+      Full Layout  Hourglass_122: 3813917181819737039
+      Full Layout  Hourglass_123: -4407793865283071041
+      Full Layout  Hourglass_124: -7119314356497596772
+      Full Layout  Hourglass_125: 7044873801693147272
+      Full Layout  Hourglass_126: -2453133100880675731
+      Full Layout  Hourglass_127: -3655580323570741273
+      Full Layout  Hourglass_128: -5635443486974318524
+      Full Layout  Hourglass_129: 1076998900699311884
+      Full Layout  Hourglass_13: -1289770372019987291
+      Full Layout  Hourglass_130: 3126378231505734815
+      Full Layout  Hourglass_131: 7479376853130872378
+      Full Layout  Hourglass_132: -494054114058985881
+      Full Layout  Hourglass_133: 5061727129538857452
+      Full Layout  Hourglass_134: 500792500166238835
+      Full Layout  Hourglass_14: -6913556843734305361
+      Full Layout  Hourglass_15: 2177153523436676277
+      Full Layout  Hourglass_16: 7296826413697892712
+      Full Layout  Hourglass_17: 3904338235579157450
+      Full Layout  Hourglass_18: 3225188247806980585
+      Full Layout  Hourglass_19: -7846821964684071156
+      Full Layout  Hourglass_2: 6534388278356150149
+      Full Layout  Hourglass_20: -3746943300497941753
+      Full Layout  Hourglass_21: 6355168277254773560
+      Full Layout  Hourglass_22: -8743724044550911084
+      Full Layout  Hourglass_23: -3247985083788315708
+      Full Layout  Hourglass_24: -5168122774716418479
+      Full Layout  Hourglass_25: 3095265559709860063
+      Full Layout  Hourglass_26: -6050197497502576332
+      Full Layout  Hourglass_27: 67760106410762054
+      Full Layout  Hourglass_28: 1863162850106985900
+      Full Layout  Hourglass_29: -581910909169662143
+      Full Layout  Hourglass_3: 8971300969091051188
+      Full Layout  Hourglass_30: 8794664910365334139
+      Full Layout  Hourglass_31: 6603131947319266383
+      Full Layout  Hourglass_32: 1815962117116451671
+      Full Layout  Hourglass_33: 1263114757990685027
+      Full Layout  Hourglass_34: -5613173919805081182
+      Full Layout  Hourglass_35: -1919215336251224497
+      Full Layout  Hourglass_36: -3752376502497882994
+      Full Layout  Hourglass_37: 5893626491756287277
+      Full Layout  Hourglass_38: -4341443463916124840
+      Full Layout  Hourglass_39: -2645409526615747895
+      Full Layout  Hourglass_4: -2331810318385171807
+      Full Layout  Hourglass_40: 3275214769371781671
+      Full Layout  Hourglass_41: 8267894607364075050
+      Full Layout  Hourglass_42: 5673565201016385827
+      Full Layout  Hourglass_43: -8490707697424668996
+      Full Layout  Hourglass_44: -4204384429550701853
+      Full Layout  Hourglass_45: -1617449251991275592
+      Full Layout  Hourglass_46: -7422215835126689358
+      Full Layout  Hourglass_47: 3657814067890248016
+      Full Layout  Hourglass_48: 3372390752481346216
+      Full Layout  Hourglass_49: -6692153185165902810
+      Full Layout  Hourglass_5: -5989662242813409241
+      Full Layout  Hourglass_50: 5885357381227181298
+      Full Layout  Hourglass_51: -3960860268934888938
+      Full Layout  Hourglass_52: -8276205482114906006
+      Full Layout  Hourglass_53: 3103313884237538958
+      Full Layout  Hourglass_54: 728447643692453139
+      Full Layout  Hourglass_55: 47497103639183660
+      Full Layout  Hourglass_56: -5024050402689623928
+      Full Layout  Hourglass_57: -8883751074231496770
+      Full Layout  Hourglass_58: 2738469726361125068
+      Full Layout  Hourglass_59: 7186824885208429952
+      Full Layout  Hourglass_6: 856007906694985981
+      Full Layout  Hourglass_60: 4184600956344886555
+      Full Layout  Hourglass_61: -6831284218658822010
+      Full Layout  Hourglass_62: -3197005497336157137
+      Full Layout  Hourglass_63: -6557801681620544224
+      Full Layout  Hourglass_64: 1008036382962448076
+      Full Layout  Hourglass_65: -8975385300852563808
+      Full Layout  Hourglass_66: -7093215085121847610
+      Full Layout  Hourglass_67: -7336217493003541757
+      Full Layout  Hourglass_68: -8705779171907905296
+      Full Layout  Hourglass_69: -5932051906983943051
+      Full Layout  Hourglass_7: -7721151128011104787
+      Full Layout  Hourglass_70: -6261966767237679003
+      Full Layout  Hourglass_71: 8580526212081023323
+      Full Layout  Hourglass_72: -8392031035591645413
+      Full Layout  Hourglass_73: -3960994499479833000
+      Full Layout  Hourglass_74: -5116466028138584892
+      Full Layout  Hourglass_75: -4575705034295811043
+      Full Layout  Hourglass_76: -6188766443221407702
+      Full Layout  Hourglass_77: 3088850914790791679
+      Full Layout  Hourglass_78: -8809576460095366519
+      Full Layout  Hourglass_79: 3418074566143886664
+      Full Layout  Hourglass_8: 6779983835294882699
+      Full Layout  Hourglass_80: 5597680232159749363
+      Full Layout  Hourglass_81: -6109791648375213024
+      Full Layout  Hourglass_82: 2375148318554886404
+      Full Layout  Hourglass_83: -225565331124289243
+      Full Layout  Hourglass_84: 3783565827326245779
+      Full Layout  Hourglass_85: 1325603316975078994
+      Full Layout  Hourglass_86: -8881693734405149148
+      Full Layout  Hourglass_87: -7291894622923494111
+      Full Layout  Hourglass_88: 2124390009275574535
+      Full Layout  Hourglass_89: -8209191875913297588
+      Full Layout  Hourglass_9: -2123838182037018524
+      Full Layout  Hourglass_90: 446038066975227555
+      Full Layout  Hourglass_91: -3545968760755421622
+      Full Layout  Hourglass_92: -7398342621351329909
+      Full Layout  Hourglass_93: -126748574622594815
+      Full Layout  Hourglass_94: -7294244486492596191
+      Full Layout  Hourglass_95: -3209265998164717941
+      Full Layout  Hourglass_96: 7127090918158989306
+      Full Layout  Hourglass_97: -7377224784201643617
+      Full Layout  Hourglass_98: -5188001422905389494
+      Full Layout  Hourglass_99: -1373017130125208164
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

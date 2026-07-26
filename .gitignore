@@ -109,3 +109,8 @@ GMTK 2026.slnx
 
 # AI Agent Customizations
 .agents/
+
+# OS files
+.DS_Store
+**/.DS_Store
+._*
