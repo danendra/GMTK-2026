@@ -34,6 +34,17 @@ namespace AudioSystem
 
         public void Play()
         {
+            if (soundData == null)
+            {
+                return;
+            }
+
+            if (soundData.UseDedicatedSource)
+            {
+                soundManager.PlayDedicated(soundData, position, randomPitch);
+                return;
+            }
+
             if(!soundManager.CanPlaySound(soundData))
             {
                 return;

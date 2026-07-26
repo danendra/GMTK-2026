@@ -128,6 +128,7 @@ MonoBehaviour:
     _loop: 1
     _playOnAwake: 0
     _frequentSound: 0
+    _useDedicatedSource: 1
     mute: 0
     bypassEffects: 1
     bypassListenerEffects: 1
@@ -151,6 +152,7 @@ MonoBehaviour:
     _loop: 1
     _playOnAwake: 0
     _frequentSound: 0
+    _useDedicatedSource: 1
     mute: 0
     bypassEffects: 1
     bypassListenerEffects: 1
@@ -174,6 +176,7 @@ MonoBehaviour:
     _loop: 1
     _playOnAwake: 0
     _frequentSound: 0
+    _useDedicatedSource: 1
     mute: 0
     bypassEffects: 1
     bypassListenerEffects: 1
@@ -197,6 +200,7 @@ MonoBehaviour:
     _loop: 1
     _playOnAwake: 0
     _frequentSound: 0
+    _useDedicatedSource: 1
     mute: 0
     bypassEffects: 1
     bypassListenerEffects: 1
