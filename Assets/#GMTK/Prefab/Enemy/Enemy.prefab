@@ -236,7 +236,7 @@ MonoBehaviour:
     bypassEffects: 0
     bypassListenerEffects: 0
     bypassReverbZones: 0
-    priority: 128
+    priority: 64
     volume: 0.2
     pitch: 1
     panStereo: 0

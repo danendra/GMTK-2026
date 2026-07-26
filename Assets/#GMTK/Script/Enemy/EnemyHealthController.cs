@@ -9,8 +9,10 @@ namespace GMTK.Enemy
         [SerializeField] protected string isDestroyBoolName = "IsDestroy";
         [SerializeField] protected string playerTag = "Player";        
         [SerializeField] protected SoundData hitSoundData;
+        [SerializeField] protected float hitSoundCooldown = 0.04f;
 
         protected float bulletDamage = 1f;
+        protected float lastHitSoundTime = -999f;
 
         protected override void Awake()
         {
@@ -27,11 +29,17 @@ namespace GMTK.Enemy
             {
                 if (hitSoundData != null && SoundManager.Instance != null)
                 {
-                    SoundManager.Instance.CreateSound()
-                        .WithSoundData(hitSoundData)
-                        .WithRandomPitch()
-                        .WithPosition(_collision.transform.position)
-                        .Play();
+                    float now = Time.time;
+                    if (now - lastHitSoundTime >= Mathf.Max(0f, hitSoundCooldown))
+                    {
+                        lastHitSoundTime = now;
+
+                        SoundManager.Instance.CreateSound()
+                            .WithSoundData(hitSoundData)
+                            .WithRandomPitch()
+                            .WithPosition(_collision.transform.position)
+                            .Play();
+                    }
                 }
 
                 TakeDamage(bulletDamage);
