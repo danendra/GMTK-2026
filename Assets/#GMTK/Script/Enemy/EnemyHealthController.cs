@@ -7,9 +7,10 @@ namespace GMTK.Enemy
     {
         [SerializeField] protected Animator animator;
         [SerializeField] protected string isDestroyBoolName = "IsDestroy";
-        [SerializeField] protected string playerTag = "Player";
-        [SerializeField] protected float bulletDamage = 1f;
+        [SerializeField] protected string playerTag = "Player";        
         [SerializeField] protected SoundData hitSoundData;
+
+        protected float bulletDamage = 1f;
 
         protected override void Awake()
         {

@@ -26,6 +26,8 @@ namespace GMTK.Enemy
                     .Play();
             }
 
+
+
             return _objBullet.gameObject;
         }
     }
