@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using AudioSystem;
+using System.Collections;
 
 namespace GMTK.UI
 {
@@ -12,9 +14,21 @@ namespace GMTK.UI
         [SerializeField] protected Sprite[] arrSprites;
         [SerializeField] protected bool blnReverseAnimation = false;
         [SerializeField] protected float fltFlipDuration = 0.4f;
+        [SerializeField] protected SoundData soundDataFlip;
+        [SerializeField] protected SoundData sandSoundData;
 
         protected bool blnLastModeActive;
         protected bool blnIsFlipping = false;
+        protected Coroutine coSandDrop;
+        protected AudioSource sandAudioSource;
+
+        protected virtual void Awake()
+        {
+            sandAudioSource = gameObject.AddComponent<AudioSource>();
+            sandAudioSource.playOnAwake = false;
+            sandAudioSource.spatialBlend = 0f;
+            sandAudioSource.ignoreListenerPause = true;
+        }
 
         protected virtual void Start()
         {
@@ -22,6 +36,8 @@ namespace GMTK.UI
             {
                 blnLastModeActive = ModeManager.instance.isActive;
             }
+
+            TriggerSandDropFeedback();
         }
 
         protected virtual void Update()
@@ -72,6 +88,51 @@ namespace GMTK.UI
                     imgHourglass.rectTransform.localEulerAngles = Vector3.zero;
                     blnIsFlipping = false;
                 });
+
+            if (soundDataFlip != null && SoundManager.Instance != null)
+            {
+                SoundManager.Instance.CreateSound()
+                    .WithSoundData(soundDataFlip)
+                    .WithRandomPitch()
+                    .WithPosition(transform.position)
+                    .Play();
+            }
+
+            StopSandSound();
+            TriggerSandDropFeedback();
+        }
+
+        protected void TriggerSandDropFeedback()
+        {
+            if (coSandDrop != null)
+            {
+                StopCoroutine(coSandDrop);
+            }
+
+            coSandDrop = StartCoroutine(IESandDropFeedback());
+        }
+
+        protected IEnumerator IESandDropFeedback()
+        {
+            if (sandSoundData != null)
+            {
+                sandAudioSource.clip = sandSoundData.Clip;
+                sandAudioSource.outputAudioMixerGroup = sandSoundData.MixerGroup;
+                sandAudioSource.loop = sandSoundData.Loop;
+                sandAudioSource.volume = sandSoundData.volume;
+                sandAudioSource.Play();
+            }
+
+            coSandDrop = null;
+            yield break;
+        }
+
+        protected void StopSandSound()
+        {
+            if (sandAudioSource != null && sandAudioSource.isPlaying)
+            {
+                sandAudioSource.Stop();
+            }
         }
     }
 }

@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 using Anoa.Module;
+using AudioSystem;
 
 namespace GMTK.Player
 {
@@ -10,7 +11,8 @@ namespace GMTK.Player
         [SerializeField] protected float fltDelay = 0.2f;
         [SerializeField] protected float fltDuration = 0.2f;
         [SerializeField] protected SpawnerController spawnBullet;
-
+        [SerializeField] protected SoundData soundData;
+        [SerializeField] protected SoundData soundDataDeflect;
         [SerializeField] protected UnityEvent onActive;
         [SerializeField] protected UnityEvent onDeactive;
 
@@ -28,14 +30,22 @@ namespace GMTK.Player
 
             cooldownDeflect.Use();
 
-            onActive.Invoke();
+            onActive?.Invoke();
+            if (soundData != null && SoundManager.Instance != null)
+            {
+                SoundManager.Instance.CreateSound()
+                    .WithSoundData(soundData)
+                    .WithRandomPitch()
+                    .WithPosition(transform.position)
+                    .Play();
+            }
 
             Invoke("Deactivate", fltDuration);
         }
 
         public void Deactivate()
         {                      
-            onDeactive.Invoke();
+            onDeactive?.Invoke();
         }
 
         // Update is called once per frame
@@ -50,6 +60,15 @@ namespace GMTK.Player
             {
                 FixedDirectionController  _direction = spawnBullet.Spawn().GetComponent<FixedDirectionController>();
                 Vector2 _directionReflect = (_collision.transform.position - transform.parent.position).normalized;
+
+                if (soundDataDeflect != null && SoundManager.Instance != null)
+                {
+                    SoundManager.Instance.CreateSound()
+                        .WithSoundData(soundDataDeflect)
+                        .WithRandomPitch()
+                        .WithPosition(_collision.transform.position)
+                        .Play();
+                }
 
                 _direction.transform.position = _collision.transform.position;
                 _direction.SetDirection(_directionReflect);

@@ -5681,6 +5681,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fb1acc78ed0740a989cbef26898f9f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Anoa.Module.PoolerObject
+--- !u!1001 &2018307848
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3918002772395851349, guid: a42ce021a02714b1d82b4e35c8c67f4d, type: 3}
+      propertyPath: m_Name
+      value: ====SOUND====
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545562332362325644, guid: a42ce021a02714b1d82b4e35c8c67f4d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.81046
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545562332362325644, guid: a42ce021a02714b1d82b4e35c8c67f4d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.7279
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545562332362325644, guid: a42ce021a02714b1d82b4e35c8c67f4d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545562332362325644, guid: a42ce021a02714b1d82b4e35c8c67f4d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545562332362325644, guid: a42ce021a02714b1d82b4e35c8c67f4d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545562332362325644, guid: a42ce021a02714b1d82b4e35c8c67f4d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545562332362325644, guid: a42ce021a02714b1d82b4e35c8c67f4d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545562332362325644, guid: a42ce021a02714b1d82b4e35c8c67f4d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545562332362325644, guid: a42ce021a02714b1d82b4e35c8c67f4d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545562332362325644, guid: a42ce021a02714b1d82b4e35c8c67f4d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a42ce021a02714b1d82b4e35c8c67f4d, type: 3}
 --- !u!114 &2043991434 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8814508128141111173, guid: 21a4d394c819343968c18e2497a1ab29, type: 3}
@@ -5873,3 +5930,4 @@ SceneRoots:
   - {fileID: 911807837}
   - {fileID: 1799229288}
   - {fileID: 2079056680}
+  - {fileID: 2018307848}

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using MoreMountains.Feedbacks;
 
 namespace GMTK.Player
 {
@@ -9,6 +10,7 @@ namespace GMTK.Player
 
         [SerializeField] protected UnityEvent onRespawn;
         [SerializeField] protected UnityEvent onGameOver;
+        [SerializeField] protected MMFeedbacks deathFeedbacks;
 
         public int intCurrentHealth { get; protected set; }
 
@@ -20,6 +22,8 @@ namespace GMTK.Player
 
         public void OnDeath()
         {
+            deathFeedbacks?.PlayFeedbacks();
+
             intCurrentHealth--;
 
             if (intCurrentHealth < 1)

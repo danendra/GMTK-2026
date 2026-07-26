@@ -1,4 +1,5 @@
 using UnityEngine;
+using AudioSystem;
 
 namespace GMTK.Enemy
 {
@@ -8,6 +9,7 @@ namespace GMTK.Enemy
         [SerializeField] protected string isDestroyBoolName = "IsDestroy";
         [SerializeField] protected string playerTag = "Player";
         [SerializeField] protected float bulletDamage = 1f;
+        [SerializeField] protected SoundData hitSoundData;
 
         protected override void Awake()
         {
@@ -22,6 +24,15 @@ namespace GMTK.Enemy
         {
             if (_collision.CompareTag(playerTag))
             {
+                if (hitSoundData != null && SoundManager.Instance != null)
+                {
+                    SoundManager.Instance.CreateSound()
+                        .WithSoundData(hitSoundData)
+                        .WithRandomPitch()
+                        .WithPosition(_collision.transform.position)
+                        .Play();
+                }
+
                 TakeDamage(bulletDamage);
             }
         }
