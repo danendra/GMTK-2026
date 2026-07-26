@@ -421,6 +421,10 @@ PrefabInstance:
       propertyPath: pooler
       value: 
       objectReference: {fileID: 6752816380913864741}
+    - target: {fileID: 890026850940878777, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      propertyPath: fltDelay
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 1620703033629807884, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
       propertyPath: pooler
       value: 
@@ -477,6 +481,10 @@ PrefabInstance:
       propertyPath: pooler
       value: 
       objectReference: {fileID: 6752816380913864741}
+    - target: {fileID: 5190612119128772790, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207967651792223892, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
       propertyPath: pooler
       value: 
@@ -505,6 +513,14 @@ PrefabInstance:
       propertyPath: pooler
       value: 
       objectReference: {fileID: 6752816380913864741}
+    - target: {fileID: 5753304920678700433, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      propertyPath: direction.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753304920678700433, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      propertyPath: direction.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5984974695836160774, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
       propertyPath: m_Name
       value: EnemyLevel2Elite
@@ -517,6 +533,10 @@ PrefabInstance:
       propertyPath: pooler
       value: 
       objectReference: {fileID: 6752816380913864741}
+    - target: {fileID: 7472883373588033856, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      propertyPath: fltDelay
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 8157473096114229674, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
       propertyPath: pooler
       value: 
@@ -529,6 +549,10 @@ PrefabInstance:
       propertyPath: pooler
       value: 
       objectReference: {fileID: 6752816380913864741}
+    - target: {fileID: 9156847721484407125, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      propertyPath: m_Name
+      value: Spawner0
+      objectReference: {fileID: 0}
     - target: {fileID: 9163083300054730485, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -574,11 +598,67 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6752816380913864741}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6169249740884234651, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 1890386530950142624, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 4028586320824593623, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 1971413052718825356, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 2622581651917938295, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 1511755969662460517, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 2338473876381937748, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 4447679273814125057, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 4947477825828671882, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 4295828330838225251, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 5196853276288073243, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 7252097879134388051, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 2373044866669729023, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 5644775651806386812, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 6577812808725604712, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 8239168838707214058, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 900656498472224196, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 8834693492109918481, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 7684497105552542471, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 4441280295889851894, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 8117465060946031128, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 8447655244607593018, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 7475786663329888996, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 9163083300054730485, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 190367147}
+    - targetCorrespondingSourceObject: {fileID: 6733866318278508547, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1227437490}
+    - targetCorrespondingSourceObject: {fileID: 6733866318278508547, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 702159857}
+    - targetCorrespondingSourceObject: {fileID: 6733866318278508547, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 615501204}
+    - targetCorrespondingSourceObject: {fileID: 6733866318278508547, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 320738796}
+    - targetCorrespondingSourceObject: {fileID: 6733866318278508547, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1842460755}
+    - targetCorrespondingSourceObject: {fileID: 6733866318278508547, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1537923661}
+    - targetCorrespondingSourceObject: {fileID: 6733866318278508547, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 807462088}
+    - targetCorrespondingSourceObject: {fileID: 6733866318278508547, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 851018003}
+    - targetCorrespondingSourceObject: {fileID: 6733866318278508547, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1286560848}
+    - targetCorrespondingSourceObject: {fileID: 6733866318278508547, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 279935431}
+    - targetCorrespondingSourceObject: {fileID: 6733866318278508547, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1196996715}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5984974695836160774, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
       insertIndex: -1
@@ -793,6 +873,77 @@ SpriteMask:
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
   m_MaskSource: 0
+--- !u!1 &97430525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 97430526}
+  - component: {fileID: 97430527}
+  m_Layer: 8
+  m_Name: Spawner330
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &97430526
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97430525}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 705404961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &97430527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97430525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: 0.866, y: -0.5}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1001 &100982139
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -935,6 +1086,77 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3585662436490593504, guid: a18caf74c552c47e69c562b000b5bf5e, type: 3}
   m_PrefabInstance: {fileID: 100982139}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &117094055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 117094056}
+  - component: {fileID: 117094057}
+  m_Layer: 8
+  m_Name: Spawner90
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &117094056
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117094055}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 705404961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &117094057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117094055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: 0, y: 1}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1001 &117617523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1077,6 +1299,148 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3585662436490593504, guid: a18caf74c552c47e69c562b000b5bf5e, type: 3}
   m_PrefabInstance: {fileID: 117617523}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &126193564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 126193565}
+  - component: {fileID: 126193566}
+  m_Layer: 8
+  m_Name: Spawner90
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &126193565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126193564}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1062759552}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &126193566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126193564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: 0, y: 1}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+--- !u!1 &160304044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 160304045}
+  - component: {fileID: 160304046}
+  m_Layer: 8
+  m_Name: Spawner120
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &160304045
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160304044}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1062759552}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &160304046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160304044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: -0.5, y: 0.866}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1 &173791295
 GameObject:
   m_ObjectHideFlags: 0
@@ -1264,6 +1628,237 @@ MonoBehaviour:
   optionalScrambleMode: 0
   optionalShakeRandomnessMode: 0
   optionalString: 
+--- !u!1 &262317158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 262317159}
+  - component: {fileID: 262317160}
+  m_Layer: 8
+  m_Name: Spawner210
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &262317159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262317158}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 705404961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &262317160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262317158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: -0.866, y: -0.5}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+--- !u!1001 &273036679
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1799638357}
+    m_Modifications:
+    - target: {fileID: 902038571465718103, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: pooler
+      value: 
+      objectReference: {fileID: 6752816380913864741}
+    - target: {fileID: 2843603855925428579, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: pooler
+      value: 
+      objectReference: {fileID: 6752816380913864741}
+    - target: {fileID: 3659069582505554955, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: pooler
+      value: 
+      objectReference: {fileID: 6752816380913864741}
+    - target: {fileID: 5610391057520942426, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: pooler
+      value: 
+      objectReference: {fileID: 6752816380913864741}
+    - target: {fileID: 5984974695836160774, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: m_Name
+      value: EnemyLevel2Basic Top Down
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984974695836160774, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6371817436855117874, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: pooler
+      value: 
+      objectReference: {fileID: 6752816380913864741}
+    - target: {fileID: 7078444705824353519, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: fltDelay
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331399663535280134, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: pooler
+      value: 
+      objectReference: {fileID: 6752816380913864741}
+    - target: {fileID: 9163083300054730485, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163083300054730485, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163083300054730485, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163083300054730485, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163083300054730485, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163083300054730485, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163083300054730485, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163083300054730485, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163083300054730485, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163083300054730485, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+--- !u!1 &279935430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 279935431}
+  - component: {fileID: 279935432}
+  m_Layer: 8
+  m_Name: Spawner300
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &279935431
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279935430}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2030844718}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &279935432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279935430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: 0.5, y: -0.866}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1 &283278478
 GameObject:
   m_ObjectHideFlags: 0
@@ -1349,6 +1944,148 @@ Transform:
   - {fileID: 100982140}
   m_Father: {fileID: 1422520543}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &320738795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 320738796}
+  - component: {fileID: 320738797}
+  m_Layer: 8
+  m_Name: Spawner120
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &320738796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320738795}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2030844718}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &320738797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320738795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: -0.5, y: 0.866}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+--- !u!1 &336688390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 336688391}
+  - component: {fileID: 336688392}
+  m_Layer: 8
+  m_Name: Spawner270
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &336688391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336688390}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1062759552}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &336688392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336688390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: 0, y: -1}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1 &349679150
 GameObject:
   m_ObjectHideFlags: 0
@@ -2259,6 +2996,148 @@ MonoBehaviour:
   lastSrcRotation: {x: -0, y: -0, z: -0.07826101, w: 0.9969329}
   wpsDropdown: 1
   dropToFloorOffset: 0
+--- !u!1 &476160217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 476160218}
+  - component: {fileID: 476160219}
+  m_Layer: 8
+  m_Name: Spawner120
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &476160218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476160217}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 705404961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &476160219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476160217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: -0.5, y: 0.866}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+--- !u!1 &483081140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 483081141}
+  - component: {fileID: 483081142}
+  m_Layer: 8
+  m_Name: Spawner270
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &483081141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483081140}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 705404961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &483081142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483081140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: 0, y: -1}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2743,11 +3622,263 @@ MonoBehaviour:
     NoiseShiftMin: {x: 0, y: 0, z: 0}
     NoiseShiftMax: {x: 0, y: 0, z: 0}
   DebugWiggleDuration: 2
+--- !u!1001 &534716289
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1468651313}
+    m_Modifications:
+    - target: {fileID: 1584472088676787732, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: fltDelay
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5886183222961244443, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_Name
+      value: Streaming Circular Dense shot Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228748880502426684, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: pooler
+      value: 
+      objectReference: {fileID: 6752816380913864741}
+    - target: {fileID: 6228748880502426684, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: direction.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228748880502426684, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: direction.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400687628486854904, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_Name
+      value: Spawner0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1596194928}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1565336708}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 117094056}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 476160218}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2014272658}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1037882886}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 262317159}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2143512865}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 483081141}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 967933865}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 97430526}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
 --- !u!4 &570257206 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7348847950403434704, guid: ea333d64a5b0149e78e387b5a351a84b, type: 3}
   m_PrefabInstance: {fileID: 1691370976779198529}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &610942822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 610942823}
+  - component: {fileID: 610942824}
+  m_Layer: 8
+  m_Name: Spawner330
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &610942823
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610942822}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1062759552}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &610942824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610942822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: 0.866, y: -0.5}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+--- !u!1 &615501203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 615501204}
+  - component: {fileID: 615501205}
+  m_Layer: 8
+  m_Name: Spawner90
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &615501204
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615501203}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2030844718}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &615501205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615501203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: 0, y: 1}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -2832,6 +3963,77 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &650446849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 650446850}
+  - component: {fileID: 650446851}
+  m_Layer: 8
+  m_Name: Spawner210
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &650446850
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650446849}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1062759552}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &650446851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650446849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: -0.866, y: -0.5}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1 &673529305
 GameObject:
   m_ObjectHideFlags: 0
@@ -2974,6 +4176,82 @@ Transform:
   - {fileID: 1054437161}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &702159856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 702159857}
+  - component: {fileID: 702159858}
+  m_Layer: 8
+  m_Name: Spawner60
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &702159857
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702159856}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2030844718}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &702159858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702159856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: 0.5, y: 0.866}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+--- !u!4 &705404961 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+  m_PrefabInstance: {fileID: 534716289}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705830183
 GameObject:
   m_ObjectHideFlags: 0
@@ -3380,6 +4658,148 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fa429450f22b4ae2b367c7de78ffd27, type: 3}
+--- !u!1 &790675524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 790675525}
+  - component: {fileID: 790675526}
+  m_Layer: 8
+  m_Name: Spawner30
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &790675525
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790675524}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1062759552}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &790675526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790675524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: 0.866, y: 0.5}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+--- !u!1 &807462087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 807462088}
+  - component: {fileID: 807462089}
+  m_Layer: 8
+  m_Name: Spawner210
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &807462088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807462087}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2030844718}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &807462089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807462087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: -0.866, y: -0.5}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1 &832423564
 GameObject:
   m_ObjectHideFlags: 0
@@ -3532,6 +4952,77 @@ MonoBehaviour:
   optionalScrambleMode: 0
   optionalShakeRandomnessMode: 0
   optionalString: 
+--- !u!1 &851018002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 851018003}
+  - component: {fileID: 851018004}
+  m_Layer: 8
+  m_Name: Spawner240
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &851018003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851018002}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2030844718}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &851018004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851018002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: -0.5, y: -0.866}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1 &868962113
 GameObject:
   m_ObjectHideFlags: 0
@@ -3672,6 +5163,11 @@ MonoBehaviour:
   optionalScrambleMode: 0
   optionalShakeRandomnessMode: 0
   optionalString: 
+--- !u!4 &872026664 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+  m_PrefabInstance: {fileID: 1527686350}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &886983458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4128,6 +5624,77 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &967933864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 967933865}
+  - component: {fileID: 967933866}
+  m_Layer: 8
+  m_Name: Spawner300
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &967933865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967933864}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 705404961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &967933866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967933864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: 0.5, y: -0.866}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1 &984062359
 GameObject:
   m_ObjectHideFlags: 0
@@ -4395,7 +5962,7 @@ Transform:
   m_GameObject: {fileID: 995054581}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.07826101, w: 0.9969329}
-  m_LocalPosition: {x: -4.6000004, y: 10.76, z: 0}
+  m_LocalPosition: {x: -7.44, y: 10.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4479,7 +6046,7 @@ MonoBehaviour:
   lookAhead: 0.01
   autoPlay: 0
   autoKill: 1
-  relative: 0
+  relative: 1
   isLocal: 0
   isClosedPath: 0
   pathResolution: 10
@@ -4490,27 +6057,27 @@ MonoBehaviour:
   upDirection: {x: 0, y: 1, z: 0}
   tweenRigidbody: 0
   wps:
-  - {x: -10.042613, y: 13.918343, z: 0}
-  - {x: -10.52991, y: -12.889933, z: 0}
+  - {x: -12.882613, y: 14.128343, z: 0}
+  - {x: -13.36991, y: -12.679933, z: 0}
   fullWps: []
   path:
     wpLengths:
     - 0
-    - 4.710674
-    - 26.813019
+    - 4.710673
+    - 26.813023
     wps:
-    - {x: -10.68169, y: 12.28546, z: 0}
-    - {x: -10.042613, y: 13.918343, z: 0}
-    - {x: -10.52991, y: -12.889933, z: 0}
+    - {x: -13.52169, y: 12.4954605, z: 0}
+    - {x: -12.882613, y: 14.128343, z: 0}
+    - {x: -13.36991, y: -12.679933, z: 0}
     type: 1
     subdivisionsXSegment: 10
     subdivisions: 30
     controlPoints:
-    - a: {x: -10.042613, y: 13.918343, z: 0}
+    - a: {x: -12.882613, y: 14.128343, z: 0}
       b: {x: 0, y: 0, z: 0}
-    - a: {x: -11.017207, y: -39.698208, z: 0}
+    - a: {x: -13.857207, y: -39.48821, z: 0}
       b: {x: 0, y: 0, z: 0}
-    length: 31.554615
+    length: 31.554617
     isFinalized: 1
     timesTable:
     - 0.033333335
@@ -4547,33 +6114,33 @@ MonoBehaviour:
     - 0.073438354
     - 0.2749191
     - 0.57619727
-    - 0.9490336
-    - 1.3652027
+    - 0.9490335
+    - 1.3652024
     - 1.7964988
-    - 2.214755
-    - 2.5918872
-    - 2.9000251
-    - 3.112037
-    - 3.2062557
-    - 3.2966592
-    - 3.5594683
-    - 4.0312653
-    - 4.7415895
-    - 5.702962
-    - 6.8918962
-    - 8.283145
+    - 2.2147539
+    - 2.591887
+    - 2.9000237
+    - 3.1120365
+    - 3.206254
+    - 3.2966573
+    - 3.5594673
+    - 4.0312643
+    - 4.7415876
+    - 5.70296
+    - 6.8918943
+    - 8.283143
     - 9.851442
-    - 11.571502
+    - 11.571501
     - 13.418038
-    - 15.365756
+    - 15.365755
     - 17.389364
-    - 19.463566
+    - 19.463564
     - 21.563059
     - 23.662558
     - 25.736755
-    - 27.760365
-    - 29.70808
-    - 31.554615
+    - 27.760366
+    - 29.708082
+    - 31.554617
   inspectorMode: 0
   pathType: 1
   handlesType: 0
@@ -4583,7 +6150,7 @@ MonoBehaviour:
   showIndexes: 1
   showWpLength: 0
   pathColor: {r: 1, g: 1, b: 1, a: 0.5}
-  lastSrcPosition: {x: -10.68169, y: 12.28546, z: 0}
+  lastSrcPosition: {x: -13.52169, y: 12.4954605, z: 0}
   lastSrcRotation: {x: -0, y: -0, z: -0.07826101, w: 0.9969329}
   wpsDropdown: 1
   dropToFloorOffset: 0
@@ -4693,6 +6260,77 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2, y: 20}
   m_EdgeRadius: 0
+--- !u!1 &1037882885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1037882886}
+  - component: {fileID: 1037882887}
+  m_Layer: 8
+  m_Name: Spawner180
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1037882886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037882885}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 705404961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1037882887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037882885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: -1, y: 0}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1 &1054437160
 GameObject:
   m_ObjectHideFlags: 0
@@ -4728,6 +6366,11 @@ Transform:
   - {fileID: 1422520543}
   m_Father: {fileID: 701833295}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1062759552 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+  m_PrefabInstance: {fileID: 2058936171}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1079347615
 GameObject:
   m_ObjectHideFlags: 0
@@ -4837,6 +6480,30 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 2030844717}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1201618042}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - fltDelay: 0
     enemyPool: {fileID: 4482543}
     dotweenPathReference: {fileID: 465755850}
@@ -4848,7 +6515,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - fltDelay: 5
-    enemyPool: {fileID: 4482543}
+    enemyPool: {fileID: 1799638358}
     dotweenPathReference: {fileID: 705830185}
     count: 5
     spawnInterval: 0.5
@@ -4858,7 +6525,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - fltDelay: 0
-    enemyPool: {fileID: 4482543}
+    enemyPool: {fileID: 1799638358}
     dotweenPathReference: {fileID: 1321375146}
     count: 5
     spawnInterval: 0.5
@@ -4927,6 +6594,18 @@ MonoBehaviour:
           m_TargetAssemblyTypeName: DG.Tweening.DOTweenAnimation, Assembly-CSharp-firstpass
           m_MethodName: RecreateTweenAndPlay
           m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 832423564}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5071,6 +6750,10 @@ PrefabInstance:
       propertyPath: pooler
       value: 
       objectReference: {fileID: 6752816380913864741}
+    - target: {fileID: 890026850940878777, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      propertyPath: fltDelay
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 1620703033629807884, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
       propertyPath: pooler
       value: 
@@ -5171,6 +6854,10 @@ PrefabInstance:
       propertyPath: pooler
       value: 
       objectReference: {fileID: 6752816380913864741}
+    - target: {fileID: 7472883373588033856, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      propertyPath: fltDelay
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 8157473096114229674, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
       propertyPath: pooler
       value: 
@@ -5228,8 +6915,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6752816380913864741}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3756351542021762930, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 5190612119128772790, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 9163083300054730485, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1062759552}
+    - targetCorrespondingSourceObject: {fileID: 9163083300054730485, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1578318981}
     - targetCorrespondingSourceObject: {fileID: 9163083300054730485, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 430115544}
@@ -5404,6 +7099,82 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1799229288}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1196996714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1196996715}
+  - component: {fileID: 1196996716}
+  m_Layer: 8
+  m_Name: Spawner330
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1196996715
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196996714}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2030844718}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1196996716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196996714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: 0.866, y: -0.5}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+--- !u!1 &1201618042 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3756351542021762930, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+  m_PrefabInstance: {fileID: 33979953}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1207107953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5412,6 +7183,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5812807437023970470}
     m_Modifications:
+    - target: {fileID: 2894667233478974939, guid: f513dd44aacd4494eb111514750c49b3, type: 3}
+      propertyPath: fltSpeed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911581826578307001, guid: f513dd44aacd4494eb111514750c49b3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911581826578307001, guid: f513dd44aacd4494eb111514750c49b3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911581826578307001, guid: f513dd44aacd4494eb111514750c49b3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2911581826578307001, guid: f513dd44aacd4494eb111514750c49b3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5451,6 +7238,10 @@ PrefabInstance:
     - target: {fileID: 2911581826578307001, guid: f513dd44aacd4494eb111514750c49b3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911581826578307001, guid: f513dd44aacd4494eb111514750c49b3, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3607246588117203806, guid: f513dd44aacd4494eb111514750c49b3, type: 3}
       propertyPath: m_Name
@@ -5489,6 +7280,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1811140010}
     m_Modifications:
+    - target: {fileID: 2894667233478974939, guid: cfbb082f60f654372a1e7c1f41d60ac1, type: 3}
+      propertyPath: fltSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911581826578307001, guid: cfbb082f60f654372a1e7c1f41d60ac1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911581826578307001, guid: cfbb082f60f654372a1e7c1f41d60ac1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911581826578307001, guid: cfbb082f60f654372a1e7c1f41d60ac1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2911581826578307001, guid: cfbb082f60f654372a1e7c1f41d60ac1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5529,6 +7336,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2911581826578307001, guid: cfbb082f60f654372a1e7c1f41d60ac1, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3607246588117203806, guid: cfbb082f60f654372a1e7c1f41d60ac1, type: 3}
       propertyPath: m_Name
       value: EnemyBulletElite1
@@ -5536,6 +7347,14 @@ PrefabInstance:
     - target: {fileID: 3607246588117203806, guid: cfbb082f60f654372a1e7c1f41d60ac1, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4306051034138702314, guid: cfbb082f60f654372a1e7c1f41d60ac1, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6197352891665550573, guid: cfbb082f60f654372a1e7c1f41d60ac1, type: 3}
+      propertyPath: m_Radius
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5558,6 +7377,148 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fb1acc78ed0740a989cbef26898f9f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Anoa.Module.PoolerObject
+--- !u!1 &1227437489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1227437490}
+  - component: {fileID: 1227437491}
+  m_Layer: 8
+  m_Name: Spawner30
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1227437490
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227437489}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2030844718}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1227437491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227437489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: 0.866, y: 0.5}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+--- !u!1 &1236719979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1236719980}
+  - component: {fileID: 1236719981}
+  m_Layer: 8
+  m_Name: Spawner180
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1236719980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236719979}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1062759552}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1236719981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236719979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: -1, y: 0}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1001 &1256258509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5721,6 +7682,77 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &1286560847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1286560848}
+  - component: {fileID: 1286560849}
+  m_Layer: 8
+  m_Name: Spawner270
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1286560848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286560847}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2030844718}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1286560849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286560847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: 0, y: -1}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1 &1321375144
 GameObject:
   m_ObjectHideFlags: 0
@@ -5747,7 +7779,7 @@ Transform:
   m_GameObject: {fileID: 1321375144}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.07826101, w: 0.9969329}
-  m_LocalPosition: {x: 3.26, y: -14.63, z: 0}
+  m_LocalPosition: {x: 5.63, y: -14.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5842,27 +7874,27 @@ MonoBehaviour:
   upDirection: {x: 0, y: 1, z: 0}
   tweenRigidbody: 0
   wps:
-  - {x: -1.271208, y: -10.836506, z: 0}
-  - {x: -0.8813658, y: 12.449678, z: 0}
+  - {x: 1.0987921, y: -10.936505, z: 0}
+  - {x: 1.4886343, y: 12.349679, z: 0}
   fullWps: []
   path:
     wpLengths:
     - 0
-    - 3.8339133
+    - 3.8339152
     - 23.291529
     wps:
-    - {x: -2.8216898, y: -13.10454, z: 0}
-    - {x: -1.271208, y: -10.836506, z: 0}
-    - {x: -0.8813658, y: 12.449678, z: 0}
+    - {x: -0.45168972, y: -13.204539, z: 0}
+    - {x: 1.0987921, y: -10.936505, z: 0}
+    - {x: 1.4886343, y: 12.349679, z: 0}
     type: 1
     subdivisionsXSegment: 10
     subdivisions: 30
     controlPoints:
-    - a: {x: -1.271208, y: -10.836506, z: 0}
+    - a: {x: 1.0987921, y: -10.936505, z: 0}
       b: {x: 0, y: 0, z: 0}
-    - a: {x: -0.4915235, y: 35.735863, z: 0}
+    - a: {x: 1.8784766, y: 35.635864, z: 0}
       b: {x: 0, y: 0, z: 0}
-    length: 27.131342
+    length: 27.13134
     isFinalized: 1
     timesTable:
     - 0.033333335
@@ -5897,35 +7929,35 @@ MonoBehaviour:
     - 1
     lengthsTable:
     - 0.028783405
-    - 0.10564119
-    - 0.21667248
-    - 0.34868902
-    - 0.489824
-    - 0.63083816
-    - 0.76789725
-    - 0.9073701
-    - 1.0689065
-    - 1.279359
-    - 1.563958
-    - 1.9441435
-    - 2.4387395
-    - 3.0651016
-    - 3.839764
-    - 4.7837615
-    - 5.8951592
-    - 7.1555786
-    - 8.546513
-    - 10.049378
-    - 11.645559
-    - 13.316408
-    - 15.043271
-    - 16.807482
-    - 18.590363
-    - 20.373245
-    - 22.137453
-    - 23.864317
-    - 25.535164
-    - 27.131342
+    - 0.10564118
+    - 0.21667251
+    - 0.3486891
+    - 0.4898234
+    - 0.63083756
+    - 0.76789683
+    - 0.90736973
+    - 1.0689061
+    - 1.2793593
+    - 1.5639584
+    - 1.944143
+    - 2.438741
+    - 3.065103
+    - 3.8397627
+    - 4.78376
+    - 5.895158
+    - 7.1555767
+    - 8.546511
+    - 10.0493765
+    - 11.645557
+    - 13.316406
+    - 15.043269
+    - 16.80748
+    - 18.59036
+    - 20.373243
+    - 22.137451
+    - 23.864315
+    - 25.535162
+    - 27.13134
   inspectorMode: 0
   pathType: 1
   handlesType: 0
@@ -5935,10 +7967,152 @@ MonoBehaviour:
   showIndexes: 1
   showWpLength: 0
   pathColor: {r: 1, g: 1, b: 1, a: 0.5}
-  lastSrcPosition: {x: -2.8216898, y: -13.10454, z: 0}
+  lastSrcPosition: {x: -0.45168972, y: -13.204539, z: 0}
   lastSrcRotation: {x: -0, y: -0, z: -0.07826101, w: 0.9969329}
   wpsDropdown: 1
   dropToFloorOffset: 0
+--- !u!1 &1394049387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1394049388}
+  - component: {fileID: 1394049389}
+  m_Layer: 8
+  m_Name: Spawner300
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1394049388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394049387}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1062759552}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1394049389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394049387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: 0.5, y: -0.866}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+--- !u!1 &1403100188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1403100189}
+  - component: {fileID: 1403100190}
+  m_Layer: 8
+  m_Name: Spawner240
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1403100189
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403100188}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1062759552}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1403100190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403100188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: -0.5, y: -0.866}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1 &1420178265
 GameObject:
   m_ObjectHideFlags: 0
@@ -6239,6 +8413,77 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &1452293150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1452293151}
+  - component: {fileID: 1452293152}
+  m_Layer: 8
+  m_Name: Spawner150
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1452293151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452293150}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1062759552}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1452293152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452293150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: -0.866, y: 0.5}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1001 &1468651312
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6251,6 +8496,10 @@ PrefabInstance:
       propertyPath: pooler
       value: 
       objectReference: {fileID: 6752816380913864741}
+    - target: {fileID: 890026850940878777, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      propertyPath: fltDelay
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 1620703033629807884, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
       propertyPath: pooler
       value: 
@@ -6351,6 +8600,10 @@ PrefabInstance:
       propertyPath: pooler
       value: 
       objectReference: {fileID: 6752816380913864741}
+    - target: {fileID: 7472883373588033856, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      propertyPath: fltDelay
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 8157473096114229674, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
       propertyPath: pooler
       value: 
@@ -6408,8 +8661,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6752816380913864741}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3756351542021762930, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+    - {fileID: 5190612119128772790, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 9163083300054730485, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 705404961}
+    - targetCorrespondingSourceObject: {fileID: 9163083300054730485, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 872026664}
     - targetCorrespondingSourceObject: {fileID: 9163083300054730485, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 832423565}
@@ -6777,6 +9038,218 @@ MonoBehaviour:
   lastSrcRotation: {x: -0, y: -0, z: -0.07826101, w: 0.9969329}
   wpsDropdown: 1
   dropToFloorOffset: 0
+--- !u!1001 &1527686350
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1468651313}
+    m_Modifications:
+    - target: {fileID: 229290340134978846, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_Name
+      value: Streaming Shoot Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373379002935546666, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: pooler
+      value: 
+      objectReference: {fileID: 1811140011}
+    - target: {fileID: 5817142600812796716, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: fltDelay
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.1499996
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+--- !u!1 &1537923660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1537923661}
+  - component: {fileID: 1537923662}
+  m_Layer: 8
+  m_Name: Spawner180
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1537923661
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537923660}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2030844718}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1537923662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537923660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: -1, y: 0}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+--- !u!1 &1565336707
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1565336708}
+  - component: {fileID: 1565336709}
+  m_Layer: 8
+  m_Name: Spawner60
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1565336708
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565336707}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 705404961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1565336709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565336707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: 0.5, y: 0.866}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+--- !u!4 &1578318981 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+  m_PrefabInstance: {fileID: 1634397448}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1591601050
 GameObject:
   m_ObjectHideFlags: 0
@@ -6802,13 +9275,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591601050}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.07826101, w: 0.9969329}
-  m_LocalPosition: {x: 3.19, y: 10.77, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7573947, w: 0.65295744}
+  m_LocalPosition: {x: 12.11, y: 8.96, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1916654303}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -8.977}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -98.47}
 --- !u!114 &1591601052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6887,7 +9360,7 @@ MonoBehaviour:
   lookAhead: 0.01
   autoPlay: 0
   autoKill: 1
-  relative: 0
+  relative: 1
   isLocal: 0
   isClosedPath: 0
   pathResolution: 10
@@ -6898,27 +9371,27 @@ MonoBehaviour:
   upDirection: {x: 0, y: 1, z: 0}
   tweenRigidbody: 0
   wps:
-  - {x: -1.6180056, y: 12.872721, z: 0}
-  - {x: -1.7154617, y: -13.182314, z: 0}
+  - {x: 6.61683, y: 9.216937, z: 0}
+  - {x: -19.438103, y: 9.083732, z: 0}
   fullWps: []
   path:
     wpLengths:
     - 0
-    - 4.367919
-    - 26.056606
+    - 4.3679266
+    - 26.056656
     wps:
-    - {x: -2.8916898, y: 12.295461, z: 0}
-    - {x: -1.6180056, y: 12.872721, z: 0}
-    - {x: -1.7154617, y: -13.182314, z: 0}
+    - {x: 6.02831, y: 10.48546, z: 0}
+    - {x: 6.61683, y: 9.216937, z: 0}
+    - {x: -19.438103, y: 9.083732, z: 0}
     type: 1
     subdivisionsXSegment: 10
     subdivisions: 30
     controlPoints:
-    - a: {x: -1.6180056, y: 12.872721, z: 0}
+    - a: {x: 6.61683, y: 9.216937, z: 0}
       b: {x: 0, y: 0, z: 0}
-    - a: {x: -1.8129178, y: -39.23735, z: 0}
+    - a: {x: -45.493034, y: 8.950526, z: 0}
       b: {x: 0, y: 0, z: 0}
-    length: 30.435604
+    length: 30.435665
     isFinalized: 1
     timesTable:
     - 0.033333335
@@ -6952,36 +9425,36 @@ MonoBehaviour:
     - 0.9666667
     - 1
     lengthsTable:
-    - 0.061756678
-    - 0.23046285
-    - 0.48130104
-    - 0.78951037
-    - 1.1304159
-    - 1.4795009
-    - 1.812559
-    - 2.1060805
-    - 2.3384838
-    - 2.4956427
-    - 2.605885
-    - 2.7903955
-    - 3.1247177
-    - 3.6447864
-    - 4.378961
-    - 5.343217
-    - 6.520168
-    - 7.8863482
-    - 9.41819
-    - 11.092065
-    - 12.884331
-    - 14.771315
-    - 16.72935
-    - 18.734753
-    - 20.763836
-    - 22.792923
-    - 24.79832
-    - 26.756357
-    - 28.643341
-    - 30.435604
+    - 0.061756585
+    - 0.23046313
+    - 0.48130322
+    - 0.789513
+    - 1.1304191
+    - 1.4795054
+    - 1.8125646
+    - 2.1060872
+    - 2.3384912
+    - 2.4956498
+    - 2.6058922
+    - 2.7904017
+    - 3.124725
+    - 3.6447945
+    - 4.378971
+    - 5.343229
+    - 6.5201826
+    - 7.8863654
+    - 9.41821
+    - 11.092089
+    - 12.884358
+    - 14.771346
+    - 16.729385
+    - 18.734793
+    - 20.76388
+    - 22.792973
+    - 24.798374
+    - 26.756413
+    - 28.643402
+    - 30.435665
   inspectorMode: 0
   pathType: 1
   handlesType: 0
@@ -6991,10 +9464,146 @@ MonoBehaviour:
   showIndexes: 1
   showWpLength: 0
   pathColor: {r: 1, g: 1, b: 1, a: 0.5}
-  lastSrcPosition: {x: -2.8916898, y: 12.295461, z: 0}
-  lastSrcRotation: {x: -0, y: -0, z: -0.07826101, w: 0.9969329}
+  lastSrcPosition: {x: 6.02831, y: 10.48546, z: 0}
+  lastSrcRotation: {x: -0, y: -0, z: -0.7573947, w: 0.65295744}
   wpsDropdown: 1
   dropToFloorOffset: 0
+--- !u!1 &1596194927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1596194928}
+  - component: {fileID: 1596194929}
+  m_Layer: 8
+  m_Name: Spawner30
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1596194928
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596194927}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 705404961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1596194929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596194927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: 0.866, y: 0.5}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+--- !u!1001 &1634397448
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1160526205}
+    m_Modifications:
+    - target: {fileID: 229290340134978846, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_Name
+      value: Streaming Shoot Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3373379002935546666, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: pooler
+      value: 
+      objectReference: {fileID: 1811140011}
+    - target: {fileID: 5817142600812796716, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: fltDelay
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.1499996
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209836923402659806, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f8d15fd8afd5d496dac4c5cc9d432055, type: 3}
 --- !u!1 &1759293956
 GameObject:
   m_ObjectHideFlags: 0
@@ -7086,6 +9695,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!4 &1797430701 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9163083300054730485, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+  m_PrefabInstance: {fileID: 273036679}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1799229287
 GameObject:
   m_ObjectHideFlags: 0
@@ -7118,9 +9732,59 @@ Transform:
   - {fileID: 5812807437023970470}
   - {fileID: 1811140010}
   - {fileID: 4482542}
+  - {fileID: 1799638357}
   - {fileID: 1186515749}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1799638356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1799638357}
+  - component: {fileID: 1799638358}
+  m_Layer: 0
+  m_Name: BasicEnemyPooler Top Down
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1799638357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799638356}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1797430701}
+  m_Father: {fileID: 1799229288}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1799638358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799638356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61616d6fe0f0b4aca96fd2fed07fc3e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Anoa.Module.PoolerContainer
+  poolPrefabs:
+  - {fileID: 0}
+  parent: {fileID: 1054437161}
+  poolSize: 20
 --- !u!1001 &1811140009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7201,6 +9865,77 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61616d6fe0f0b4aca96fd2fed07fc3e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Anoa.Module.PoolerContainer
+--- !u!1 &1842460754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1842460755}
+  - component: {fileID: 1842460756}
+  m_Layer: 8
+  m_Name: Spawner150
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1842460755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842460754}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2030844718}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1842460756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842460754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: -0.866, y: 0.5}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1001 &1858452743
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7237,6 +9972,10 @@ PrefabInstance:
       propertyPath: pooler
       value: 
       objectReference: {fileID: 6752816380913864741}
+    - target: {fileID: 7078444705824353519, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
+      propertyPath: fltDelay
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8331399663535280134, guid: 970dc2b3fa0ee4245bbf76ca02cb5dd6, type: 3}
       propertyPath: pooler
       value: 
@@ -7342,6 +10081,268 @@ Transform:
   - {fileID: 1591601051}
   m_Father: {fileID: 2079056680}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2014272657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2014272658}
+  - component: {fileID: 2014272659}
+  m_Layer: 8
+  m_Name: Spawner150
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2014272658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014272657}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 705404961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2014272659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014272657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: -0.866, y: 0.5}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+--- !u!1 &2022138758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2022138759}
+  - component: {fileID: 2022138760}
+  m_Layer: 8
+  m_Name: Spawner60
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2022138759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022138758}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1062759552}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2022138760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022138758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: 0.5, y: 0.866}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+--- !u!1 &2030844717 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5190612119128772790, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+  m_PrefabInstance: {fileID: 33979953}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2030844718 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6733866318278508547, guid: 4f98c63a607b54733ae5502e51d1e4a5, type: 3}
+  m_PrefabInstance: {fileID: 33979953}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2058936171
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1160526205}
+    m_Modifications:
+    - target: {fileID: 1584472088676787732, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: fltDelay
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5886183222961244443, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_Name
+      value: Streaming Circular Dense shot Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228748880502426684, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: pooler
+      value: 
+      objectReference: {fileID: 6752816380913864741}
+    - target: {fileID: 6228748880502426684, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: direction.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228748880502426684, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: direction.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400687628486854904, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      propertyPath: m_Name
+      value: Spawner0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 790675525}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2022138759}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 126193565}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 160304045}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1452293151}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1236719980}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 650446850}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1403100189}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 336688391}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1394049388}
+    - targetCorrespondingSourceObject: {fileID: 4959679189349259694, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 610942823}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9dadb6149b87041b78eeb8ddcf4f7555, type: 3}
 --- !u!1 &2079056679
 GameObject:
   m_ObjectHideFlags: 0
@@ -7375,6 +10376,77 @@ Transform:
   - {fileID: 1916654303}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2143512864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2143512865}
+  - component: {fileID: 2143512866}
+  m_Layer: 8
+  m_Name: Spawner240
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2143512865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143512864}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 705404961}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2143512866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143512864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176903ac4370f4523bdcbc7771520e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyBulletSpawnerController
+  offset: {x: 0, y: 0, z: 0}
+  pooler: {fileID: 6752816380913864741}
+  direction: {x: -0.5, y: -0.866}
+  soundData:
+    _clip: {fileID: 0}
+    _mixerGroup: {fileID: 0}
+    _loop: 0
+    _playOnAwake: 0
+    _frequentSound: 0
+    _useDedicatedSource: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
 --- !u!1001 &1691370976779198529
 PrefabInstance:
   m_ObjectHideFlags: 0
