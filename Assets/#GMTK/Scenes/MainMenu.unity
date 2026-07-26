@@ -6329,7 +6329,7 @@ MonoBehaviour:
     unlocked: 1
     levelButton: {fileID: 1747009546}
     lockMark: {fileID: 0}
-  - sceneName: Stage 3
+  - sceneName: Stage 3 (finetune)
     levelName: 
     unlocked: 1
     levelButton: {fileID: 713558673}
