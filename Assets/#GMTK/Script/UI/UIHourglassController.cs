@@ -15,6 +15,8 @@ namespace GMTK.UI
         [SerializeField] protected bool blnReverseAnimation = false;
         [SerializeField] protected float fltFlipDuration = 0.4f;
         [SerializeField] protected MMFeedbacks flipFeedbacks;
+        [SerializeField] protected MMFeedbacks sandBlueFeedbacks;
+        [SerializeField] protected MMFeedbacks sandRedFeedbacks;
         [SerializeField] protected SoundData soundDataFlip;
         [SerializeField] protected SoundData sandSoundData;
 
@@ -46,6 +48,15 @@ namespace GMTK.UI
             if (ModeManager.instance == null || imgHourglass == null || arrSprites == null || arrSprites.Length == 0)
             {
                 return;
+            }
+
+            if (ModeManager.instance.isActive)
+            {
+                sandBlueFeedbacks?.PlayFeedbacks();
+            }
+            else
+            {
+                sandRedFeedbacks?.PlayFeedbacks();
             }
 
             if (ModeManager.instance.isActive != blnLastModeActive)
