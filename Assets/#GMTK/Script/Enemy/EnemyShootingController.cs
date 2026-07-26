@@ -17,7 +17,15 @@ namespace GMTK.Enemy
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
-            cooldown = new CooldownModule(fltDelay, true);
+            if (isRandomize)
+            {
+                cooldown = new CooldownModule(Random.Range(minMaxDelay.x, minMaxDelay.y), false);
+            }
+            else
+            {
+                cooldown = new CooldownModule(fltDelay, false);
+            }
+
             arrBulletSpawners = GetComponentsInChildren<EnemyBulletSpawnerController>();
         }
 
