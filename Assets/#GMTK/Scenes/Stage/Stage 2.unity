@@ -2951,13 +2951,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319076191}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 575853294}
-  m_Father: {fileID: 1422520543}
+  m_Father: {fileID: 813021713}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &320738795
 GameObject:
@@ -3874,7 +3874,7 @@ Transform:
   - {fileID: 2088214668}
   - {fileID: 1211225686}
   - {fileID: 187832976}
-  m_Father: {fileID: 1054437161}
+  m_Father: {fileID: 1242960175}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &442210548
 GameObject:
@@ -4981,6 +4981,17 @@ MonoBehaviour:
     ignoreListenerVolume: 0
     ignoreListenerPause: 0
     rolloffMode: 0
+--- !u!114 &495598595 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 340348268997674909, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+  m_PrefabInstance: {fileID: 1422520542}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422520544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 673d4175e778f4774b529be3849f9a97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.EnemyHealthController
 --- !u!1001 &512482027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7207,6 +7218,39 @@ MonoBehaviour:
     ignoreListenerVolume: 0
     ignoreListenerPause: 0
     rolloffMode: 0
+--- !u!1 &813021712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 813021713}
+  m_Layer: 9
+  m_Name: Active
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &813021713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813021712}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 319076192}
+  - {fileID: 1376678389}
+  m_Father: {fileID: 1422520543}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &816100793
 GameObject:
   m_ObjectHideFlags: 0
@@ -9169,8 +9213,7 @@ Transform:
   - {fileID: 1160526205}
   - {fileID: 1468651313}
   - {fileID: 1422520543}
-  - {fileID: 1819279122}
-  - {fileID: 439825536}
+  - {fileID: 1242960175}
   m_Father: {fileID: 701833295}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1056893261
@@ -9300,7 +9343,6 @@ MonoBehaviour:
     count: 10
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
     onStart:
       m_PersistentCalls:
         m_Calls: []
@@ -9310,7 +9352,6 @@ MonoBehaviour:
     count: 10
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
     onStart:
       m_PersistentCalls:
         m_Calls: []
@@ -9320,7 +9361,6 @@ MonoBehaviour:
     count: 0
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
     onStart:
       m_PersistentCalls:
         m_Calls:
@@ -9342,7 +9382,6 @@ MonoBehaviour:
     count: 10
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
     onStart:
       m_PersistentCalls:
         m_Calls:
@@ -9388,7 +9427,6 @@ MonoBehaviour:
     count: 5
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
     onStart:
       m_PersistentCalls:
         m_Calls: []
@@ -9398,7 +9436,6 @@ MonoBehaviour:
     count: 0
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 0
     onStart:
       m_PersistentCalls:
         m_Calls:
@@ -9432,7 +9469,6 @@ MonoBehaviour:
     count: 1
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 1
     onStart:
       m_PersistentCalls:
         m_Calls:
@@ -9514,7 +9550,6 @@ MonoBehaviour:
     count: 1
     spawnInterval: 0.5
     dontDeactivateAtEnd: 0
-    triggerBossBgm: 1
     onStart:
       m_PersistentCalls:
         m_Calls:
@@ -9530,108 +9565,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
-  minionBgmSound:
-    _clip: {fileID: 0}
-    _mixerGroup: {fileID: 0}
-    _loop: 0
-    _playOnAwake: 0
-    _frequentSound: 0
-    _useDedicatedSource: 0
-    mute: 0
-    bypassEffects: 0
-    bypassListenerEffects: 0
-    bypassReverbZones: 0
-    priority: 128
-    volume: 1
-    pitch: 1
-    panStereo: 0
-    spatialBlend: 0
-    reverbZoneMix: 1
-    dopplerLevel: 1
-    spread: 0
-    minDistance: 1
-    maxDistance: 500
-    ignoreListenerVolume: 0
-    ignoreListenerPause: 0
-    rolloffMode: 0
-  bossBgmSound:
-    _clip: {fileID: 0}
-    _mixerGroup: {fileID: 0}
-    _loop: 0
-    _playOnAwake: 0
-    _frequentSound: 0
-    _useDedicatedSource: 0
-    mute: 0
-    bypassEffects: 0
-    bypassListenerEffects: 0
-    bypassReverbZones: 0
-    priority: 128
-    volume: 1
-    pitch: 1
-    panStereo: 0
-    spatialBlend: 0
-    reverbZoneMix: 1
-    dopplerLevel: 1
-    spread: 0
-    minDistance: 1
-    maxDistance: 500
-    ignoreListenerVolume: 0
-    ignoreListenerPause: 0
-    rolloffMode: 0
-  finalMinionBgmSound:
-    _clip: {fileID: 0}
-    _mixerGroup: {fileID: 0}
-    _loop: 0
-    _playOnAwake: 0
-    _frequentSound: 0
-    _useDedicatedSource: 0
-    mute: 0
-    bypassEffects: 0
-    bypassListenerEffects: 0
-    bypassReverbZones: 0
-    priority: 128
-    volume: 1
-    pitch: 1
-    panStereo: 0
-    spatialBlend: 0
-    reverbZoneMix: 1
-    dopplerLevel: 1
-    spread: 0
-    minDistance: 1
-    maxDistance: 500
-    ignoreListenerVolume: 0
-    ignoreListenerPause: 0
-    rolloffMode: 0
-  finalBossBgmSound:
-    _clip: {fileID: 0}
-    _mixerGroup: {fileID: 0}
-    _loop: 0
-    _playOnAwake: 0
-    _frequentSound: 0
-    _useDedicatedSource: 0
-    mute: 0
-    bypassEffects: 0
-    bypassListenerEffects: 0
-    bypassReverbZones: 0
-    priority: 128
-    volume: 1
-    pitch: 1
-    panStereo: 0
-    spatialBlend: 0
-    reverbZoneMix: 1
-    dopplerLevel: 1
-    spread: 0
-    minDistance: 1
-    maxDistance: 500
-    ignoreListenerVolume: 0
-    ignoreListenerPause: 0
-    rolloffMode: 0
-  isLevel3: 0
-  playMinionBgmOnStart: 1
-  bgmFadeDuration: 1
-  enableDebugKeys: 0
-  skipToBossKey: 289
-  simulateBossDefeatedKey: 290
 --- !u!1 &1136135043
 GameObject:
   m_ObjectHideFlags: 0
@@ -10741,6 +10674,39 @@ MonoBehaviour:
     ignoreListenerVolume: 0
     ignoreListenerPause: 0
     rolloffMode: 0
+--- !u!1 &1242960174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1242960175}
+  m_Layer: 0
+  m_Name: Passive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1242960175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242960174}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1819279122}
+  - {fileID: 439825536}
+  m_Father: {fileID: 1054437161}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1256258509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11240,7 +11206,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1376678388}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11249,7 +11215,7 @@ Transform:
   - {fileID: 1590783952}
   - {fileID: 728044330}
   - {fileID: 1601186189}
-  m_Father: {fileID: 1422520543}
+  m_Father: {fileID: 813021713}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1394049387
 GameObject:
@@ -11576,6 +11542,22 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 1000
       objectReference: {fileID: 0}
+    - target: {fileID: 340348268997674909, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 340348268997674909, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1422520547}
+    - target: {fileID: 340348268997674909, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangePhase
+      objectReference: {fileID: 0}
+    - target: {fileID: 340348268997674909, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GMTK.Enemy.BossPhaseController, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2922486521262828158, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -11672,11 +11654,11 @@ PrefabInstance:
       addedObject: {fileID: 868962114}
     - targetCorrespondingSourceObject: {fileID: 5278179170721787291, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 319076192}
-    - targetCorrespondingSourceObject: {fileID: 5278179170721787291, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1376678389}
+      addedObject: {fileID: 813021713}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7284839087220684904, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 1422520547}
     - targetCorrespondingSourceObject: {fileID: 7284839087220684904, guid: 03f42f254bbc745d1a8c3fad99d87a41, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1422520546}
@@ -11725,7 +11707,7 @@ MonoBehaviour:
   onActiveMode:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 319076191}
+      - m_Target: {fileID: 813021712}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -11736,6 +11718,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1242960174}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1422520545}
         m_TargetAssemblyTypeName: GMTK.Enemy.RandomMovementController, Assembly-CSharp
@@ -11752,7 +11746,7 @@ MonoBehaviour:
   onPassiveMode:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1819279121}
+      - m_Target: {fileID: 1242960174}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -11763,6 +11757,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 813021712}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1422520545}
         m_TargetAssemblyTypeName: GMTK.Enemy.RandomMovementController, Assembly-CSharp
@@ -11780,6 +11786,157 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: DG.Tweening.DOTweenAnimation, Assembly-CSharp-firstpass
         m_MethodName: RecreateTweenAndPlay
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1422520547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422520544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ed0501840f08458cbc4a1b526181434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GMTK.Enemy.BossPhaseController
+  arrOnChangePhase:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 495598595}
+        m_TargetAssemblyTypeName: GMTK.Enemy.EnemyHealthController, Assembly-CSharp
+        m_MethodName: RefillHealth
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 319076191}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1376678388}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1819279121}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 439825535}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 495598595}
+        m_TargetAssemblyTypeName: GMTK.Enemy.EnemyHealthController, Assembly-CSharp
+        m_MethodName: RefillHealth
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 319076191}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1376678388}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1819279121}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 439825535}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1422520544}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -14664,7 +14821,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1819279122
 Transform:
   m_ObjectHideFlags: 0
@@ -14682,7 +14839,7 @@ Transform:
   - {fileID: 1209341052}
   - {fileID: 171298424}
   - {fileID: 934333173}
-  m_Father: {fileID: 1054437161}
+  m_Father: {fileID: 1242960175}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1842460754
 GameObject:
