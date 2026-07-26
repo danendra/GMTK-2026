@@ -14,11 +14,14 @@ namespace GMTK.Player
         [SerializeField] protected MMFeedbacks deathFeedbacks;
 
         public int intCurrentHealth { get; protected set; }
+        
+        protected PlayerBombController bombController;
 
-        // Start is called once before the first execution of Update after the MonoBehaviour is created
-        void Start()
+        void Awake()
         {
             intCurrentHealth = intMaxHealth;
+
+            bombController = GetComponentInChildren<PlayerBombController>();
         }
 
         public void OnDeath()
@@ -38,12 +41,20 @@ namespace GMTK.Player
         }
         public void AddRespawnListener(UnityAction _onRespawn)
         {
+            if(bombController == null)
+                bombController = GetComponentInChildren<PlayerBombController>();
+
             onRespawn.AddListener(_onRespawn);
+            bombController.OnBombTrigger.AddListener(_onRespawn);
         }
 
         public void RemoveRespawnListener(UnityAction _onRespawn)
         {
+            if(bombController == null)
+                bombController = GetComponentInChildren<PlayerBombController>();
+
             onRespawn.RemoveListener(_onRespawn);
+            bombController.OnBombTrigger.RemoveListener(_onRespawn);
         }
 
         void PlayDeathFeedback()
@@ -72,12 +83,6 @@ namespace GMTK.Player
             {
                 Destroy(feedbackInstance.gameObject);
             }
-        }
-
-        public void TriggerBomb()
-        {
-            Debug.Log("TriggerBomb di PlayerLiveController berhasil dijalankan!");
-            onRespawn.Invoke();
         }
 
         // Update is called once per frame

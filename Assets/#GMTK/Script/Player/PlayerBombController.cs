@@ -1,57 +1,62 @@
 using UnityEngine;
+using UnityEngine.Events;
 using MoreMountains.Feedbacks;
 
 namespace GMTK.Player
 {
     public class PlayerBombController : MonoBehaviour
     {
-        protected PlayerLiveController playerLive;
-        protected InputSystem_Actions inputAction;
+        protected PlayerLiveController playerLive;        
         
+        [Header("References")]
         [SerializeField] protected MMFeedbacks bombFeedbacks;
+
+        [Header("Bomb Settings")]
+        [SerializeField] protected float fltMaxCharge = 100f;
+        [SerializeField] protected float fltPassiveChargeRate = 2f;    
+        [SerializeField] UnityEvent onBombTrigger;
+
+        private float fltCurrentCharge = 0f;
+
+        public float FltCurrentCharge => fltCurrentCharge;
+        public float FltMaxCharge => fltMaxCharge;
+        public bool IsReady => fltCurrentCharge >= fltMaxCharge;
+        public UnityEvent OnBombTrigger => onBombTrigger;
 
         protected virtual void Awake()
         {
-            playerLive = GetComponentInParent<PlayerLiveController>();
-            inputAction = new InputSystem_Actions();
-
-            // The 'Power' action is bound to the 'X' key in the Input System
-            inputAction.Player.Power.performed += _ => TriggerBomb();
+            playerLive = GetComponentInParent<PlayerLiveController>();            
         }
 
-        protected virtual void OnEnable()
+        void Start()
         {
-            inputAction?.Enable();
+            fltCurrentCharge = fltMaxCharge;
         }
 
-        protected virtual void OnDisable()
+        protected virtual void Update()
         {
-            inputAction?.Disable();
+            if (fltCurrentCharge < fltMaxCharge)
+            {
+                AddCharge(fltPassiveChargeRate * Time.deltaTime);
+            }
+        }
+
+        public void AddCharge(float amount)
+        {
+            fltCurrentCharge = Mathf.Clamp(fltCurrentCharge + amount, 0f, fltMaxCharge);
         }
 
         public virtual void TriggerBomb()
         {
-            Debug.Log("Tombol X (Bomb) ditekan!");
+            if (!IsReady)
+            {                
+                return;
+            }
+            
             bombFeedbacks?.PlayFeedbacks();
-            
-            if (playerLive == null)
-            {
-                playerLive = GetComponentInParent<PlayerLiveController>();
-            }
-
-            if (playerLive == null)
-            {
-                playerLive = FindAnyObjectByType<PlayerLiveController>();
-            }
-            
-            if (playerLive)
-            {
-                playerLive.TriggerBomb();
-            }
-            else
-            {
-                Debug.LogError("Gagal memanggil Bomb: PlayerLiveController tidak ditemukan sama sekali!");
-            }
+            onBombTrigger.Invoke();
+                        
+            fltCurrentCharge = 0f;                        
         }
     }
 }

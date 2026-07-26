@@ -7,6 +7,7 @@ namespace GMTK.UI
     public class UIPauseController : MonoBehaviour
     {
         [SerializeField] protected GameObject goPausePanel;
+        [SerializeField] protected GameObject goFirstSelectedButton;
         [SerializeField] protected string strMainMenuSceneName = "MainMenu";
 
         public bool isPaused { get; protected set; }
@@ -19,6 +20,12 @@ namespace GMTK.UI
             if (goPausePanel != null)
             {
                 goPausePanel.SetActive(true);
+            }
+
+            // Keyboard navigation focus
+            if (goFirstSelectedButton != null && UnityEngine.EventSystems.EventSystem.current != null)
+            {
+                UnityEngine.EventSystems.EventSystem.current.SetSelectedGameObject(goFirstSelectedButton);
             }
         }
 
