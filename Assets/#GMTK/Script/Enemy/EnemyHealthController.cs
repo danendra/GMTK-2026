@@ -42,14 +42,14 @@ namespace GMTK.Enemy
         {
             base.Die();
 
-            if (animator)
-            {
-                animator.SetBool(isDestroyBoolName, true);
-            }
-            else
-            {
-                gameObject.SetActive(false);
-            }
+            // if (animator)
+            // {
+            //     animator.SetBool(isDestroyBoolName, true);
+            // }
+            // else
+            // {
+            //     gameObject.SetActive(false);
+            // }
         }
 
         /// <summary>
