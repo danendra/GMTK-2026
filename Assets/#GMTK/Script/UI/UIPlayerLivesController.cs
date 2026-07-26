@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace GMTK.UI
 {
@@ -8,27 +7,68 @@ namespace GMTK.UI
     public class UIPlayerLivesController : MonoBehaviour
     {
         [SerializeField] protected PlayerLiveController playerLiveController;
-        [SerializeField] protected Image[] arrHeartImages;
+        [SerializeField] protected Transform heartsRoot;
+        [SerializeField] protected GameObject[] arrHeartObjects = new GameObject[5];
+        [SerializeField] protected int totalHearts = 5;
 
-        [Header("Heart Visuals")]
-        [SerializeField] protected Color colorAlive = Color.white;
-        [SerializeField] protected Color colorDead = new Color(1f, 1f, 1f, 0.2f);
+        protected int lastLives = -1;
+
+        protected virtual void Awake()
+        {
+            CacheHeartsFromRoot();
+        }
 
         protected virtual void Start()
         {
             Refresh();
         }
+
+        protected virtual void Update()
+        {
+            if (playerLiveController == null)
+            {
+                return;
+            }
+
+            if (playerLiveController.intCurrentHealth != lastLives)
+            {
+                Refresh();
+            }
+        }
         
         public void Refresh()
         {
-            if (playerLiveController == null || arrHeartImages == null) return;
-
-            int currentLives = playerLiveController.intCurrentHealth;
-
-            for (int i = 0; i < arrHeartImages.Length; i++)
+            if (playerLiveController == null || arrHeartObjects == null)
             {
-                if (arrHeartImages[i] == null) continue;
-                arrHeartImages[i].color = i < currentLives ? colorAlive : colorDead;
+                return;
+            }
+
+            int currentLives = Mathf.Clamp(playerLiveController.intCurrentHealth, 0, totalHearts);
+            lastLives = playerLiveController.intCurrentHealth;
+
+            int loopCount = Mathf.Min(totalHearts, arrHeartObjects.Length);
+            for (int i = 0; i < loopCount; i++)
+            {
+                if (arrHeartObjects[i] == null)
+                {
+                    continue;
+                }
+
+                arrHeartObjects[i].SetActive(i < currentLives);
+            }
+        }
+
+        protected void CacheHeartsFromRoot()
+        {
+            if (heartsRoot == null)
+            {
+                return;
+            }
+
+            int loopCount = Mathf.Min(totalHearts, arrHeartObjects.Length, heartsRoot.childCount);
+            for (int i = 0; i < loopCount; i++)
+            {
+                arrHeartObjects[i] = heartsRoot.GetChild(i).gameObject;
             }
         }
     }
