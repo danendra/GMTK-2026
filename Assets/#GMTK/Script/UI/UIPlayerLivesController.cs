@@ -1,4 +1,5 @@
 using UnityEngine;
+using MoreMountains.Feedbacks;
 
 namespace GMTK.UI
 {
@@ -10,6 +11,8 @@ namespace GMTK.UI
         [SerializeField] protected Transform heartsRoot;
         [SerializeField] protected GameObject[] arrHeartObjects = new GameObject[5];
         [SerializeField] protected int totalHearts = 5;
+        [SerializeField] protected MMFeedbacks heartOnFeedbacks;
+        [SerializeField] protected MMFeedbacks heartOffFeedbacks;
 
         protected int lastLives = -1;
 
@@ -54,7 +57,22 @@ namespace GMTK.UI
                     continue;
                 }
 
-                arrHeartObjects[i].SetActive(i < currentLives);
+                bool shouldBeActive = i < currentLives;
+                bool isActive = arrHeartObjects[i].activeSelf;
+
+                if (shouldBeActive != isActive)
+                {
+                    arrHeartObjects[i].SetActive(shouldBeActive);
+
+                    if (shouldBeActive)
+                    {
+                        heartOnFeedbacks?.PlayFeedbacks();
+                    }
+                    else
+                    {
+                        heartOffFeedbacks?.PlayFeedbacks();
+                    }
+                }
             }
         }
 
